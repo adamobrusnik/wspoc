@@ -11,8 +11,7 @@
 	xmlns:SOAP="http://schemas.xmlsoap.org/wsdl/soap/"
 	xmlns:MIME="http://schemas.xmlsoap.org/wsdl/mime/"
 	xmlns:DIME="http://schemas.xmlsoap.org/ws/2002/04/dime/wsdl/"
-	xmlns:WSDL="http://schemas.xmlsoap.org/wsdl/"
-	xmlns:xsams="http://www-amdis.iaea.org/xsams/schema/xsams-0.1.1.xsd">
+	xmlns:WSDL="http://schemas.xmlsoap.org/wsdl/">
 <types>
 
 <schema targetNamespace="urn:poc"
@@ -41,10 +40,7 @@
 </message>
 
 <message name="getSResponse">
-	<!--
 	<part name="dat" type="xsd:DataTableType" />
-	-->
-	<part name="result" type="xsd:double" />
 </message>
 
 <portType name="pocPortType">

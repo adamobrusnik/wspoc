@@ -7,7 +7,7 @@
  xmlns:ns2="urn:poc">
  <SOAP-ENV:Body SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
   <ns2:getSResponse>
-   <ns2:dat></ns2:dat>
+   <ns2:dat>0.0</ns2:dat>
   </ns2:getSResponse>
  </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>

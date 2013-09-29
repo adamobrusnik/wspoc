@@ -103,7 +103,7 @@ char *pocProxy::soap_sprint_fault(char *buf, size_t len)
 }
 #endif
 
-int pocProxy::getS(const char *endpoint, const char *soap_action, std::string species1, std::string species2, unsigned int s, double x0, double Tmin, double Tmax, double Npoints, bool logaritmic, std::string &dat)
+int pocProxy::getS(const char *endpoint, const char *soap_action, std::string species1, std::string species2, unsigned int s, double x0, double Tmin, double Tmax, double Npoints, bool logaritmic, double &dat)
 {	struct soap *soap = this;
 	struct ns2__getS soap_tmp_ns2__getS;
 	struct ns2__getSResponse *soap_tmp_ns2__getSResponse;
@@ -149,7 +149,7 @@ int pocProxy::getS(const char *endpoint, const char *soap_action, std::string sp
 		return soap_closesock(soap);
 	if (!&dat)
 		return soap_closesock(soap);
-	soap_default_xsd__DataTableType(soap, &dat);
+	soap_default_double(soap, &dat);
 	if (soap_begin_recv(soap)
 	 || soap_envelope_begin_in(soap)
 	 || soap_recv_header(soap)

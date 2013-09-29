@@ -40,7 +40,10 @@
 </message>
 
 <message name="getSResponse">
+	<!--
 	<part name="dat" type="xsd:DataTableType" />
+	-->
+	<part name="dat" type="xsd:double" />
 </message>
 
 <portType name="pocPortType">

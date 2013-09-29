@@ -72,6 +72,6 @@ class SOAP_CMAC pocService : public soap
 	///
 
 	/// Web service operation 'getS' (returns error code or SOAP_OK)
-	virtual	int getS(std::string species1, std::string species2, unsigned int s, double x0, double Tmin, double Tmax, double Npoints, bool logaritmic, std::string &dat) SOAP_PURE_VIRTUAL;
+	virtual	int getS(std::string species1, std::string species2, unsigned int s, double x0, double Tmin, double Tmax, double Npoints, bool logaritmic, double &dat) SOAP_PURE_VIRTUAL;
 };
 #endif

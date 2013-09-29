@@ -61,7 +61,7 @@ class SOAP_CMAC pocProxy : public soap
 #endif
 
 	/// Web service operation 'getS' (returns error code or SOAP_OK)
-	virtual	int getS(std::string species1, std::string species2, unsigned int s, double x0, double Tmin, double Tmax, double Npoints, bool logaritmic, std::string &dat) { return getS(NULL, NULL, species1, species2, s, x0, Tmin, Tmax, Npoints, logaritmic, dat); }
-	virtual	int getS(const char *endpoint, const char *soap_action, std::string species1, std::string species2, unsigned int s, double x0, double Tmin, double Tmax, double Npoints, bool logaritmic, std::string &dat);
+	virtual	int getS(std::string species1, std::string species2, unsigned int s, double x0, double Tmin, double Tmax, double Npoints, bool logaritmic, double &dat) { return getS(NULL, NULL, species1, species2, s, x0, Tmin, Tmax, Npoints, logaritmic, dat); }
+	virtual	int getS(const char *endpoint, const char *soap_action, std::string species1, std::string species2, unsigned int s, double x0, double Tmin, double Tmax, double Npoints, bool logaritmic, double &dat);
 };
 #endif

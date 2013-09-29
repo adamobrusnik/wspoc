@@ -77,7 +77,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_int(struct soap*, const int *, const char*, c
 SOAP_FMAC3 int * SOAP_FMAC4 soap_get_int(struct soap*, int *, const char*, const char*);
 
 #ifndef SOAP_TYPE_float
-#define SOAP_TYPE_float (371)
+#define SOAP_TYPE_float (370)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_float(struct soap*, float *);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_float(struct soap*, const char*, int, const float *, const char*);
@@ -97,7 +97,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_float(struct soap*, const float *, const char
 SOAP_FMAC3 float * SOAP_FMAC4 soap_get_float(struct soap*, float *, const char*, const char*);
 
 #ifndef SOAP_TYPE_double
-#define SOAP_TYPE_double (189)
+#define SOAP_TYPE_double (188)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_double(struct soap*, double *);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_double(struct soap*, const char*, int, const double *, const char*);
@@ -117,7 +117,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_double(struct soap*, const double *, const ch
 SOAP_FMAC3 double * SOAP_FMAC4 soap_get_double(struct soap*, double *, const char*, const char*);
 
 #ifndef SOAP_TYPE_unsignedInt
-#define SOAP_TYPE_unsignedInt (395)
+#define SOAP_TYPE_unsignedInt (394)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_unsignedInt(struct soap*, unsigned int *);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_unsignedInt(struct soap*, const char*, int, const unsigned int *, const char*);
@@ -137,7 +137,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_unsignedInt(struct soap*, const unsigned int 
 SOAP_FMAC3 unsigned int * SOAP_FMAC4 soap_get_unsignedInt(struct soap*, unsigned int *, const char*, const char*);
 
 #ifndef SOAP_TYPE_bool
-#define SOAP_TYPE_bool (396)
+#define SOAP_TYPE_bool (395)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_bool(struct soap*, bool *);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_bool(struct soap*, const char*, int, const bool *, const char*);
@@ -161,7 +161,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_bool(struct soap*, const bool *, const char*,
 SOAP_FMAC3 bool * SOAP_FMAC4 soap_get_bool(struct soap*, bool *, const char*, const char*);
 
 #ifndef SOAP_TYPE__ns2__units
-#define SOAP_TYPE__ns2__units (174)
+#define SOAP_TYPE__ns2__units (173)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default__ns2__units(struct soap*, enum _ns2__units *);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out__ns2__units(struct soap*, const char*, int, const enum _ns2__units *, const char*);
@@ -185,7 +185,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put__ns2__units(struct soap*, const enum _ns2__un
 SOAP_FMAC3 enum _ns2__units * SOAP_FMAC4 soap_get__ns2__units(struct soap*, enum _ns2__units *, const char*, const char*);
 
 #ifndef SOAP_TYPE_ns2__CodeType
-#define SOAP_TYPE_ns2__CodeType (170)
+#define SOAP_TYPE_ns2__CodeType (169)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_ns2__CodeType(struct soap*, enum ns2__CodeType *);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__CodeType(struct soap*, const char*, int, const enum ns2__CodeType *, const char*);
@@ -209,7 +209,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_ns2__CodeType(struct soap*, const enum ns2__C
 SOAP_FMAC3 enum ns2__CodeType * SOAP_FMAC4 soap_get_ns2__CodeType(struct soap*, enum ns2__CodeType *, const char*, const char*);
 
 #ifndef SOAP_TYPE_ns2__IAEACodeType
-#define SOAP_TYPE_ns2__IAEACodeType (169)
+#define SOAP_TYPE_ns2__IAEACodeType (168)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_ns2__IAEACodeType(struct soap*, enum ns2__IAEACodeType *);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__IAEACodeType(struct soap*, const char*, int, const enum ns2__IAEACodeType *, const char*);
@@ -233,7 +233,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_ns2__IAEACodeType(struct soap*, const enum ns
 SOAP_FMAC3 enum ns2__IAEACodeType * SOAP_FMAC4 soap_get_ns2__IAEACodeType(struct soap*, enum ns2__IAEACodeType *, const char*, const char*);
 
 #ifndef SOAP_TYPE_ns2__ParticleNameType
-#define SOAP_TYPE_ns2__ParticleNameType (167)
+#define SOAP_TYPE_ns2__ParticleNameType (166)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_ns2__ParticleNameType(struct soap*, enum ns2__ParticleNameType *);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__ParticleNameType(struct soap*, const char*, int, const enum ns2__ParticleNameType *, const char*);
@@ -257,7 +257,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_ns2__ParticleNameType(struct soap*, const enu
 SOAP_FMAC3 enum ns2__ParticleNameType * SOAP_FMAC4 soap_get_ns2__ParticleNameType(struct soap*, enum ns2__ParticleNameType *, const char*, const char*);
 
 #ifndef SOAP_TYPE_ns2__PermutationSymmetryType
-#define SOAP_TYPE_ns2__PermutationSymmetryType (166)
+#define SOAP_TYPE_ns2__PermutationSymmetryType (165)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_ns2__PermutationSymmetryType(struct soap*, enum ns2__PermutationSymmetryType *);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__PermutationSymmetryType(struct soap*, const char*, int, const enum ns2__PermutationSymmetryType *, const char*);
@@ -281,7 +281,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_ns2__PermutationSymmetryType(struct soap*, co
 SOAP_FMAC3 enum ns2__PermutationSymmetryType * SOAP_FMAC4 soap_get_ns2__PermutationSymmetryType(struct soap*, enum ns2__PermutationSymmetryType *, const char*, const char*);
 
 #ifndef SOAP_TYPE_ns2__ModesListType
-#define SOAP_TYPE_ns2__ModesListType (165)
+#define SOAP_TYPE_ns2__ModesListType (164)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_ns2__ModesListType(struct soap*, enum ns2__ModesListType *);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__ModesListType(struct soap*, const char*, int, const enum ns2__ModesListType *, const char*);
@@ -305,7 +305,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_ns2__ModesListType(struct soap*, const enum n
 SOAP_FMAC3 enum ns2__ModesListType * SOAP_FMAC4 soap_get_ns2__ModesListType(struct soap*, enum ns2__ModesListType *, const char*, const char*);
 
 #ifndef SOAP_TYPE_ns2__EfSymmetryType
-#define SOAP_TYPE_ns2__EfSymmetryType (164)
+#define SOAP_TYPE_ns2__EfSymmetryType (163)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_ns2__EfSymmetryType(struct soap*, enum ns2__EfSymmetryType *);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__EfSymmetryType(struct soap*, const char*, int, const enum ns2__EfSymmetryType *, const char*);
@@ -329,7 +329,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_ns2__EfSymmetryType(struct soap*, const enum 
 SOAP_FMAC3 enum ns2__EfSymmetryType * SOAP_FMAC4 soap_get_ns2__EfSymmetryType(struct soap*, enum ns2__EfSymmetryType *, const char*, const char*);
 
 #ifndef SOAP_TYPE_ns2__CouplingListType
-#define SOAP_TYPE_ns2__CouplingListType (163)
+#define SOAP_TYPE_ns2__CouplingListType (162)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_ns2__CouplingListType(struct soap*, enum ns2__CouplingListType *);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__CouplingListType(struct soap*, const char*, int, const enum ns2__CouplingListType *, const char*);
@@ -353,7 +353,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_ns2__CouplingListType(struct soap*, const enu
 SOAP_FMAC3 enum ns2__CouplingListType * SOAP_FMAC4 soap_get_ns2__CouplingListType(struct soap*, enum ns2__CouplingListType *, const char*, const char*);
 
 #ifndef SOAP_TYPE_ns2__C2SymmetryType
-#define SOAP_TYPE_ns2__C2SymmetryType (162)
+#define SOAP_TYPE_ns2__C2SymmetryType (161)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_ns2__C2SymmetryType(struct soap*, enum ns2__C2SymmetryType *);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__C2SymmetryType(struct soap*, const char*, int, const enum ns2__C2SymmetryType *, const char*);
@@ -377,7 +377,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_ns2__C2SymmetryType(struct soap*, const enum 
 SOAP_FMAC3 enum ns2__C2SymmetryType * SOAP_FMAC4 soap_get_ns2__C2SymmetryType(struct soap*, enum ns2__C2SymmetryType *, const char*, const char*);
 
 #ifndef SOAP_TYPE_ns2__MethodCategoryType
-#define SOAP_TYPE_ns2__MethodCategoryType (161)
+#define SOAP_TYPE_ns2__MethodCategoryType (160)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_ns2__MethodCategoryType(struct soap*, enum ns2__MethodCategoryType *);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__MethodCategoryType(struct soap*, const char*, int, const enum ns2__MethodCategoryType *, const char*);
@@ -401,7 +401,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_ns2__MethodCategoryType(struct soap*, const e
 SOAP_FMAC3 enum ns2__MethodCategoryType * SOAP_FMAC4 soap_get_ns2__MethodCategoryType(struct soap*, enum ns2__MethodCategoryType *, const char*, const char*);
 
 #ifndef SOAP_TYPE_ns2__CategoryType
-#define SOAP_TYPE_ns2__CategoryType (160)
+#define SOAP_TYPE_ns2__CategoryType (159)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_ns2__CategoryType(struct soap*, enum ns2__CategoryType *);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__CategoryType(struct soap*, const char*, int, const enum ns2__CategoryType *, const char*);
@@ -425,7 +425,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_ns2__CategoryType(struct soap*, const enum ns
 SOAP_FMAC3 enum ns2__CategoryType * SOAP_FMAC4 soap_get_ns2__CategoryType(struct soap*, enum ns2__CategoryType *, const char*, const char*);
 
 #ifndef SOAP_TYPE_ns2__MixingClassType
-#define SOAP_TYPE_ns2__MixingClassType (157)
+#define SOAP_TYPE_ns2__MixingClassType (156)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_ns2__MixingClassType(struct soap*, enum ns2__MixingClassType *);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__MixingClassType(struct soap*, const char*, int, const enum ns2__MixingClassType *, const char*);
@@ -449,7 +449,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_ns2__MixingClassType(struct soap*, const enum
 SOAP_FMAC3 enum ns2__MixingClassType * SOAP_FMAC4 soap_get_ns2__MixingClassType(struct soap*, enum ns2__MixingClassType *, const char*, const char*);
 
 #ifndef SOAP_TYPE_ns2__ParityType
-#define SOAP_TYPE_ns2__ParityType (156)
+#define SOAP_TYPE_ns2__ParityType (155)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_ns2__ParityType(struct soap*, enum ns2__ParityType *);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__ParityType(struct soap*, const char*, int, const enum ns2__ParityType *, const char*);
@@ -473,7 +473,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_ns2__ParityType(struct soap*, const enum ns2_
 SOAP_FMAC3 enum ns2__ParityType * SOAP_FMAC4 soap_get_ns2__ParityType(struct soap*, enum ns2__ParityType *, const char*, const char*);
 
 #ifndef SOAP_TYPE_ns2__ReferenceFrameType
-#define SOAP_TYPE_ns2__ReferenceFrameType (151)
+#define SOAP_TYPE_ns2__ReferenceFrameType (150)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_ns2__ReferenceFrameType(struct soap*, enum ns2__ReferenceFrameType *);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__ReferenceFrameType(struct soap*, const char*, int, const enum ns2__ReferenceFrameType *, const char*);
@@ -497,7 +497,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_ns2__ReferenceFrameType(struct soap*, const e
 SOAP_FMAC3 enum ns2__ReferenceFrameType * SOAP_FMAC4 soap_get_ns2__ReferenceFrameType(struct soap*, enum ns2__ReferenceFrameType *, const char*, const char*);
 
 #ifndef SOAP_TYPE_ns2__DataDescriptionType
-#define SOAP_TYPE_ns2__DataDescriptionType (150)
+#define SOAP_TYPE_ns2__DataDescriptionType (149)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_ns2__DataDescriptionType(struct soap*, enum ns2__DataDescriptionType *);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__DataDescriptionType(struct soap*, const char*, int, const enum ns2__DataDescriptionType *, const char*);
@@ -521,7 +521,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_ns2__DataDescriptionType(struct soap*, const 
 SOAP_FMAC3 enum ns2__DataDescriptionType * SOAP_FMAC4 soap_get_ns2__DataDescriptionType(struct soap*, enum ns2__DataDescriptionType *, const char*, const char*);
 
 #ifndef SOAP_TYPE___ns2__RoVibronicSplittingType_sequence
-#define SOAP_TYPE___ns2__RoVibronicSplittingType_sequence (367)
+#define SOAP_TYPE___ns2__RoVibronicSplittingType_sequence (366)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out___ns2__RoVibronicSplittingType_sequence(struct soap*, const char*, int, const __ns2__RoVibronicSplittingType_sequence *, const char*);
@@ -547,7 +547,7 @@ SOAP_FMAC1 __ns2__RoVibronicSplittingType_sequence * SOAP_FMAC2 soap_instantiate
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy___ns2__RoVibronicSplittingType_sequence(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE___ns2__union_HyperfineQuantumNumbersType
-#define SOAP_TYPE___ns2__union_HyperfineQuantumNumbersType (309)
+#define SOAP_TYPE___ns2__union_HyperfineQuantumNumbersType (308)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out___ns2__union_HyperfineQuantumNumbersType(struct soap*, const char*, int, const __ns2__union_HyperfineQuantumNumbersType *, const char*);
@@ -573,7 +573,7 @@ SOAP_FMAC1 __ns2__union_HyperfineQuantumNumbersType * SOAP_FMAC2 soap_instantiat
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy___ns2__union_HyperfineQuantumNumbersType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE___ns2__MolecularPropertiesType_sequence
-#define SOAP_TYPE___ns2__MolecularPropertiesType_sequence (271)
+#define SOAP_TYPE___ns2__MolecularPropertiesType_sequence (270)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out___ns2__MolecularPropertiesType_sequence(struct soap*, const char*, int, const __ns2__MolecularPropertiesType_sequence *, const char*);
@@ -599,7 +599,7 @@ SOAP_FMAC1 __ns2__MolecularPropertiesType_sequence * SOAP_FMAC2 soap_instantiate
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy___ns2__MolecularPropertiesType_sequence(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE___ns2__BondArrayType_sequence
-#define SOAP_TYPE___ns2__BondArrayType_sequence (252)
+#define SOAP_TYPE___ns2__BondArrayType_sequence (251)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out___ns2__BondArrayType_sequence(struct soap*, const char*, int, const __ns2__BondArrayType_sequence *, const char*);
@@ -625,7 +625,7 @@ SOAP_FMAC1 __ns2__BondArrayType_sequence * SOAP_FMAC2 soap_instantiate___ns2__Bo
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy___ns2__BondArrayType_sequence(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE___ns2__AtomArrayType_sequence
-#define SOAP_TYPE___ns2__AtomArrayType_sequence (248)
+#define SOAP_TYPE___ns2__AtomArrayType_sequence (247)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out___ns2__AtomArrayType_sequence(struct soap*, const char*, int, const __ns2__AtomArrayType_sequence *, const char*);
@@ -651,7 +651,7 @@ SOAP_FMAC1 __ns2__AtomArrayType_sequence * SOAP_FMAC2 soap_instantiate___ns2__At
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy___ns2__AtomArrayType_sequence(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE___ns2__ShellsType_sequence
-#define SOAP_TYPE___ns2__ShellsType_sequence (239)
+#define SOAP_TYPE___ns2__ShellsType_sequence (238)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out___ns2__ShellsType_sequence(struct soap*, const char*, int, const __ns2__ShellsType_sequence *, const char*);
@@ -677,7 +677,7 @@ SOAP_FMAC1 __ns2__ShellsType_sequence * SOAP_FMAC2 soap_instantiate___ns2__Shell
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy___ns2__ShellsType_sequence(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE___ns2__ProductsType_sequence
-#define SOAP_TYPE___ns2__ProductsType_sequence (209)
+#define SOAP_TYPE___ns2__ProductsType_sequence (208)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out___ns2__ProductsType_sequence(struct soap*, const char*, int, const __ns2__ProductsType_sequence *, const char*);
@@ -703,7 +703,7 @@ SOAP_FMAC1 __ns2__ProductsType_sequence * SOAP_FMAC2 soap_instantiate___ns2__Pro
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy___ns2__ProductsType_sequence(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE___ns2__ReactantsType_sequence
-#define SOAP_TYPE___ns2__ReactantsType_sequence (207)
+#define SOAP_TYPE___ns2__ReactantsType_sequence (206)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out___ns2__ReactantsType_sequence(struct soap*, const char*, int, const __ns2__ReactantsType_sequence *, const char*);
@@ -729,7 +729,7 @@ SOAP_FMAC1 __ns2__ReactantsType_sequence * SOAP_FMAC2 soap_instantiate___ns2__Re
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy___ns2__ReactantsType_sequence(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE__ns2__LSCouplingType_Seniority
-#define SOAP_TYPE__ns2__LSCouplingType_Seniority (200)
+#define SOAP_TYPE__ns2__LSCouplingType_Seniority (199)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out__ns2__LSCouplingType_Seniority(struct soap*, const char*, int, const _ns2__LSCouplingType_Seniority *, const char*);
@@ -757,7 +757,7 @@ SOAP_FMAC3 void SOAP_FMAC4 soap_copy__ns2__LSCouplingType_Seniority(struct soap*
 /* _ns2__functionID is a typedef element/attribute synonym for std__string */
 
 #ifndef SOAP_TYPE__ns2__functionID
-#define SOAP_TYPE__ns2__functionID (178)
+#define SOAP_TYPE__ns2__functionID (177)
 #endif
 
 #define soap_default__ns2__functionID(soap, a) soap_default_std__string(soap, a)
@@ -802,7 +802,7 @@ SOAP_FMAC3 void SOAP_FMAC4 soap_copy__ns2__LSCouplingType_Seniority(struct soap*
 /* _ns2__methodID is a typedef element/attribute synonym for std__string */
 
 #ifndef SOAP_TYPE__ns2__methodID
-#define SOAP_TYPE__ns2__methodID (177)
+#define SOAP_TYPE__ns2__methodID (176)
 #endif
 
 #define soap_default__ns2__methodID(soap, a) soap_default_std__string(soap, a)
@@ -847,7 +847,7 @@ SOAP_FMAC3 void SOAP_FMAC4 soap_copy__ns2__LSCouplingType_Seniority(struct soap*
 /* _ns2__sourceID is a typedef element/attribute synonym for std__string */
 
 #ifndef SOAP_TYPE__ns2__sourceID
-#define SOAP_TYPE__ns2__sourceID (176)
+#define SOAP_TYPE__ns2__sourceID (175)
 #endif
 
 #define soap_default__ns2__sourceID(soap, a) soap_default_std__string(soap, a)
@@ -892,7 +892,7 @@ SOAP_FMAC3 void SOAP_FMAC4 soap_copy__ns2__LSCouplingType_Seniority(struct soap*
 /* _ns2__stateID is a typedef element/attribute synonym for std__string */
 
 #ifndef SOAP_TYPE__ns2__stateID
-#define SOAP_TYPE__ns2__stateID (175)
+#define SOAP_TYPE__ns2__stateID (174)
 #endif
 
 #define soap_default__ns2__stateID(soap, a) soap_default_std__string(soap, a)
@@ -937,7 +937,7 @@ SOAP_FMAC3 void SOAP_FMAC4 soap_copy__ns2__LSCouplingType_Seniority(struct soap*
 /* _ns2__functionRef is a typedef element/attribute synonym for std__string */
 
 #ifndef SOAP_TYPE__ns2__functionRef
-#define SOAP_TYPE__ns2__functionRef (173)
+#define SOAP_TYPE__ns2__functionRef (172)
 #endif
 
 #define soap_default__ns2__functionRef(soap, a) soap_default_std__string(soap, a)
@@ -982,7 +982,7 @@ SOAP_FMAC3 void SOAP_FMAC4 soap_copy__ns2__LSCouplingType_Seniority(struct soap*
 /* _ns2__methodRef is a typedef element/attribute synonym for std__string */
 
 #ifndef SOAP_TYPE__ns2__methodRef
-#define SOAP_TYPE__ns2__methodRef (172)
+#define SOAP_TYPE__ns2__methodRef (171)
 #endif
 
 #define soap_default__ns2__methodRef(soap, a) soap_default_std__string(soap, a)
@@ -1027,7 +1027,7 @@ SOAP_FMAC3 void SOAP_FMAC4 soap_copy__ns2__LSCouplingType_Seniority(struct soap*
 /* _ns2__sourceRef is a typedef element/attribute synonym for std__string */
 
 #ifndef SOAP_TYPE__ns2__sourceRef
-#define SOAP_TYPE__ns2__sourceRef (171)
+#define SOAP_TYPE__ns2__sourceRef (170)
 #endif
 
 #define soap_default__ns2__sourceRef(soap, a) soap_default_std__string(soap, a)
@@ -1070,7 +1070,7 @@ SOAP_FMAC3 void SOAP_FMAC4 soap_copy__ns2__LSCouplingType_Seniority(struct soap*
 #define soap_copy__ns2__sourceRef soap_copy_std__string
 
 #ifndef SOAP_TYPE_ns2__MultipoleType
-#define SOAP_TYPE_ns2__MultipoleType (168)
+#define SOAP_TYPE_ns2__MultipoleType (167)
 #endif
 
 #define soap_default_ns2__MultipoleType(soap, a) soap_default_std__string(soap, a)
@@ -1106,7 +1106,7 @@ SOAP_FMAC3 std::string * SOAP_FMAC4 soap_get_ns2__MultipoleType(struct soap*, st
 #define soap_copy_ns2__MultipoleType soap_copy_std__string
 
 #ifndef SOAP_TYPE_ns2__StateRef
-#define SOAP_TYPE_ns2__StateRef (159)
+#define SOAP_TYPE_ns2__StateRef (158)
 #endif
 
 #define soap_default_ns2__StateRef(soap, a) soap_default_std__string(soap, a)
@@ -1142,7 +1142,7 @@ SOAP_FMAC3 std::string * SOAP_FMAC4 soap_get_ns2__StateRef(struct soap*, std::st
 #define soap_copy_ns2__StateRef soap_copy_std__string
 
 #ifndef SOAP_TYPE_ns2__OrbitalAngularMomentumSymbolType
-#define SOAP_TYPE_ns2__OrbitalAngularMomentumSymbolType (158)
+#define SOAP_TYPE_ns2__OrbitalAngularMomentumSymbolType (157)
 #endif
 
 #define soap_default_ns2__OrbitalAngularMomentumSymbolType(soap, a) soap_default_std__string(soap, a)
@@ -1178,7 +1178,7 @@ SOAP_FMAC3 std::string * SOAP_FMAC4 soap_get_ns2__OrbitalAngularMomentumSymbolTy
 #define soap_copy_ns2__OrbitalAngularMomentumSymbolType soap_copy_std__string
 
 #ifndef SOAP_TYPE_ns2__PrincipalQuantumNumberType
-#define SOAP_TYPE_ns2__PrincipalQuantumNumberType (155)
+#define SOAP_TYPE_ns2__PrincipalQuantumNumberType (154)
 #endif
 
 #define soap_default_ns2__PrincipalQuantumNumberType(soap, a) soap_default_std__string(soap, a)
@@ -1214,7 +1214,7 @@ SOAP_FMAC3 std::string * SOAP_FMAC4 soap_get_ns2__PrincipalQuantumNumberType(str
 #define soap_copy_ns2__PrincipalQuantumNumberType soap_copy_std__string
 
 #ifndef SOAP_TYPE_ns2__ElementSymbolType
-#define SOAP_TYPE_ns2__ElementSymbolType (154)
+#define SOAP_TYPE_ns2__ElementSymbolType (153)
 #endif
 
 #define soap_default_ns2__ElementSymbolType(soap, a) soap_default_std__string(soap, a)
@@ -1250,7 +1250,7 @@ SOAP_FMAC3 std::string * SOAP_FMAC4 soap_get_ns2__ElementSymbolType(struct soap*
 #define soap_copy_ns2__ElementSymbolType soap_copy_std__string
 
 #ifndef SOAP_TYPE_ns2__AngularMomentumType
-#define SOAP_TYPE_ns2__AngularMomentumType (153)
+#define SOAP_TYPE_ns2__AngularMomentumType (152)
 #endif
 
 #define soap_default_ns2__AngularMomentumType(soap, a) soap_default_std__string(soap, a)
@@ -1286,7 +1286,7 @@ SOAP_FMAC3 std::string * SOAP_FMAC4 soap_get_ns2__AngularMomentumType(struct soa
 #define soap_copy_ns2__AngularMomentumType soap_copy_std__string
 
 #ifndef SOAP_TYPE_ns2__AngularMomentumProjectionType
-#define SOAP_TYPE_ns2__AngularMomentumProjectionType (152)
+#define SOAP_TYPE_ns2__AngularMomentumProjectionType (151)
 #endif
 
 #define soap_default_ns2__AngularMomentumProjectionType(soap, a) soap_default_std__string(soap, a)
@@ -1322,7 +1322,7 @@ SOAP_FMAC3 std::string * SOAP_FMAC4 soap_get_ns2__AngularMomentumProjectionType(
 #define soap_copy_ns2__AngularMomentumProjectionType soap_copy_std__string
 
 #ifndef SOAP_TYPE_ns2__DataListType
-#define SOAP_TYPE_ns2__DataListType (149)
+#define SOAP_TYPE_ns2__DataListType (148)
 #endif
 
 #define soap_default_ns2__DataListType(soap, a) soap_default_std__string(soap, a)
@@ -1358,7 +1358,7 @@ SOAP_FMAC3 std::string * SOAP_FMAC4 soap_get_ns2__DataListType(struct soap*, std
 #define soap_copy_ns2__DataListType soap_copy_std__string
 
 #ifndef SOAP_TYPE_ns2__StatesType
-#define SOAP_TYPE_ns2__StatesType (148)
+#define SOAP_TYPE_ns2__StatesType (147)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__StatesType(struct soap*, const char*, int, const ns2__StatesType *, const char*);
@@ -1384,7 +1384,7 @@ SOAP_FMAC1 ns2__StatesType * SOAP_FMAC2 soap_instantiate_ns2__StatesType(struct 
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__StatesType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__ProcessesType
-#define SOAP_TYPE_ns2__ProcessesType (147)
+#define SOAP_TYPE_ns2__ProcessesType (146)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__ProcessesType(struct soap*, const char*, int, const ns2__ProcessesType *, const char*);
@@ -1410,7 +1410,7 @@ SOAP_FMAC1 ns2__ProcessesType * SOAP_FMAC2 soap_instantiate_ns2__ProcessesType(s
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__ProcessesType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__XSAMSDataType
-#define SOAP_TYPE_ns2__XSAMSDataType (146)
+#define SOAP_TYPE_ns2__XSAMSDataType (145)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__XSAMSDataType(struct soap*, const char*, int, const ns2__XSAMSDataType *, const char*);
@@ -1436,7 +1436,7 @@ SOAP_FMAC1 ns2__XSAMSDataType * SOAP_FMAC2 soap_instantiate_ns2__XSAMSDataType(s
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__XSAMSDataType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__CollisionalProcessClassType
-#define SOAP_TYPE_ns2__CollisionalProcessClassType (145)
+#define SOAP_TYPE_ns2__CollisionalProcessClassType (144)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__CollisionalProcessClassType(struct soap*, const char*, int, const ns2__CollisionalProcessClassType *, const char*);
@@ -1462,7 +1462,7 @@ SOAP_FMAC1 ns2__CollisionalProcessClassType * SOAP_FMAC2 soap_instantiate_ns2__C
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__CollisionalProcessClassType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__CollisionalTransitionType
-#define SOAP_TYPE_ns2__CollisionalTransitionType (144)
+#define SOAP_TYPE_ns2__CollisionalTransitionType (143)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__CollisionalTransitionType(struct soap*, const char*, int, const ns2__CollisionalTransitionType *, const char*);
@@ -1488,7 +1488,7 @@ SOAP_FMAC1 ns2__CollisionalTransitionType * SOAP_FMAC2 soap_instantiate_ns2__Col
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__CollisionalTransitionType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__CollisionsType
-#define SOAP_TYPE_ns2__CollisionsType (143)
+#define SOAP_TYPE_ns2__CollisionsType (142)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__CollisionsType(struct soap*, const char*, int, const ns2__CollisionsType *, const char*);
@@ -1514,7 +1514,7 @@ SOAP_FMAC1 ns2__CollisionsType * SOAP_FMAC2 soap_instantiate_ns2__CollisionsType
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__CollisionsType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__NonRadiativeTransitionType
-#define SOAP_TYPE_ns2__NonRadiativeTransitionType (142)
+#define SOAP_TYPE_ns2__NonRadiativeTransitionType (141)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__NonRadiativeTransitionType(struct soap*, const char*, int, const ns2__NonRadiativeTransitionType *, const char*);
@@ -1540,7 +1540,7 @@ SOAP_FMAC1 ns2__NonRadiativeTransitionType * SOAP_FMAC2 soap_instantiate_ns2__No
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__NonRadiativeTransitionType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__NonRadiativeType
-#define SOAP_TYPE_ns2__NonRadiativeType (141)
+#define SOAP_TYPE_ns2__NonRadiativeType (140)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__NonRadiativeType(struct soap*, const char*, int, const ns2__NonRadiativeType *, const char*);
@@ -1566,7 +1566,7 @@ SOAP_FMAC1 ns2__NonRadiativeType * SOAP_FMAC2 soap_instantiate_ns2__NonRadiative
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__NonRadiativeType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__EnergyWavelengthType
-#define SOAP_TYPE_ns2__EnergyWavelengthType (140)
+#define SOAP_TYPE_ns2__EnergyWavelengthType (139)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__EnergyWavelengthType(struct soap*, const char*, int, const ns2__EnergyWavelengthType *, const char*);
@@ -1592,7 +1592,7 @@ SOAP_FMAC1 ns2__EnergyWavelengthType * SOAP_FMAC2 soap_instantiate_ns2__EnergyWa
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__EnergyWavelengthType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__WavelengthWavenumberType
-#define SOAP_TYPE_ns2__WavelengthWavenumberType (139)
+#define SOAP_TYPE_ns2__WavelengthWavenumberType (138)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__WavelengthWavenumberType(struct soap*, const char*, int, const ns2__WavelengthWavenumberType *, const char*);
@@ -1618,7 +1618,7 @@ SOAP_FMAC1 ns2__WavelengthWavenumberType * SOAP_FMAC2 soap_instantiate_ns2__Wave
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__WavelengthWavenumberType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__RadiativeTransitionProbabilityType
-#define SOAP_TYPE_ns2__RadiativeTransitionProbabilityType (138)
+#define SOAP_TYPE_ns2__RadiativeTransitionProbabilityType (137)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__RadiativeTransitionProbabilityType(struct soap*, const char*, int, const ns2__RadiativeTransitionProbabilityType *, const char*);
@@ -1644,7 +1644,7 @@ SOAP_FMAC1 ns2__RadiativeTransitionProbabilityType * SOAP_FMAC2 soap_instantiate
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__RadiativeTransitionProbabilityType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__RadiativeTransitionType
-#define SOAP_TYPE_ns2__RadiativeTransitionType (137)
+#define SOAP_TYPE_ns2__RadiativeTransitionType (136)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__RadiativeTransitionType(struct soap*, const char*, int, const ns2__RadiativeTransitionType *, const char*);
@@ -1670,7 +1670,7 @@ SOAP_FMAC1 ns2__RadiativeTransitionType * SOAP_FMAC2 soap_instantiate_ns2__Radia
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__RadiativeTransitionType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__RadiativeType
-#define SOAP_TYPE_ns2__RadiativeType (136)
+#define SOAP_TYPE_ns2__RadiativeType (135)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__RadiativeType(struct soap*, const char*, int, const ns2__RadiativeType *, const char*);
@@ -1696,7 +1696,7 @@ SOAP_FMAC1 ns2__RadiativeType * SOAP_FMAC2 soap_instantiate_ns2__RadiativeType(s
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__RadiativeType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__MaterialCompositionType
-#define SOAP_TYPE_ns2__MaterialCompositionType (135)
+#define SOAP_TYPE_ns2__MaterialCompositionType (134)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__MaterialCompositionType(struct soap*, const char*, int, const ns2__MaterialCompositionType *, const char*);
@@ -1722,7 +1722,7 @@ SOAP_FMAC1 ns2__MaterialCompositionType * SOAP_FMAC2 soap_instantiate_ns2__Mater
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__MaterialCompositionType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__MaterialType
-#define SOAP_TYPE_ns2__MaterialType (134)
+#define SOAP_TYPE_ns2__MaterialType (133)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__MaterialType(struct soap*, const char*, int, const ns2__MaterialType *, const char*);
@@ -1748,7 +1748,7 @@ SOAP_FMAC1 ns2__MaterialType * SOAP_FMAC2 soap_instantiate_ns2__MaterialType(str
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__MaterialType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__MaterialComponentType
-#define SOAP_TYPE_ns2__MaterialComponentType (133)
+#define SOAP_TYPE_ns2__MaterialComponentType (132)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__MaterialComponentType(struct soap*, const char*, int, const ns2__MaterialComponentType *, const char*);
@@ -1774,7 +1774,7 @@ SOAP_FMAC1 ns2__MaterialComponentType * SOAP_FMAC2 soap_instantiate_ns2__Materia
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__MaterialComponentType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__SolidsType
-#define SOAP_TYPE_ns2__SolidsType (132)
+#define SOAP_TYPE_ns2__SolidsType (131)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__SolidsType(struct soap*, const char*, int, const ns2__SolidsType *, const char*);
@@ -1800,7 +1800,7 @@ SOAP_FMAC1 ns2__SolidsType * SOAP_FMAC2 soap_instantiate_ns2__SolidsType(struct 
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__SolidsType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__SolidType
-#define SOAP_TYPE_ns2__SolidType (131)
+#define SOAP_TYPE_ns2__SolidType (130)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__SolidType(struct soap*, const char*, int, const ns2__SolidType *, const char*);
@@ -1826,7 +1826,7 @@ SOAP_FMAC1 ns2__SolidType * SOAP_FMAC2 soap_instantiate_ns2__SolidType(struct so
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__SolidType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__ParticlePropertiesType
-#define SOAP_TYPE_ns2__ParticlePropertiesType (130)
+#define SOAP_TYPE_ns2__ParticlePropertiesType (129)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__ParticlePropertiesType(struct soap*, const char*, int, const ns2__ParticlePropertiesType *, const char*);
@@ -1852,7 +1852,7 @@ SOAP_FMAC1 ns2__ParticlePropertiesType * SOAP_FMAC2 soap_instantiate_ns2__Partic
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__ParticlePropertiesType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__ParticleType
-#define SOAP_TYPE_ns2__ParticleType (129)
+#define SOAP_TYPE_ns2__ParticleType (128)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__ParticleType(struct soap*, const char*, int, const ns2__ParticleType *, const char*);
@@ -1878,7 +1878,7 @@ SOAP_FMAC1 ns2__ParticleType * SOAP_FMAC2 soap_instantiate_ns2__ParticleType(str
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__ParticleType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__ParticlesType
-#define SOAP_TYPE_ns2__ParticlesType (128)
+#define SOAP_TYPE_ns2__ParticlesType (127)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__ParticlesType(struct soap*, const char*, int, const ns2__ParticlesType *, const char*);
@@ -1904,7 +1904,7 @@ SOAP_FMAC1 ns2__ParticlesType * SOAP_FMAC2 soap_instantiate_ns2__ParticlesType(s
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__ParticlesType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__CharacterisationType
-#define SOAP_TYPE_ns2__CharacterisationType (127)
+#define SOAP_TYPE_ns2__CharacterisationType (126)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__CharacterisationType(struct soap*, const char*, int, const ns2__CharacterisationType *, const char*);
@@ -1930,7 +1930,7 @@ SOAP_FMAC1 ns2__CharacterisationType * SOAP_FMAC2 soap_instantiate_ns2__Characte
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__CharacterisationType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__ReferencedTextType
-#define SOAP_TYPE_ns2__ReferencedTextType (126)
+#define SOAP_TYPE_ns2__ReferencedTextType (125)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__ReferencedTextType(struct soap*, const char*, int, const ns2__ReferencedTextType *, const char*);
@@ -1956,7 +1956,7 @@ SOAP_FMAC1 ns2__ReferencedTextType * SOAP_FMAC2 soap_instantiate_ns2__Referenced
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__ReferencedTextType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__HyperfineQuantumNumbersType
-#define SOAP_TYPE_ns2__HyperfineQuantumNumbersType (125)
+#define SOAP_TYPE_ns2__HyperfineQuantumNumbersType (124)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__HyperfineQuantumNumbersType(struct soap*, const char*, int, const ns2__HyperfineQuantumNumbersType *, const char*);
@@ -1982,7 +1982,7 @@ SOAP_FMAC1 ns2__HyperfineQuantumNumbersType * SOAP_FMAC2 soap_instantiate_ns2__H
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__HyperfineQuantumNumbersType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__NonLinearNoElecHyperFType
-#define SOAP_TYPE_ns2__NonLinearNoElecHyperFType (124)
+#define SOAP_TYPE_ns2__NonLinearNoElecHyperFType (123)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__NonLinearNoElecHyperFType(struct soap*, const char*, int, const ns2__NonLinearNoElecHyperFType *, const char*);
@@ -2008,7 +2008,7 @@ SOAP_FMAC1 ns2__NonLinearNoElecHyperFType * SOAP_FMAC2 soap_instantiate_ns2__Non
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__NonLinearNoElecHyperFType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__NonLinearNoElecNoHyperFType
-#define SOAP_TYPE_ns2__NonLinearNoElecNoHyperFType (123)
+#define SOAP_TYPE_ns2__NonLinearNoElecNoHyperFType (122)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__NonLinearNoElecNoHyperFType(struct soap*, const char*, int, const ns2__NonLinearNoElecNoHyperFType *, const char*);
@@ -2034,7 +2034,7 @@ SOAP_FMAC1 ns2__NonLinearNoElecNoHyperFType * SOAP_FMAC2 soap_instantiate_ns2__N
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__NonLinearNoElecNoHyperFType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__NonLinearNoElecType
-#define SOAP_TYPE_ns2__NonLinearNoElecType (122)
+#define SOAP_TYPE_ns2__NonLinearNoElecType (121)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__NonLinearNoElecType(struct soap*, const char*, int, const ns2__NonLinearNoElecType *, const char*);
@@ -2060,7 +2060,7 @@ SOAP_FMAC1 ns2__NonLinearNoElecType * SOAP_FMAC2 soap_instantiate_ns2__NonLinear
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__NonLinearNoElecType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__NonLinearElecNoHyperFType
-#define SOAP_TYPE_ns2__NonLinearElecNoHyperFType (121)
+#define SOAP_TYPE_ns2__NonLinearElecNoHyperFType (120)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__NonLinearElecNoHyperFType(struct soap*, const char*, int, const ns2__NonLinearElecNoHyperFType *, const char*);
@@ -2086,7 +2086,7 @@ SOAP_FMAC1 ns2__NonLinearElecNoHyperFType * SOAP_FMAC2 soap_instantiate_ns2__Non
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__NonLinearElecNoHyperFType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__NonLinearElecHyperFType
-#define SOAP_TYPE_ns2__NonLinearElecHyperFType (120)
+#define SOAP_TYPE_ns2__NonLinearElecHyperFType (119)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__NonLinearElecHyperFType(struct soap*, const char*, int, const ns2__NonLinearElecHyperFType *, const char*);
@@ -2112,7 +2112,7 @@ SOAP_FMAC1 ns2__NonLinearElecHyperFType * SOAP_FMAC2 soap_instantiate_ns2__NonLi
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__NonLinearElecHyperFType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__NonLinearElecCouplingType
-#define SOAP_TYPE_ns2__NonLinearElecCouplingType (119)
+#define SOAP_TYPE_ns2__NonLinearElecCouplingType (118)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__NonLinearElecCouplingType(struct soap*, const char*, int, const ns2__NonLinearElecCouplingType *, const char*);
@@ -2138,7 +2138,7 @@ SOAP_FMAC1 ns2__NonLinearElecCouplingType * SOAP_FMAC2 soap_instantiate_ns2__Non
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__NonLinearElecCouplingType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__HyperfineCouplingBType
-#define SOAP_TYPE_ns2__HyperfineCouplingBType (118)
+#define SOAP_TYPE_ns2__HyperfineCouplingBType (117)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__HyperfineCouplingBType(struct soap*, const char*, int, const ns2__HyperfineCouplingBType *, const char*);
@@ -2164,7 +2164,7 @@ SOAP_FMAC1 ns2__HyperfineCouplingBType * SOAP_FMAC2 soap_instantiate_ns2__Hyperf
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__HyperfineCouplingBType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__HyperfineCaseABetaType
-#define SOAP_TYPE_ns2__HyperfineCaseABetaType (117)
+#define SOAP_TYPE_ns2__HyperfineCaseABetaType (116)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__HyperfineCaseABetaType(struct soap*, const char*, int, const ns2__HyperfineCaseABetaType *, const char*);
@@ -2190,7 +2190,7 @@ SOAP_FMAC1 ns2__HyperfineCaseABetaType * SOAP_FMAC2 soap_instantiate_ns2__Hyperf
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__HyperfineCaseABetaType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__HyperfineCaseAAlphaType
-#define SOAP_TYPE_ns2__HyperfineCaseAAlphaType (116)
+#define SOAP_TYPE_ns2__HyperfineCaseAAlphaType (115)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__HyperfineCaseAAlphaType(struct soap*, const char*, int, const ns2__HyperfineCaseAAlphaType *, const char*);
@@ -2216,7 +2216,7 @@ SOAP_FMAC1 ns2__HyperfineCaseAAlphaType * SOAP_FMAC2 soap_instantiate_ns2__Hyper
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__HyperfineCaseAAlphaType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__HundCaseBType
-#define SOAP_TYPE_ns2__HundCaseBType (115)
+#define SOAP_TYPE_ns2__HundCaseBType (114)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__HundCaseBType(struct soap*, const char*, int, const ns2__HundCaseBType *, const char*);
@@ -2242,7 +2242,7 @@ SOAP_FMAC1 ns2__HundCaseBType * SOAP_FMAC2 soap_instantiate_ns2__HundCaseBType(s
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__HundCaseBType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__HundCaseAType
-#define SOAP_TYPE_ns2__HundCaseAType (114)
+#define SOAP_TYPE_ns2__HundCaseAType (113)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__HundCaseAType(struct soap*, const char*, int, const ns2__HundCaseAType *, const char*);
@@ -2268,7 +2268,7 @@ SOAP_FMAC1 ns2__HundCaseAType * SOAP_FMAC2 soap_instantiate_ns2__HundCaseAType(s
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__HundCaseAType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__LinearElecCouplingType
-#define SOAP_TYPE_ns2__LinearElecCouplingType (113)
+#define SOAP_TYPE_ns2__LinearElecCouplingType (112)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__LinearElecCouplingType(struct soap*, const char*, int, const ns2__LinearElecCouplingType *, const char*);
@@ -2294,7 +2294,7 @@ SOAP_FMAC1 ns2__LinearElecCouplingType * SOAP_FMAC2 soap_instantiate_ns2__Linear
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__LinearElecCouplingType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__LinearNoElecHyperFType
-#define SOAP_TYPE_ns2__LinearNoElecHyperFType (112)
+#define SOAP_TYPE_ns2__LinearNoElecHyperFType (111)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__LinearNoElecHyperFType(struct soap*, const char*, int, const ns2__LinearNoElecHyperFType *, const char*);
@@ -2320,7 +2320,7 @@ SOAP_FMAC1 ns2__LinearNoElecHyperFType * SOAP_FMAC2 soap_instantiate_ns2__Linear
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__LinearNoElecHyperFType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__LinearNoElecNoHyperFType
-#define SOAP_TYPE_ns2__LinearNoElecNoHyperFType (111)
+#define SOAP_TYPE_ns2__LinearNoElecNoHyperFType (110)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__LinearNoElecNoHyperFType(struct soap*, const char*, int, const ns2__LinearNoElecNoHyperFType *, const char*);
@@ -2346,7 +2346,7 @@ SOAP_FMAC1 ns2__LinearNoElecNoHyperFType * SOAP_FMAC2 soap_instantiate_ns2__Line
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__LinearNoElecNoHyperFType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__VibrationalQuantumNumbersType
-#define SOAP_TYPE_ns2__VibrationalQuantumNumbersType (110)
+#define SOAP_TYPE_ns2__VibrationalQuantumNumbersType (109)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__VibrationalQuantumNumbersType(struct soap*, const char*, int, const ns2__VibrationalQuantumNumbersType *, const char*);
@@ -2372,7 +2372,7 @@ SOAP_FMAC1 ns2__VibrationalQuantumNumbersType * SOAP_FMAC2 soap_instantiate_ns2_
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__VibrationalQuantumNumbersType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__VibrationalHomeType
-#define SOAP_TYPE_ns2__VibrationalHomeType (109)
+#define SOAP_TYPE_ns2__VibrationalHomeType (108)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__VibrationalHomeType(struct soap*, const char*, int, const ns2__VibrationalHomeType *, const char*);
@@ -2398,7 +2398,7 @@ SOAP_FMAC1 ns2__VibrationalHomeType * SOAP_FMAC2 soap_instantiate_ns2__Vibration
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__VibrationalHomeType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__VibrationalCharacterisationType
-#define SOAP_TYPE_ns2__VibrationalCharacterisationType (108)
+#define SOAP_TYPE_ns2__VibrationalCharacterisationType (107)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__VibrationalCharacterisationType(struct soap*, const char*, int, const ns2__VibrationalCharacterisationType *, const char*);
@@ -2424,7 +2424,7 @@ SOAP_FMAC1 ns2__VibrationalCharacterisationType * SOAP_FMAC2 soap_instantiate_ns
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__VibrationalCharacterisationType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__VibrationalComponentType
-#define SOAP_TYPE_ns2__VibrationalComponentType (107)
+#define SOAP_TYPE_ns2__VibrationalComponentType (106)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__VibrationalComponentType(struct soap*, const char*, int, const ns2__VibrationalComponentType *, const char*);
@@ -2450,7 +2450,7 @@ SOAP_FMAC1 ns2__VibrationalComponentType * SOAP_FMAC2 soap_instantiate_ns2__Vibr
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__VibrationalComponentType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__TotalSpinMomentumSType
-#define SOAP_TYPE_ns2__TotalSpinMomentumSType (106)
+#define SOAP_TYPE_ns2__TotalSpinMomentumSType (105)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__TotalSpinMomentumSType(struct soap*, const char*, int, const ns2__TotalSpinMomentumSType *, const char*);
@@ -2476,7 +2476,7 @@ SOAP_FMAC1 ns2__TotalSpinMomentumSType * SOAP_FMAC2 soap_instantiate_ns2__TotalS
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__TotalSpinMomentumSType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__SymbolType
-#define SOAP_TYPE_ns2__SymbolType (105)
+#define SOAP_TYPE_ns2__SymbolType (104)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__SymbolType(struct soap*, const char*, int, const ns2__SymbolType *, const char*);
@@ -2502,7 +2502,7 @@ SOAP_FMAC1 ns2__SymbolType * SOAP_FMAC2 soap_instantiate_ns2__SymbolType(struct 
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__SymbolType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__StateEnergyType
-#define SOAP_TYPE_ns2__StateEnergyType (104)
+#define SOAP_TYPE_ns2__StateEnergyType (103)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__StateEnergyType(struct soap*, const char*, int, const ns2__StateEnergyType *, const char*);
@@ -2528,7 +2528,7 @@ SOAP_FMAC1 ns2__StateEnergyType * SOAP_FMAC2 soap_instantiate_ns2__StateEnergyTy
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__StateEnergyType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__SimpleSymbolType
-#define SOAP_TYPE_ns2__SimpleSymbolType (103)
+#define SOAP_TYPE_ns2__SimpleSymbolType (102)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__SimpleSymbolType(struct soap*, const char*, int, const ns2__SimpleSymbolType *, const char*);
@@ -2554,7 +2554,7 @@ SOAP_FMAC1 ns2__SimpleSymbolType * SOAP_FMAC2 soap_instantiate_ns2__SimpleSymbol
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__SimpleSymbolType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__MagneticQuantumNumberType
-#define SOAP_TYPE_ns2__MagneticQuantumNumberType (102)
+#define SOAP_TYPE_ns2__MagneticQuantumNumberType (101)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__MagneticQuantumNumberType(struct soap*, const char*, int, const ns2__MagneticQuantumNumberType *, const char*);
@@ -2580,7 +2580,7 @@ SOAP_FMAC1 ns2__MagneticQuantumNumberType * SOAP_FMAC2 soap_instantiate_ns2__Mag
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__MagneticQuantumNumberType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__MolecularQuantumNumberType
-#define SOAP_TYPE_ns2__MolecularQuantumNumberType (101)
+#define SOAP_TYPE_ns2__MolecularQuantumNumberType (100)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__MolecularQuantumNumberType(struct soap*, const char*, int, const ns2__MolecularQuantumNumberType *, const char*);
@@ -2606,7 +2606,7 @@ SOAP_FMAC1 ns2__MolecularQuantumNumberType * SOAP_FMAC2 soap_instantiate_ns2__Mo
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__MolecularQuantumNumberType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__RoVibronicSplittingType
-#define SOAP_TYPE_ns2__RoVibronicSplittingType (100)
+#define SOAP_TYPE_ns2__RoVibronicSplittingType (99)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__RoVibronicSplittingType(struct soap*, const char*, int, const ns2__RoVibronicSplittingType *, const char*);
@@ -2632,7 +2632,7 @@ SOAP_FMAC1 ns2__RoVibronicSplittingType * SOAP_FMAC2 soap_instantiate_ns2__RoVib
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__RoVibronicSplittingType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__PseudoStatisticalWeightType
-#define SOAP_TYPE_ns2__PseudoStatisticalWeightType (99)
+#define SOAP_TYPE_ns2__PseudoStatisticalWeightType (98)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__PseudoStatisticalWeightType(struct soap*, const char*, int, const ns2__PseudoStatisticalWeightType *, const char*);
@@ -2658,7 +2658,7 @@ SOAP_FMAC1 ns2__PseudoStatisticalWeightType * SOAP_FMAC2 soap_instantiate_ns2__P
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__PseudoStatisticalWeightType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__RotationalHomeType
-#define SOAP_TYPE_ns2__RotationalHomeType (98)
+#define SOAP_TYPE_ns2__RotationalHomeType (97)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__RotationalHomeType(struct soap*, const char*, int, const ns2__RotationalHomeType *, const char*);
@@ -2684,7 +2684,7 @@ SOAP_FMAC1 ns2__RotationalHomeType * SOAP_FMAC2 soap_instantiate_ns2__Rotational
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__RotationalHomeType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__RotationalComponentType
-#define SOAP_TYPE_ns2__RotationalComponentType (97)
+#define SOAP_TYPE_ns2__RotationalComponentType (96)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__RotationalComponentType(struct soap*, const char*, int, const ns2__RotationalComponentType *, const char*);
@@ -2710,7 +2710,7 @@ SOAP_FMAC1 ns2__RotationalComponentType * SOAP_FMAC2 soap_instantiate_ns2__Rotat
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__RotationalComponentType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__RotationalCharacterisationType
-#define SOAP_TYPE_ns2__RotationalCharacterisationType (96)
+#define SOAP_TYPE_ns2__RotationalCharacterisationType (95)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__RotationalCharacterisationType(struct soap*, const char*, int, const ns2__RotationalCharacterisationType *, const char*);
@@ -2736,7 +2736,7 @@ SOAP_FMAC1 ns2__RotationalCharacterisationType * SOAP_FMAC2 soap_instantiate_ns2
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__RotationalCharacterisationType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__NonLinearPolyatomicType
-#define SOAP_TYPE_ns2__NonLinearPolyatomicType (95)
+#define SOAP_TYPE_ns2__NonLinearPolyatomicType (94)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__NonLinearPolyatomicType(struct soap*, const char*, int, const ns2__NonLinearPolyatomicType *, const char*);
@@ -2762,7 +2762,7 @@ SOAP_FMAC1 ns2__NonLinearPolyatomicType * SOAP_FMAC2 soap_instantiate_ns2__NonLi
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__NonLinearPolyatomicType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__MoleculesType
-#define SOAP_TYPE_ns2__MoleculesType (94)
+#define SOAP_TYPE_ns2__MoleculesType (93)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__MoleculesType(struct soap*, const char*, int, const ns2__MoleculesType *, const char*);
@@ -2788,7 +2788,7 @@ SOAP_FMAC1 ns2__MoleculesType * SOAP_FMAC2 soap_instantiate_ns2__MoleculesType(s
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__MoleculesType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__MoleculeNuclearSpinsType
-#define SOAP_TYPE_ns2__MoleculeNuclearSpinsType (93)
+#define SOAP_TYPE_ns2__MoleculeNuclearSpinsType (92)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__MoleculeNuclearSpinsType(struct soap*, const char*, int, const ns2__MoleculeNuclearSpinsType *, const char*);
@@ -2814,7 +2814,7 @@ SOAP_FMAC1 ns2__MoleculeNuclearSpinsType * SOAP_FMAC2 soap_instantiate_ns2__Mole
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__MoleculeNuclearSpinsType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__MoleculeType
-#define SOAP_TYPE_ns2__MoleculeType (92)
+#define SOAP_TYPE_ns2__MoleculeType (91)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__MoleculeType(struct soap*, const char*, int, const ns2__MoleculeType *, const char*);
@@ -2840,7 +2840,7 @@ SOAP_FMAC1 ns2__MoleculeType * SOAP_FMAC2 soap_instantiate_ns2__MoleculeType(str
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__MoleculeType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__MolecularStateCharacterisation_oldType
-#define SOAP_TYPE_ns2__MolecularStateCharacterisation_oldType (91)
+#define SOAP_TYPE_ns2__MolecularStateCharacterisation_oldType (90)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__MolecularStateCharacterisation_oldType(struct soap*, const char*, int, const ns2__MolecularStateCharacterisation_oldType *, const char*);
@@ -2866,7 +2866,7 @@ SOAP_FMAC1 ns2__MolecularStateCharacterisation_oldType * SOAP_FMAC2 soap_instant
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__MolecularStateCharacterisation_oldType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__MolecularStateCharacterisationType
-#define SOAP_TYPE_ns2__MolecularStateCharacterisationType (90)
+#define SOAP_TYPE_ns2__MolecularStateCharacterisationType (89)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__MolecularStateCharacterisationType(struct soap*, const char*, int, const ns2__MolecularStateCharacterisationType *, const char*);
@@ -2892,7 +2892,7 @@ SOAP_FMAC1 ns2__MolecularStateCharacterisationType * SOAP_FMAC2 soap_instantiate
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__MolecularStateCharacterisationType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__MolecularStateType
-#define SOAP_TYPE_ns2__MolecularStateType (89)
+#define SOAP_TYPE_ns2__MolecularStateType (88)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__MolecularStateType(struct soap*, const char*, int, const ns2__MolecularStateType *, const char*);
@@ -2918,7 +2918,7 @@ SOAP_FMAC1 ns2__MolecularStateType * SOAP_FMAC2 soap_instantiate_ns2__MolecularS
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__MolecularStateType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__MolecularPropertiesType
-#define SOAP_TYPE_ns2__MolecularPropertiesType (88)
+#define SOAP_TYPE_ns2__MolecularPropertiesType (87)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__MolecularPropertiesType(struct soap*, const char*, int, const ns2__MolecularPropertiesType *, const char*);
@@ -2944,7 +2944,7 @@ SOAP_FMAC1 ns2__MolecularPropertiesType * SOAP_FMAC2 soap_instantiate_ns2__Molec
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__MolecularPropertiesType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__MolecularProjectionType
-#define SOAP_TYPE_ns2__MolecularProjectionType (87)
+#define SOAP_TYPE_ns2__MolecularProjectionType (86)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__MolecularProjectionType(struct soap*, const char*, int, const ns2__MolecularProjectionType *, const char*);
@@ -2970,7 +2970,7 @@ SOAP_FMAC1 ns2__MolecularProjectionType * SOAP_FMAC2 soap_instantiate_ns2__Molec
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__MolecularProjectionType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__MolecularChemicalSpeciesType
-#define SOAP_TYPE_ns2__MolecularChemicalSpeciesType (86)
+#define SOAP_TYPE_ns2__MolecularChemicalSpeciesType (85)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__MolecularChemicalSpeciesType(struct soap*, const char*, int, const ns2__MolecularChemicalSpeciesType *, const char*);
@@ -2996,7 +2996,7 @@ SOAP_FMAC1 ns2__MolecularChemicalSpeciesType * SOAP_FMAC2 soap_instantiate_ns2__
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__MolecularChemicalSpeciesType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__ElectronicHomeType
-#define SOAP_TYPE_ns2__ElectronicHomeType (85)
+#define SOAP_TYPE_ns2__ElectronicHomeType (84)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__ElectronicHomeType(struct soap*, const char*, int, const ns2__ElectronicHomeType *, const char*);
@@ -3022,7 +3022,7 @@ SOAP_FMAC1 ns2__ElectronicHomeType * SOAP_FMAC2 soap_instantiate_ns2__Electronic
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__ElectronicHomeType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__ElectronicComponentType
-#define SOAP_TYPE_ns2__ElectronicComponentType (84)
+#define SOAP_TYPE_ns2__ElectronicComponentType (83)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__ElectronicComponentType(struct soap*, const char*, int, const ns2__ElectronicComponentType *, const char*);
@@ -3048,7 +3048,7 @@ SOAP_FMAC1 ns2__ElectronicComponentType * SOAP_FMAC2 soap_instantiate_ns2__Elect
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__ElectronicComponentType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__ElectronicCharacterisationType
-#define SOAP_TYPE_ns2__ElectronicCharacterisationType (83)
+#define SOAP_TYPE_ns2__ElectronicCharacterisationType (82)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__ElectronicCharacterisationType(struct soap*, const char*, int, const ns2__ElectronicCharacterisationType *, const char*);
@@ -3074,7 +3074,7 @@ SOAP_FMAC1 ns2__ElectronicCharacterisationType * SOAP_FMAC2 soap_instantiate_ns2
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__ElectronicCharacterisationType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__DiatomAndLinearPolyatomicType
-#define SOAP_TYPE_ns2__DiatomAndLinearPolyatomicType (82)
+#define SOAP_TYPE_ns2__DiatomAndLinearPolyatomicType (81)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__DiatomAndLinearPolyatomicType(struct soap*, const char*, int, const ns2__DiatomAndLinearPolyatomicType *, const char*);
@@ -3100,7 +3100,7 @@ SOAP_FMAC1 ns2__DiatomAndLinearPolyatomicType * SOAP_FMAC2 soap_instantiate_ns2_
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__DiatomAndLinearPolyatomicType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__ComplexMolecularQuantumNumberType
-#define SOAP_TYPE_ns2__ComplexMolecularQuantumNumberType (81)
+#define SOAP_TYPE_ns2__ComplexMolecularQuantumNumberType (80)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__ComplexMolecularQuantumNumberType(struct soap*, const char*, int, const ns2__ComplexMolecularQuantumNumberType *, const char*);
@@ -3126,7 +3126,7 @@ SOAP_FMAC1 ns2__ComplexMolecularQuantumNumberType * SOAP_FMAC2 soap_instantiate_
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__ComplexMolecularQuantumNumberType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__CentralSymbolType
-#define SOAP_TYPE_ns2__CentralSymbolType (80)
+#define SOAP_TYPE_ns2__CentralSymbolType (79)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__CentralSymbolType(struct soap*, const char*, int, const ns2__CentralSymbolType *, const char*);
@@ -3152,7 +3152,7 @@ SOAP_FMAC1 ns2__CentralSymbolType * SOAP_FMAC2 soap_instantiate_ns2__CentralSymb
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__CentralSymbolType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__C2SymmetriesType
-#define SOAP_TYPE_ns2__C2SymmetriesType (79)
+#define SOAP_TYPE_ns2__C2SymmetriesType (78)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__C2SymmetriesType(struct soap*, const char*, int, const ns2__C2SymmetriesType *, const char*);
@@ -3178,7 +3178,7 @@ SOAP_FMAC1 ns2__C2SymmetriesType * SOAP_FMAC2 soap_instantiate_ns2__C2Symmetries
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__C2SymmetriesType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__BondArrayType
-#define SOAP_TYPE_ns2__BondArrayType (78)
+#define SOAP_TYPE_ns2__BondArrayType (77)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__BondArrayType(struct soap*, const char*, int, const ns2__BondArrayType *, const char*);
@@ -3204,7 +3204,7 @@ SOAP_FMAC1 ns2__BondArrayType * SOAP_FMAC2 soap_instantiate_ns2__BondArrayType(s
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__BondArrayType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__BondType
-#define SOAP_TYPE_ns2__BondType (77)
+#define SOAP_TYPE_ns2__BondType (76)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__BondType(struct soap*, const char*, int, const ns2__BondType *, const char*);
@@ -3230,7 +3230,7 @@ SOAP_FMAC1 ns2__BondType * SOAP_FMAC2 soap_instantiate_ns2__BondType(struct soap
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__BondType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__AtomNType
-#define SOAP_TYPE_ns2__AtomNType (76)
+#define SOAP_TYPE_ns2__AtomNType (75)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__AtomNType(struct soap*, const char*, int, const ns2__AtomNType *, const char*);
@@ -3256,7 +3256,7 @@ SOAP_FMAC1 ns2__AtomNType * SOAP_FMAC2 soap_instantiate_ns2__AtomNType(struct so
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__AtomNType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__AtomArrayType
-#define SOAP_TYPE_ns2__AtomArrayType (75)
+#define SOAP_TYPE_ns2__AtomArrayType (74)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__AtomArrayType(struct soap*, const char*, int, const ns2__AtomArrayType *, const char*);
@@ -3282,7 +3282,7 @@ SOAP_FMAC1 ns2__AtomArrayType * SOAP_FMAC2 soap_instantiate_ns2__AtomArrayType(s
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__AtomArrayType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__HinderedMotionType
-#define SOAP_TYPE_ns2__HinderedMotionType (74)
+#define SOAP_TYPE_ns2__HinderedMotionType (73)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__HinderedMotionType(struct soap*, const char*, int, const ns2__HinderedMotionType *, const char*);
@@ -3308,7 +3308,7 @@ SOAP_FMAC1 ns2__HinderedMotionType * SOAP_FMAC2 soap_instantiate_ns2__HinderedMo
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__HinderedMotionType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__AsymmetricProjectionType
-#define SOAP_TYPE_ns2__AsymmetricProjectionType (73)
+#define SOAP_TYPE_ns2__AsymmetricProjectionType (72)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__AsymmetricProjectionType(struct soap*, const char*, int, const ns2__AsymmetricProjectionType *, const char*);
@@ -3334,7 +3334,7 @@ SOAP_FMAC1 ns2__AsymmetricProjectionType * SOAP_FMAC2 soap_instantiate_ns2__Asym
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__AsymmetricProjectionType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__SuperShellType
-#define SOAP_TYPE_ns2__SuperShellType (72)
+#define SOAP_TYPE_ns2__SuperShellType (71)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__SuperShellType(struct soap*, const char*, int, const ns2__SuperShellType *, const char*);
@@ -3360,7 +3360,7 @@ SOAP_FMAC1 ns2__SuperShellType * SOAP_FMAC2 soap_instantiate_ns2__SuperShellType
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__SuperShellType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__SuperConfigurationType
-#define SOAP_TYPE_ns2__SuperConfigurationType (71)
+#define SOAP_TYPE_ns2__SuperConfigurationType (70)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__SuperConfigurationType(struct soap*, const char*, int, const ns2__SuperConfigurationType *, const char*);
@@ -3386,7 +3386,7 @@ SOAP_FMAC1 ns2__SuperConfigurationType * SOAP_FMAC2 soap_instantiate_ns2__SuperC
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__SuperConfigurationType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__ShellType
-#define SOAP_TYPE_ns2__ShellType (70)
+#define SOAP_TYPE_ns2__ShellType (69)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__ShellType(struct soap*, const char*, int, const ns2__ShellType *, const char*);
@@ -3412,7 +3412,7 @@ SOAP_FMAC1 ns2__ShellType * SOAP_FMAC2 soap_instantiate_ns2__ShellType(struct so
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__ShellType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__ShellPairType
-#define SOAP_TYPE_ns2__ShellPairType (69)
+#define SOAP_TYPE_ns2__ShellPairType (68)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__ShellPairType(struct soap*, const char*, int, const ns2__ShellPairType *, const char*);
@@ -3438,7 +3438,7 @@ SOAP_FMAC1 ns2__ShellPairType * SOAP_FMAC2 soap_instantiate_ns2__ShellPairType(s
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__ShellPairType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__ShellsType
-#define SOAP_TYPE_ns2__ShellsType (68)
+#define SOAP_TYPE_ns2__ShellsType (67)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__ShellsType(struct soap*, const char*, int, const ns2__ShellsType *, const char*);
@@ -3464,7 +3464,7 @@ SOAP_FMAC1 ns2__ShellsType * SOAP_FMAC2 soap_instantiate_ns2__ShellsType(struct 
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__ShellsType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__ConfigurationType
-#define SOAP_TYPE_ns2__ConfigurationType (67)
+#define SOAP_TYPE_ns2__ConfigurationType (66)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__ConfigurationType(struct soap*, const char*, int, const ns2__ConfigurationType *, const char*);
@@ -3490,7 +3490,7 @@ SOAP_FMAC1 ns2__ConfigurationType * SOAP_FMAC2 soap_instantiate_ns2__Configurati
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__ConfigurationType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__AtomicQuantumNumbersType
-#define SOAP_TYPE_ns2__AtomicQuantumNumbersType (66)
+#define SOAP_TYPE_ns2__AtomicQuantumNumbersType (65)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__AtomicQuantumNumbersType(struct soap*, const char*, int, const ns2__AtomicQuantumNumbersType *, const char*);
@@ -3516,7 +3516,7 @@ SOAP_FMAC1 ns2__AtomicQuantumNumbersType * SOAP_FMAC2 soap_instantiate_ns2__Atom
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__AtomicQuantumNumbersType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__AtomicComponentType
-#define SOAP_TYPE_ns2__AtomicComponentType (65)
+#define SOAP_TYPE_ns2__AtomicComponentType (64)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__AtomicComponentType(struct soap*, const char*, int, const ns2__AtomicComponentType *, const char*);
@@ -3542,7 +3542,7 @@ SOAP_FMAC1 ns2__AtomicComponentType * SOAP_FMAC2 soap_instantiate_ns2__AtomicCom
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__AtomicComponentType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__AtomicCoreType
-#define SOAP_TYPE_ns2__AtomicCoreType (64)
+#define SOAP_TYPE_ns2__AtomicCoreType (63)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__AtomicCoreType(struct soap*, const char*, int, const ns2__AtomicCoreType *, const char*);
@@ -3568,7 +3568,7 @@ SOAP_FMAC1 ns2__AtomicCoreType * SOAP_FMAC2 soap_instantiate_ns2__AtomicCoreType
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__AtomicCoreType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__AtomicCompositionType
-#define SOAP_TYPE_ns2__AtomicCompositionType (63)
+#define SOAP_TYPE_ns2__AtomicCompositionType (62)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__AtomicCompositionType(struct soap*, const char*, int, const ns2__AtomicCompositionType *, const char*);
@@ -3594,7 +3594,7 @@ SOAP_FMAC1 ns2__AtomicCompositionType * SOAP_FMAC2 soap_instantiate_ns2__AtomicC
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__AtomicCompositionType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__AtomicNumericalDataType
-#define SOAP_TYPE_ns2__AtomicNumericalDataType (62)
+#define SOAP_TYPE_ns2__AtomicNumericalDataType (61)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__AtomicNumericalDataType(struct soap*, const char*, int, const ns2__AtomicNumericalDataType *, const char*);
@@ -3620,7 +3620,7 @@ SOAP_FMAC1 ns2__AtomicNumericalDataType * SOAP_FMAC2 soap_instantiate_ns2__Atomi
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__AtomicNumericalDataType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__AtomicStateType
-#define SOAP_TYPE_ns2__AtomicStateType (61)
+#define SOAP_TYPE_ns2__AtomicStateType (60)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__AtomicStateType(struct soap*, const char*, int, const ns2__AtomicStateType *, const char*);
@@ -3646,7 +3646,7 @@ SOAP_FMAC1 ns2__AtomicStateType * SOAP_FMAC2 soap_instantiate_ns2__AtomicStateTy
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__AtomicStateType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__IonStateType
-#define SOAP_TYPE_ns2__IonStateType (60)
+#define SOAP_TYPE_ns2__IonStateType (59)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__IonStateType(struct soap*, const char*, int, const ns2__IonStateType *, const char*);
@@ -3672,7 +3672,7 @@ SOAP_FMAC1 ns2__IonStateType * SOAP_FMAC2 soap_instantiate_ns2__IonStateType(str
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__IonStateType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__IsotopeParametersType
-#define SOAP_TYPE_ns2__IsotopeParametersType (59)
+#define SOAP_TYPE_ns2__IsotopeParametersType (58)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__IsotopeParametersType(struct soap*, const char*, int, const ns2__IsotopeParametersType *, const char*);
@@ -3698,7 +3698,7 @@ SOAP_FMAC1 ns2__IsotopeParametersType * SOAP_FMAC2 soap_instantiate_ns2__Isotope
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__IsotopeParametersType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__IsotopeType
-#define SOAP_TYPE_ns2__IsotopeType (58)
+#define SOAP_TYPE_ns2__IsotopeType (57)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__IsotopeType(struct soap*, const char*, int, const ns2__IsotopeType *, const char*);
@@ -3724,7 +3724,7 @@ SOAP_FMAC1 ns2__IsotopeType * SOAP_FMAC2 soap_instantiate_ns2__IsotopeType(struc
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__IsotopeType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__AtomType
-#define SOAP_TYPE_ns2__AtomType (57)
+#define SOAP_TYPE_ns2__AtomType (56)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__AtomType(struct soap*, const char*, int, const ns2__AtomType *, const char*);
@@ -3750,7 +3750,7 @@ SOAP_FMAC1 ns2__AtomType * SOAP_FMAC2 soap_instantiate_ns2__AtomType(struct soap
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__AtomType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__AtomsType
-#define SOAP_TYPE_ns2__AtomsType (56)
+#define SOAP_TYPE_ns2__AtomsType (55)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__AtomsType(struct soap*, const char*, int, const ns2__AtomsType *, const char*);
@@ -3776,7 +3776,7 @@ SOAP_FMAC1 ns2__AtomsType * SOAP_FMAC2 soap_instantiate_ns2__AtomsType(struct so
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__AtomsType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__FunctionType
-#define SOAP_TYPE_ns2__FunctionType (55)
+#define SOAP_TYPE_ns2__FunctionType (54)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__FunctionType(struct soap*, const char*, int, const ns2__FunctionType *, const char*);
@@ -3802,7 +3802,7 @@ SOAP_FMAC1 ns2__FunctionType * SOAP_FMAC2 soap_instantiate_ns2__FunctionType(str
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__FunctionType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__FunctionsType
-#define SOAP_TYPE_ns2__FunctionsType (54)
+#define SOAP_TYPE_ns2__FunctionsType (53)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__FunctionsType(struct soap*, const char*, int, const ns2__FunctionsType *, const char*);
@@ -3828,7 +3828,7 @@ SOAP_FMAC1 ns2__FunctionsType * SOAP_FMAC2 soap_instantiate_ns2__FunctionsType(s
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__FunctionsType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__MethodType
-#define SOAP_TYPE_ns2__MethodType (53)
+#define SOAP_TYPE_ns2__MethodType (52)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__MethodType(struct soap*, const char*, int, const ns2__MethodType *, const char*);
@@ -3854,7 +3854,7 @@ SOAP_FMAC1 ns2__MethodType * SOAP_FMAC2 soap_instantiate_ns2__MethodType(struct 
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__MethodType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__MethodsType
-#define SOAP_TYPE_ns2__MethodsType (52)
+#define SOAP_TYPE_ns2__MethodsType (51)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__MethodsType(struct soap*, const char*, int, const ns2__MethodsType *, const char*);
@@ -3880,7 +3880,7 @@ SOAP_FMAC1 ns2__MethodsType * SOAP_FMAC2 soap_instantiate_ns2__MethodsType(struc
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__MethodsType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__EditorsType
-#define SOAP_TYPE_ns2__EditorsType (51)
+#define SOAP_TYPE_ns2__EditorsType (50)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__EditorsType(struct soap*, const char*, int, const ns2__EditorsType *, const char*);
@@ -3906,7 +3906,7 @@ SOAP_FMAC1 ns2__EditorsType * SOAP_FMAC2 soap_instantiate_ns2__EditorsType(struc
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__EditorsType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__AuthorsType
-#define SOAP_TYPE_ns2__AuthorsType (50)
+#define SOAP_TYPE_ns2__AuthorsType (49)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__AuthorsType(struct soap*, const char*, int, const ns2__AuthorsType *, const char*);
@@ -3932,7 +3932,7 @@ SOAP_FMAC1 ns2__AuthorsType * SOAP_FMAC2 soap_instantiate_ns2__AuthorsType(struc
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__AuthorsType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__SourceType
-#define SOAP_TYPE_ns2__SourceType (49)
+#define SOAP_TYPE_ns2__SourceType (48)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__SourceType(struct soap*, const char*, int, const ns2__SourceType *, const char*);
@@ -3958,7 +3958,7 @@ SOAP_FMAC1 ns2__SourceType * SOAP_FMAC2 soap_instantiate_ns2__SourceType(struct 
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__SourceType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__SourcesType
-#define SOAP_TYPE_ns2__SourcesType (48)
+#define SOAP_TYPE_ns2__SourcesType (47)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__SourcesType(struct soap*, const char*, int, const ns2__SourcesType *, const char*);
@@ -3984,7 +3984,7 @@ SOAP_FMAC1 ns2__SourcesType * SOAP_FMAC2 soap_instantiate_ns2__SourcesType(struc
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__SourcesType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__AuthorType
-#define SOAP_TYPE_ns2__AuthorType (47)
+#define SOAP_TYPE_ns2__AuthorType (46)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__AuthorType(struct soap*, const char*, int, const ns2__AuthorType *, const char*);
@@ -4010,7 +4010,7 @@ SOAP_FMAC1 ns2__AuthorType * SOAP_FMAC2 soap_instantiate_ns2__AuthorType(struct 
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__AuthorType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__ProductsType
-#define SOAP_TYPE_ns2__ProductsType (46)
+#define SOAP_TYPE_ns2__ProductsType (45)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__ProductsType(struct soap*, const char*, int, const ns2__ProductsType *, const char*);
@@ -4036,7 +4036,7 @@ SOAP_FMAC1 ns2__ProductsType * SOAP_FMAC2 soap_instantiate_ns2__ProductsType(str
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__ProductsType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__ReactantsType
-#define SOAP_TYPE_ns2__ReactantsType (45)
+#define SOAP_TYPE_ns2__ReactantsType (44)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__ReactantsType(struct soap*, const char*, int, const ns2__ReactantsType *, const char*);
@@ -4062,7 +4062,7 @@ SOAP_FMAC1 ns2__ReactantsType * SOAP_FMAC2 soap_instantiate_ns2__ReactantsType(s
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__ReactantsType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__TermType
-#define SOAP_TYPE_ns2__TermType (44)
+#define SOAP_TYPE_ns2__TermType (43)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__TermType(struct soap*, const char*, int, const ns2__TermType *, const char*);
@@ -4088,7 +4088,7 @@ SOAP_FMAC1 ns2__TermType * SOAP_FMAC2 soap_instantiate_ns2__TermType(struct soap
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__TermType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__OrbitalAngularMomentumType
-#define SOAP_TYPE_ns2__OrbitalAngularMomentumType (43)
+#define SOAP_TYPE_ns2__OrbitalAngularMomentumType (42)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__OrbitalAngularMomentumType(struct soap*, const char*, int, const ns2__OrbitalAngularMomentumType *, const char*);
@@ -4114,7 +4114,7 @@ SOAP_FMAC1 ns2__OrbitalAngularMomentumType * SOAP_FMAC2 soap_instantiate_ns2__Or
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__OrbitalAngularMomentumType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__MixingCoefficientType
-#define SOAP_TYPE_ns2__MixingCoefficientType (42)
+#define SOAP_TYPE_ns2__MixingCoefficientType (41)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__MixingCoefficientType(struct soap*, const char*, int, const ns2__MixingCoefficientType *, const char*);
@@ -4140,7 +4140,7 @@ SOAP_FMAC1 ns2__MixingCoefficientType * SOAP_FMAC2 soap_instantiate_ns2__MixingC
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__MixingCoefficientType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__LSCouplingType
-#define SOAP_TYPE_ns2__LSCouplingType (41)
+#define SOAP_TYPE_ns2__LSCouplingType (40)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__LSCouplingType(struct soap*, const char*, int, const ns2__LSCouplingType *, const char*);
@@ -4166,7 +4166,7 @@ SOAP_FMAC1 ns2__LSCouplingType * SOAP_FMAC2 soap_instantiate_ns2__LSCouplingType
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__LSCouplingType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__LKCouplingType
-#define SOAP_TYPE_ns2__LKCouplingType (40)
+#define SOAP_TYPE_ns2__LKCouplingType (39)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__LKCouplingType(struct soap*, const char*, int, const ns2__LKCouplingType *, const char*);
@@ -4192,7 +4192,7 @@ SOAP_FMAC1 ns2__LKCouplingType * SOAP_FMAC2 soap_instantiate_ns2__LKCouplingType
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__LKCouplingType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__jKCouplingType
-#define SOAP_TYPE_ns2__jKCouplingType (39)
+#define SOAP_TYPE_ns2__jKCouplingType (38)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__jKCouplingType(struct soap*, const char*, int, const ns2__jKCouplingType *, const char*);
@@ -4218,7 +4218,7 @@ SOAP_FMAC1 ns2__jKCouplingType * SOAP_FMAC2 soap_instantiate_ns2__jKCouplingType
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__jKCouplingType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__jjCouplingType
-#define SOAP_TYPE_ns2__jjCouplingType (38)
+#define SOAP_TYPE_ns2__jjCouplingType (37)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__jjCouplingType(struct soap*, const char*, int, const ns2__jjCouplingType *, const char*);
@@ -4244,7 +4244,7 @@ SOAP_FMAC1 ns2__jjCouplingType * SOAP_FMAC2 soap_instantiate_ns2__jjCouplingType
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__jjCouplingType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__ValueType
-#define SOAP_TYPE_ns2__ValueType (37)
+#define SOAP_TYPE_ns2__ValueType (36)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__ValueType(struct soap*, const char*, int, const ns2__ValueType *, const char*);
@@ -4270,7 +4270,7 @@ SOAP_FMAC1 ns2__ValueType * SOAP_FMAC2 soap_instantiate_ns2__ValueType(struct so
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__ValueType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__ParameterType
-#define SOAP_TYPE_ns2__ParameterType (36)
+#define SOAP_TYPE_ns2__ParameterType (35)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__ParameterType(struct soap*, const char*, int, const ns2__ParameterType *, const char*);
@@ -4296,7 +4296,7 @@ SOAP_FMAC1 ns2__ParameterType * SOAP_FMAC2 soap_instantiate_ns2__ParameterType(s
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__ParameterType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__ParametersType
-#define SOAP_TYPE_ns2__ParametersType (35)
+#define SOAP_TYPE_ns2__ParametersType (34)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__ParametersType(struct soap*, const char*, int, const ns2__ParametersType *, const char*);
@@ -4322,7 +4322,7 @@ SOAP_FMAC1 ns2__ParametersType * SOAP_FMAC2 soap_instantiate_ns2__ParametersType
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__ParametersType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__ArgumentType
-#define SOAP_TYPE_ns2__ArgumentType (34)
+#define SOAP_TYPE_ns2__ArgumentType (33)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__ArgumentType(struct soap*, const char*, int, const ns2__ArgumentType *, const char*);
@@ -4348,7 +4348,7 @@ SOAP_FMAC1 ns2__ArgumentType * SOAP_FMAC2 soap_instantiate_ns2__ArgumentType(str
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__ArgumentType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__ArgumentsType
-#define SOAP_TYPE_ns2__ArgumentsType (33)
+#define SOAP_TYPE_ns2__ArgumentsType (32)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__ArgumentsType(struct soap*, const char*, int, const ns2__ArgumentsType *, const char*);
@@ -4374,7 +4374,7 @@ SOAP_FMAC1 ns2__ArgumentsType * SOAP_FMAC2 soap_instantiate_ns2__ArgumentsType(s
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__ArgumentsType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__ExpressionType
-#define SOAP_TYPE_ns2__ExpressionType (32)
+#define SOAP_TYPE_ns2__ExpressionType (31)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__ExpressionType(struct soap*, const char*, int, const ns2__ExpressionType *, const char*);
@@ -4400,7 +4400,7 @@ SOAP_FMAC1 ns2__ExpressionType * SOAP_FMAC2 soap_instantiate_ns2__ExpressionType
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__ExpressionType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__FitValidityLimitsType
-#define SOAP_TYPE_ns2__FitValidityLimitsType (31)
+#define SOAP_TYPE_ns2__FitValidityLimitsType (30)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__FitValidityLimitsType(struct soap*, const char*, int, const ns2__FitValidityLimitsType *, const char*);
@@ -4426,7 +4426,7 @@ SOAP_FMAC1 ns2__FitValidityLimitsType * SOAP_FMAC2 soap_instantiate_ns2__FitVali
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__FitValidityLimitsType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__FitParametersType
-#define SOAP_TYPE_ns2__FitParametersType (30)
+#define SOAP_TYPE_ns2__FitParametersType (29)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__FitParametersType(struct soap*, const char*, int, const ns2__FitParametersType *, const char*);
@@ -4452,7 +4452,7 @@ SOAP_FMAC1 ns2__FitParametersType * SOAP_FMAC2 soap_instantiate_ns2__FitParamete
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__FitParametersType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__FitDataType
-#define SOAP_TYPE_ns2__FitDataType (29)
+#define SOAP_TYPE_ns2__FitDataType (28)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__FitDataType(struct soap*, const char*, int, const ns2__FitDataType *, const char*);
@@ -4478,7 +4478,7 @@ SOAP_FMAC1 ns2__FitDataType * SOAP_FMAC2 soap_instantiate_ns2__FitDataType(struc
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__FitDataType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__TabulatedDataType
-#define SOAP_TYPE_ns2__TabulatedDataType (28)
+#define SOAP_TYPE_ns2__TabulatedDataType (27)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__TabulatedDataType(struct soap*, const char*, int, const ns2__TabulatedDataType *, const char*);
@@ -4504,7 +4504,7 @@ SOAP_FMAC1 ns2__TabulatedDataType * SOAP_FMAC2 soap_instantiate_ns2__TabulatedDa
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__TabulatedDataType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__DataXYType
-#define SOAP_TYPE_ns2__DataXYType (27)
+#define SOAP_TYPE_ns2__DataXYType (26)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__DataXYType(struct soap*, const char*, int, const ns2__DataXYType *, const char*);
@@ -4530,7 +4530,7 @@ SOAP_FMAC1 ns2__DataXYType * SOAP_FMAC2 soap_instantiate_ns2__DataXYType(struct 
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__DataXYType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__DataTableType
-#define SOAP_TYPE_ns2__DataTableType (26)
+#define SOAP_TYPE_ns2__DataTableType (25)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__DataTableType(struct soap*, const char*, int, const ns2__DataTableType *, const char*);
@@ -4556,7 +4556,7 @@ SOAP_FMAC1 ns2__DataTableType * SOAP_FMAC2 soap_instantiate_ns2__DataTableType(s
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__DataTableType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__DataSetsType
-#define SOAP_TYPE_ns2__DataSetsType (25)
+#define SOAP_TYPE_ns2__DataSetsType (24)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__DataSetsType(struct soap*, const char*, int, const ns2__DataSetsType *, const char*);
@@ -4582,7 +4582,7 @@ SOAP_FMAC1 ns2__DataSetsType * SOAP_FMAC2 soap_instantiate_ns2__DataSetsType(str
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__DataSetsType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__DataSetType
-#define SOAP_TYPE_ns2__DataSetType (24)
+#define SOAP_TYPE_ns2__DataSetType (23)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__DataSetType(struct soap*, const char*, int, const ns2__DataSetType *, const char*);
@@ -4608,7 +4608,7 @@ SOAP_FMAC1 ns2__DataSetType * SOAP_FMAC2 soap_instantiate_ns2__DataSetType(struc
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__DataSetType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__DataType
-#define SOAP_TYPE_ns2__DataType (23)
+#define SOAP_TYPE_ns2__DataType (22)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__DataType(struct soap*, const char*, int, const ns2__DataType *, const char*);
@@ -4634,7 +4634,7 @@ SOAP_FMAC1 ns2__DataType * SOAP_FMAC2 soap_instantiate_ns2__DataType(struct soap
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__DataType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__ChemicalElementType
-#define SOAP_TYPE_ns2__ChemicalElementType (22)
+#define SOAP_TYPE_ns2__ChemicalElementType (21)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__ChemicalElementType(struct soap*, const char*, int, const ns2__ChemicalElementType *, const char*);
@@ -4660,7 +4660,7 @@ SOAP_FMAC1 ns2__ChemicalElementType * SOAP_FMAC2 soap_instantiate_ns2__ChemicalE
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__ChemicalElementType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__PrimaryType
-#define SOAP_TYPE_ns2__PrimaryType (21)
+#define SOAP_TYPE_ns2__PrimaryType (20)
 #endif
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__PrimaryType(struct soap*, const char*, int, const ns2__PrimaryType *, const char*);
@@ -4686,7 +4686,7 @@ SOAP_FMAC1 ns2__PrimaryType * SOAP_FMAC2 soap_instantiate_ns2__PrimaryType(struc
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__PrimaryType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_xsd__token
-#define SOAP_TYPE_xsd__token (20)
+#define SOAP_TYPE_xsd__token (19)
 #endif
 
 #define soap_default_xsd__token(soap, a) soap_default_std__string(soap, a)
@@ -4722,7 +4722,7 @@ SOAP_FMAC3 std::string * SOAP_FMAC4 soap_get_xsd__token(struct soap*, std::strin
 #define soap_copy_xsd__token soap_copy_std__string
 
 #ifndef SOAP_TYPE_xsd__positiveInteger
-#define SOAP_TYPE_xsd__positiveInteger (19)
+#define SOAP_TYPE_xsd__positiveInteger (18)
 #endif
 
 #define soap_default_xsd__positiveInteger(soap, a) soap_default_std__string(soap, a)
@@ -4758,7 +4758,7 @@ SOAP_FMAC3 std::string * SOAP_FMAC4 soap_get_xsd__positiveInteger(struct soap*, 
 #define soap_copy_xsd__positiveInteger soap_copy_std__string
 
 #ifndef SOAP_TYPE_xsd__nonNegativeInteger
-#define SOAP_TYPE_xsd__nonNegativeInteger (18)
+#define SOAP_TYPE_xsd__nonNegativeInteger (17)
 #endif
 
 #define soap_default_xsd__nonNegativeInteger(soap, a) soap_default_std__string(soap, a)
@@ -4794,7 +4794,7 @@ SOAP_FMAC3 std::string * SOAP_FMAC4 soap_get_xsd__nonNegativeInteger(struct soap
 #define soap_copy_xsd__nonNegativeInteger soap_copy_std__string
 
 #ifndef SOAP_TYPE_xsd__integer
-#define SOAP_TYPE_xsd__integer (17)
+#define SOAP_TYPE_xsd__integer (16)
 #endif
 
 #define soap_default_xsd__integer(soap, a) soap_default_std__string(soap, a)
@@ -4830,7 +4830,7 @@ SOAP_FMAC3 std::string * SOAP_FMAC4 soap_get_xsd__integer(struct soap*, std::str
 #define soap_copy_xsd__integer soap_copy_std__string
 
 #ifndef SOAP_TYPE_xsd__gYear
-#define SOAP_TYPE_xsd__gYear (16)
+#define SOAP_TYPE_xsd__gYear (15)
 #endif
 
 #define soap_default_xsd__gYear(soap, a) soap_default_std__string(soap, a)
@@ -4866,7 +4866,7 @@ SOAP_FMAC3 std::string * SOAP_FMAC4 soap_get_xsd__gYear(struct soap*, std::strin
 #define soap_copy_xsd__gYear soap_copy_std__string
 
 #ifndef SOAP_TYPE_xsd__decimal
-#define SOAP_TYPE_xsd__decimal (15)
+#define SOAP_TYPE_xsd__decimal (14)
 #endif
 
 #define soap_default_xsd__decimal(soap, a) soap_default_std__string(soap, a)
@@ -4902,7 +4902,7 @@ SOAP_FMAC3 std::string * SOAP_FMAC4 soap_get_xsd__decimal(struct soap*, std::str
 #define soap_copy_xsd__decimal soap_copy_std__string
 
 #ifndef SOAP_TYPE_xsd__date
-#define SOAP_TYPE_xsd__date (14)
+#define SOAP_TYPE_xsd__date (13)
 #endif
 
 #define soap_default_xsd__date(soap, a) soap_default_std__string(soap, a)
@@ -4938,7 +4938,7 @@ SOAP_FMAC3 std::string * SOAP_FMAC4 soap_get_xsd__date(struct soap*, std::string
 #define soap_copy_xsd__date soap_copy_std__string
 
 #ifndef SOAP_TYPE_xsd__anyURI
-#define SOAP_TYPE_xsd__anyURI (13)
+#define SOAP_TYPE_xsd__anyURI (12)
 #endif
 
 #define soap_default_xsd__anyURI(soap, a) soap_default_std__string(soap, a)
@@ -4974,7 +4974,7 @@ SOAP_FMAC3 std::string * SOAP_FMAC4 soap_get_xsd__anyURI(struct soap*, std::stri
 #define soap_copy_xsd__anyURI soap_copy_std__string
 
 #ifndef SOAP_TYPE_xsd__IDREFS
-#define SOAP_TYPE_xsd__IDREFS (12)
+#define SOAP_TYPE_xsd__IDREFS (11)
 #endif
 
 #define soap_default_xsd__IDREFS(soap, a) soap_default_std__string(soap, a)
@@ -5010,7 +5010,7 @@ SOAP_FMAC3 std::string * SOAP_FMAC4 soap_get_xsd__IDREFS(struct soap*, std::stri
 #define soap_copy_xsd__IDREFS soap_copy_std__string
 
 #ifndef SOAP_TYPE_xsd__IDREF
-#define SOAP_TYPE_xsd__IDREF (11)
+#define SOAP_TYPE_xsd__IDREF (10)
 #endif
 
 #define soap_default_xsd__IDREF(soap, a) soap_default_std__string(soap, a)
@@ -5046,7 +5046,7 @@ SOAP_FMAC3 std::string * SOAP_FMAC4 soap_get_xsd__IDREF(struct soap*, std::strin
 #define soap_copy_xsd__IDREF soap_copy_std__string
 
 #ifndef SOAP_TYPE_xsd__ID
-#define SOAP_TYPE_xsd__ID (10)
+#define SOAP_TYPE_xsd__ID (9)
 #endif
 
 #define soap_default_xsd__ID(soap, a) soap_default_std__string(soap, a)
@@ -5081,42 +5081,6 @@ SOAP_FMAC3 std::string * SOAP_FMAC4 soap_get_xsd__ID(struct soap*, std::string *
 
 #define soap_copy_xsd__ID soap_copy_std__string
 
-#ifndef SOAP_TYPE_xsd__DataTableType
-#define SOAP_TYPE_xsd__DataTableType (9)
-#endif
-
-#define soap_default_xsd__DataTableType(soap, a) soap_default_std__string(soap, a)
-
-
-#define soap_serialize_xsd__DataTableType(soap, a) soap_serialize_std__string(soap, a)
-
-SOAP_FMAC3 int SOAP_FMAC4 soap_out_xsd__DataTableType(struct soap*, const char*, int, const std::string*, const char*);
-SOAP_FMAC3 std::string * SOAP_FMAC4 soap_in_xsd__DataTableType(struct soap*, const char*, std::string*, const char*);
-
-#ifndef soap_write_xsd__DataTableType
-#define soap_write_xsd__DataTableType(soap, data) ( soap_begin_send(soap) || ((data)->soap_serialize(soap), 0) || (data)->soap_put(soap, "xsd:DataTableType", NULL) || soap_end_send(soap) )
-#endif
-
-
-SOAP_FMAC3 int SOAP_FMAC4 soap_put_xsd__DataTableType(struct soap*, const std::string *, const char*, const char*);
-
-#ifndef soap_read_xsd__DataTableType
-#define soap_read_xsd__DataTableType(soap, data) ( soap_begin_recv(soap) || !soap_get_xsd__DataTableType(soap, data, NULL, NULL) || soap_end_recv(soap) )
-#endif
-
-SOAP_FMAC3 std::string * SOAP_FMAC4 soap_get_xsd__DataTableType(struct soap*, std::string *, const char*, const char*);
-
-#define soap_new_xsd__DataTableType(soap, n) soap_instantiate_xsd__DataTableType(soap, n, NULL, NULL, NULL)
-
-
-#define soap_delete_xsd__DataTableType(soap, p) soap_delete(soap, p)
-
-
-#define soap_instantiate_xsd__DataTableType soap_instantiate_std__string
-
-
-#define soap_copy_xsd__DataTableType soap_copy_std__string
-
 #ifndef SOAP_TYPE_std__string
 #define SOAP_TYPE_std__string (8)
 #endif
@@ -5149,7 +5113,7 @@ SOAP_FMAC3 void SOAP_FMAC4 soap_copy_std__string(struct soap*, int, int, void*, 
 #ifndef WITH_NOGLOBAL
 
 #ifndef SOAP_TYPE_SOAP_ENV__Fault
-#define SOAP_TYPE_SOAP_ENV__Fault (408)
+#define SOAP_TYPE_SOAP_ENV__Fault (407)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_SOAP_ENV__Fault(struct soap*, struct SOAP_ENV__Fault *);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_SOAP_ENV__Fault(struct soap*, const struct SOAP_ENV__Fault *);
@@ -5182,7 +5146,7 @@ SOAP_FMAC3 void SOAP_FMAC4 soap_copy_SOAP_ENV__Fault(struct soap*, int, int, voi
 #ifndef WITH_NOGLOBAL
 
 #ifndef SOAP_TYPE_SOAP_ENV__Reason
-#define SOAP_TYPE_SOAP_ENV__Reason (407)
+#define SOAP_TYPE_SOAP_ENV__Reason (406)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_SOAP_ENV__Reason(struct soap*, struct SOAP_ENV__Reason *);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_SOAP_ENV__Reason(struct soap*, const struct SOAP_ENV__Reason *);
@@ -5215,7 +5179,7 @@ SOAP_FMAC3 void SOAP_FMAC4 soap_copy_SOAP_ENV__Reason(struct soap*, int, int, vo
 #ifndef WITH_NOGLOBAL
 
 #ifndef SOAP_TYPE_SOAP_ENV__Detail
-#define SOAP_TYPE_SOAP_ENV__Detail (404)
+#define SOAP_TYPE_SOAP_ENV__Detail (403)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_SOAP_ENV__Detail(struct soap*, struct SOAP_ENV__Detail *);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_SOAP_ENV__Detail(struct soap*, const struct SOAP_ENV__Detail *);
@@ -5248,7 +5212,7 @@ SOAP_FMAC3 void SOAP_FMAC4 soap_copy_SOAP_ENV__Detail(struct soap*, int, int, vo
 #ifndef WITH_NOGLOBAL
 
 #ifndef SOAP_TYPE_SOAP_ENV__Code
-#define SOAP_TYPE_SOAP_ENV__Code (402)
+#define SOAP_TYPE_SOAP_ENV__Code (401)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_SOAP_ENV__Code(struct soap*, struct SOAP_ENV__Code *);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_SOAP_ENV__Code(struct soap*, const struct SOAP_ENV__Code *);
@@ -5281,7 +5245,7 @@ SOAP_FMAC3 void SOAP_FMAC4 soap_copy_SOAP_ENV__Code(struct soap*, int, int, void
 #ifndef WITH_NOGLOBAL
 
 #ifndef SOAP_TYPE_SOAP_ENV__Header
-#define SOAP_TYPE_SOAP_ENV__Header (401)
+#define SOAP_TYPE_SOAP_ENV__Header (400)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_SOAP_ENV__Header(struct soap*, struct SOAP_ENV__Header *);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_SOAP_ENV__Header(struct soap*, const struct SOAP_ENV__Header *);
@@ -5312,7 +5276,7 @@ SOAP_FMAC3 void SOAP_FMAC4 soap_copy_SOAP_ENV__Header(struct soap*, int, int, vo
 #endif
 
 #ifndef SOAP_TYPE_ns2__getS
-#define SOAP_TYPE_ns2__getS (400)
+#define SOAP_TYPE_ns2__getS (399)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_ns2__getS(struct soap*, struct ns2__getS *);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_ns2__getS(struct soap*, const struct ns2__getS *);
@@ -5341,7 +5305,7 @@ SOAP_FMAC1 struct ns2__getS * SOAP_FMAC2 soap_instantiate_ns2__getS(struct soap*
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__getS(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_ns2__getSResponse
-#define SOAP_TYPE_ns2__getSResponse (399)
+#define SOAP_TYPE_ns2__getSResponse (398)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_ns2__getSResponse(struct soap*, struct ns2__getSResponse *);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_ns2__getSResponse(struct soap*, const struct ns2__getSResponse *);
@@ -5370,42 +5334,42 @@ SOAP_FMAC1 struct ns2__getSResponse * SOAP_FMAC2 soap_instantiate_ns2__getSRespo
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__getSResponse(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE__ns2__union_CharacterisationType
-#define SOAP_TYPE__ns2__union_CharacterisationType (372)
+#define SOAP_TYPE__ns2__union_CharacterisationType (371)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize__ns2__union_CharacterisationType(struct soap*, int, const union _ns2__union_CharacterisationType *);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out__ns2__union_CharacterisationType(struct soap*, int, const union _ns2__union_CharacterisationType *);
 SOAP_FMAC3 union _ns2__union_CharacterisationType * SOAP_FMAC4 soap_in__ns2__union_CharacterisationType(struct soap*, int*, union _ns2__union_CharacterisationType *);
 
 #ifndef SOAP_TYPE__ns2__union_MaterialComponentType
-#define SOAP_TYPE__ns2__union_MaterialComponentType (318)
+#define SOAP_TYPE__ns2__union_MaterialComponentType (317)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize__ns2__union_MaterialComponentType(struct soap*, int, const union _ns2__union_MaterialComponentType *);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out__ns2__union_MaterialComponentType(struct soap*, int, const union _ns2__union_MaterialComponentType *);
 SOAP_FMAC3 union _ns2__union_MaterialComponentType * SOAP_FMAC4 soap_in__ns2__union_MaterialComponentType(struct soap*, int*, union _ns2__union_MaterialComponentType *);
 
 #ifndef SOAP_TYPE__ns2__union_HyperfineQuantumNumbersType
-#define SOAP_TYPE__ns2__union_HyperfineQuantumNumbersType (310)
+#define SOAP_TYPE__ns2__union_HyperfineQuantumNumbersType (309)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize__ns2__union_HyperfineQuantumNumbersType(struct soap*, int, const union _ns2__union_HyperfineQuantumNumbersType *);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out__ns2__union_HyperfineQuantumNumbersType(struct soap*, int, const union _ns2__union_HyperfineQuantumNumbersType *);
 SOAP_FMAC3 union _ns2__union_HyperfineQuantumNumbersType * SOAP_FMAC4 soap_in__ns2__union_HyperfineQuantumNumbersType(struct soap*, int*, union _ns2__union_HyperfineQuantumNumbersType *);
 
 #ifndef SOAP_TYPE__ns2__union_RotationalComponentType
-#define SOAP_TYPE__ns2__union_RotationalComponentType (287)
+#define SOAP_TYPE__ns2__union_RotationalComponentType (286)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize__ns2__union_RotationalComponentType(struct soap*, int, const union _ns2__union_RotationalComponentType *);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out__ns2__union_RotationalComponentType(struct soap*, int, const union _ns2__union_RotationalComponentType *);
 SOAP_FMAC3 union _ns2__union_RotationalComponentType * SOAP_FMAC4 soap_in__ns2__union_RotationalComponentType(struct soap*, int*, union _ns2__union_RotationalComponentType *);
 
 #ifndef SOAP_TYPE__ns2__union_NonLinearPolyatomicType
-#define SOAP_TYPE__ns2__union_NonLinearPolyatomicType (283)
+#define SOAP_TYPE__ns2__union_NonLinearPolyatomicType (282)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize__ns2__union_NonLinearPolyatomicType(struct soap*, int, const union _ns2__union_NonLinearPolyatomicType *);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out__ns2__union_NonLinearPolyatomicType(struct soap*, int, const union _ns2__union_NonLinearPolyatomicType *);
 SOAP_FMAC3 union _ns2__union_NonLinearPolyatomicType * SOAP_FMAC4 soap_in__ns2__union_NonLinearPolyatomicType(struct soap*, int*, union _ns2__union_NonLinearPolyatomicType *);
 
 #ifndef SOAP_TYPE__ns2__union_DiatomAndLinearPolyatomicType
-#define SOAP_TYPE__ns2__union_DiatomAndLinearPolyatomicType (258)
+#define SOAP_TYPE__ns2__union_DiatomAndLinearPolyatomicType (257)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize__ns2__union_DiatomAndLinearPolyatomicType(struct soap*, int, const union _ns2__union_DiatomAndLinearPolyatomicType *);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out__ns2__union_DiatomAndLinearPolyatomicType(struct soap*, int, const union _ns2__union_DiatomAndLinearPolyatomicType *);
@@ -5414,7 +5378,7 @@ SOAP_FMAC3 union _ns2__union_DiatomAndLinearPolyatomicType * SOAP_FMAC4 soap_in_
 #ifndef WITH_NOGLOBAL
 
 #ifndef SOAP_TYPE_PointerToSOAP_ENV__Reason
-#define SOAP_TYPE_PointerToSOAP_ENV__Reason (410)
+#define SOAP_TYPE_PointerToSOAP_ENV__Reason (409)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerToSOAP_ENV__Reason(struct soap*, struct SOAP_ENV__Reason *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerToSOAP_ENV__Reason(struct soap*, const char *, int, struct SOAP_ENV__Reason *const*, const char *);
@@ -5437,7 +5401,7 @@ SOAP_FMAC3 struct SOAP_ENV__Reason ** SOAP_FMAC4 soap_get_PointerToSOAP_ENV__Rea
 #ifndef WITH_NOGLOBAL
 
 #ifndef SOAP_TYPE_PointerToSOAP_ENV__Detail
-#define SOAP_TYPE_PointerToSOAP_ENV__Detail (409)
+#define SOAP_TYPE_PointerToSOAP_ENV__Detail (408)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerToSOAP_ENV__Detail(struct soap*, struct SOAP_ENV__Detail *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerToSOAP_ENV__Detail(struct soap*, const char *, int, struct SOAP_ENV__Detail *const*, const char *);
@@ -5460,7 +5424,7 @@ SOAP_FMAC3 struct SOAP_ENV__Detail ** SOAP_FMAC4 soap_get_PointerToSOAP_ENV__Det
 #ifndef WITH_NOGLOBAL
 
 #ifndef SOAP_TYPE_PointerToSOAP_ENV__Code
-#define SOAP_TYPE_PointerToSOAP_ENV__Code (403)
+#define SOAP_TYPE_PointerToSOAP_ENV__Code (402)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerToSOAP_ENV__Code(struct soap*, struct SOAP_ENV__Code *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerToSOAP_ENV__Code(struct soap*, const char *, int, struct SOAP_ENV__Code *const*, const char *);
@@ -5481,7 +5445,7 @@ SOAP_FMAC3 struct SOAP_ENV__Code ** SOAP_FMAC4 soap_get_PointerToSOAP_ENV__Code(
 #endif
 
 #ifndef SOAP_TYPE_PointerTons2__DataSetsType
-#define SOAP_TYPE_PointerTons2__DataSetsType (394)
+#define SOAP_TYPE_PointerTons2__DataSetsType (393)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__DataSetsType(struct soap*, ns2__DataSetsType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__DataSetsType(struct soap*, const char *, int, ns2__DataSetsType *const*, const char *);
@@ -5500,7 +5464,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__DataSetsType(struct soap*, ns2_
 SOAP_FMAC3 ns2__DataSetsType ** SOAP_FMAC4 soap_get_PointerTons2__DataSetsType(struct soap*, ns2__DataSetsType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__ProductsType
-#define SOAP_TYPE_PointerTons2__ProductsType (393)
+#define SOAP_TYPE_PointerTons2__ProductsType (392)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__ProductsType(struct soap*, ns2__ProductsType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__ProductsType(struct soap*, const char *, int, ns2__ProductsType *const*, const char *);
@@ -5519,7 +5483,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__ProductsType(struct soap*, ns2_
 SOAP_FMAC3 ns2__ProductsType ** SOAP_FMAC4 soap_get_PointerTons2__ProductsType(struct soap*, ns2__ProductsType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__ReactantsType
-#define SOAP_TYPE_PointerTons2__ReactantsType (392)
+#define SOAP_TYPE_PointerTons2__ReactantsType (391)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__ReactantsType(struct soap*, ns2__ReactantsType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__ReactantsType(struct soap*, const char *, int, ns2__ReactantsType *const*, const char *);
@@ -5538,7 +5502,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__ReactantsType(struct soap*, ns2
 SOAP_FMAC3 ns2__ReactantsType ** SOAP_FMAC4 soap_get_PointerTons2__ReactantsType(struct soap*, ns2__ReactantsType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__CollisionalProcessClassType
-#define SOAP_TYPE_PointerTons2__CollisionalProcessClassType (391)
+#define SOAP_TYPE_PointerTons2__CollisionalProcessClassType (390)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__CollisionalProcessClassType(struct soap*, ns2__CollisionalProcessClassType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__CollisionalProcessClassType(struct soap*, const char *, int, ns2__CollisionalProcessClassType *const*, const char *);
@@ -5557,7 +5521,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__CollisionalProcessClassType(str
 SOAP_FMAC3 ns2__CollisionalProcessClassType ** SOAP_FMAC4 soap_get_PointerTons2__CollisionalProcessClassType(struct soap*, ns2__CollisionalProcessClassType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__CollisionalTransitionType
-#define SOAP_TYPE_PointerTons2__CollisionalTransitionType (389)
+#define SOAP_TYPE_PointerTons2__CollisionalTransitionType (388)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__CollisionalTransitionType(struct soap*, ns2__CollisionalTransitionType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__CollisionalTransitionType(struct soap*, const char *, int, ns2__CollisionalTransitionType *const*, const char *);
@@ -5576,7 +5540,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__CollisionalTransitionType(struc
 SOAP_FMAC3 ns2__CollisionalTransitionType ** SOAP_FMAC4 soap_get_PointerTons2__CollisionalTransitionType(struct soap*, ns2__CollisionalTransitionType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__NonRadiativeTransitionType
-#define SOAP_TYPE_PointerTons2__NonRadiativeTransitionType (387)
+#define SOAP_TYPE_PointerTons2__NonRadiativeTransitionType (386)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__NonRadiativeTransitionType(struct soap*, ns2__NonRadiativeTransitionType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__NonRadiativeTransitionType(struct soap*, const char *, int, ns2__NonRadiativeTransitionType *const*, const char *);
@@ -5595,7 +5559,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__NonRadiativeTransitionType(stru
 SOAP_FMAC3 ns2__NonRadiativeTransitionType ** SOAP_FMAC4 soap_get_PointerTons2__NonRadiativeTransitionType(struct soap*, ns2__NonRadiativeTransitionType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__WavelengthWavenumberType
-#define SOAP_TYPE_PointerTons2__WavelengthWavenumberType (386)
+#define SOAP_TYPE_PointerTons2__WavelengthWavenumberType (385)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__WavelengthWavenumberType(struct soap*, ns2__WavelengthWavenumberType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__WavelengthWavenumberType(struct soap*, const char *, int, ns2__WavelengthWavenumberType *const*, const char *);
@@ -5614,7 +5578,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__WavelengthWavenumberType(struct
 SOAP_FMAC3 ns2__WavelengthWavenumberType ** SOAP_FMAC4 soap_get_PointerTons2__WavelengthWavenumberType(struct soap*, ns2__WavelengthWavenumberType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__MultipoleType
-#define SOAP_TYPE_PointerTons2__MultipoleType (385)
+#define SOAP_TYPE_PointerTons2__MultipoleType (384)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__MultipoleType(struct soap*, std::string *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__MultipoleType(struct soap*, const char *, int, std::string *const*, const char *);
@@ -5633,7 +5597,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__MultipoleType(struct soap*, std
 SOAP_FMAC3 std::string ** SOAP_FMAC4 soap_get_PointerTons2__MultipoleType(struct soap*, std::string **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__RadiativeTransitionProbabilityType
-#define SOAP_TYPE_PointerTons2__RadiativeTransitionProbabilityType (383)
+#define SOAP_TYPE_PointerTons2__RadiativeTransitionProbabilityType (382)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__RadiativeTransitionProbabilityType(struct soap*, ns2__RadiativeTransitionProbabilityType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__RadiativeTransitionProbabilityType(struct soap*, const char *, int, ns2__RadiativeTransitionProbabilityType *const*, const char *);
@@ -5652,7 +5616,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__RadiativeTransitionProbabilityT
 SOAP_FMAC3 ns2__RadiativeTransitionProbabilityType ** SOAP_FMAC4 soap_get_PointerTons2__RadiativeTransitionProbabilityType(struct soap*, ns2__RadiativeTransitionProbabilityType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__StateRef
-#define SOAP_TYPE_PointerTons2__StateRef (382)
+#define SOAP_TYPE_PointerTons2__StateRef (381)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__StateRef(struct soap*, std::string *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__StateRef(struct soap*, const char *, int, std::string *const*, const char *);
@@ -5671,7 +5635,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__StateRef(struct soap*, std::str
 SOAP_FMAC3 std::string ** SOAP_FMAC4 soap_get_PointerTons2__StateRef(struct soap*, std::string **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__EnergyWavelengthType
-#define SOAP_TYPE_PointerTons2__EnergyWavelengthType (381)
+#define SOAP_TYPE_PointerTons2__EnergyWavelengthType (380)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__EnergyWavelengthType(struct soap*, ns2__EnergyWavelengthType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__EnergyWavelengthType(struct soap*, const char *, int, ns2__EnergyWavelengthType *const*, const char *);
@@ -5690,7 +5654,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__EnergyWavelengthType(struct soa
 SOAP_FMAC3 ns2__EnergyWavelengthType ** SOAP_FMAC4 soap_get_PointerTons2__EnergyWavelengthType(struct soap*, ns2__EnergyWavelengthType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__RadiativeTransitionType
-#define SOAP_TYPE_PointerTons2__RadiativeTransitionType (379)
+#define SOAP_TYPE_PointerTons2__RadiativeTransitionType (378)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__RadiativeTransitionType(struct soap*, ns2__RadiativeTransitionType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__RadiativeTransitionType(struct soap*, const char *, int, ns2__RadiativeTransitionType *const*, const char *);
@@ -5709,7 +5673,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__RadiativeTransitionType(struct 
 SOAP_FMAC3 ns2__RadiativeTransitionType ** SOAP_FMAC4 soap_get_PointerTons2__RadiativeTransitionType(struct soap*, ns2__RadiativeTransitionType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__MaterialComponentType
-#define SOAP_TYPE_PointerTons2__MaterialComponentType (377)
+#define SOAP_TYPE_PointerTons2__MaterialComponentType (376)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__MaterialComponentType(struct soap*, ns2__MaterialComponentType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__MaterialComponentType(struct soap*, const char *, int, ns2__MaterialComponentType *const*, const char *);
@@ -5728,7 +5692,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__MaterialComponentType(struct so
 SOAP_FMAC3 ns2__MaterialComponentType ** SOAP_FMAC4 soap_get_PointerTons2__MaterialComponentType(struct soap*, ns2__MaterialComponentType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__SolidType
-#define SOAP_TYPE_PointerTons2__SolidType (375)
+#define SOAP_TYPE_PointerTons2__SolidType (374)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__SolidType(struct soap*, ns2__SolidType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__SolidType(struct soap*, const char *, int, ns2__SolidType *const*, const char *);
@@ -5747,7 +5711,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__SolidType(struct soap*, ns2__So
 SOAP_FMAC3 ns2__SolidType ** SOAP_FMAC4 soap_get_PointerTons2__SolidType(struct soap*, ns2__SolidType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__MaterialType
-#define SOAP_TYPE_PointerTons2__MaterialType (373)
+#define SOAP_TYPE_PointerTons2__MaterialType (372)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__MaterialType(struct soap*, ns2__MaterialType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__MaterialType(struct soap*, const char *, int, ns2__MaterialType *const*, const char *);
@@ -5766,7 +5730,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__MaterialType(struct soap*, ns2_
 SOAP_FMAC3 ns2__MaterialType ** SOAP_FMAC4 soap_get_PointerTons2__MaterialType(struct soap*, ns2__MaterialType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__SimpleSymbolType
-#define SOAP_TYPE_PointerTons2__SimpleSymbolType (369)
+#define SOAP_TYPE_PointerTons2__SimpleSymbolType (368)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__SimpleSymbolType(struct soap*, ns2__SimpleSymbolType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__SimpleSymbolType(struct soap*, const char *, int, ns2__SimpleSymbolType *const*, const char *);
@@ -5785,7 +5749,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__SimpleSymbolType(struct soap*, 
 SOAP_FMAC3 ns2__SimpleSymbolType ** SOAP_FMAC4 soap_get_PointerTons2__SimpleSymbolType(struct soap*, ns2__SimpleSymbolType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__MoleculeType
-#define SOAP_TYPE_PointerTons2__MoleculeType (365)
+#define SOAP_TYPE_PointerTons2__MoleculeType (364)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__MoleculeType(struct soap*, ns2__MoleculeType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__MoleculeType(struct soap*, const char *, int, ns2__MoleculeType *const*, const char *);
@@ -5804,7 +5768,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__MoleculeType(struct soap*, ns2_
 SOAP_FMAC3 ns2__MoleculeType ** SOAP_FMAC4 soap_get_PointerTons2__MoleculeType(struct soap*, ns2__MoleculeType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__MolecularStateType
-#define SOAP_TYPE_PointerTons2__MolecularStateType (363)
+#define SOAP_TYPE_PointerTons2__MolecularStateType (362)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__MolecularStateType(struct soap*, ns2__MolecularStateType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__MolecularStateType(struct soap*, const char *, int, ns2__MolecularStateType *const*, const char *);
@@ -5823,7 +5787,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__MolecularStateType(struct soap*
 SOAP_FMAC3 ns2__MolecularStateType ** SOAP_FMAC4 soap_get_PointerTons2__MolecularStateType(struct soap*, ns2__MolecularStateType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__MolecularChemicalSpeciesType
-#define SOAP_TYPE_PointerTons2__MolecularChemicalSpeciesType (362)
+#define SOAP_TYPE_PointerTons2__MolecularChemicalSpeciesType (361)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__MolecularChemicalSpeciesType(struct soap*, ns2__MolecularChemicalSpeciesType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__MolecularChemicalSpeciesType(struct soap*, const char *, int, ns2__MolecularChemicalSpeciesType *const*, const char *);
@@ -5842,7 +5806,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__MolecularChemicalSpeciesType(st
 SOAP_FMAC3 ns2__MolecularChemicalSpeciesType ** SOAP_FMAC4 soap_get_PointerTons2__MolecularChemicalSpeciesType(struct soap*, ns2__MolecularChemicalSpeciesType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__ElectronicHomeType
-#define SOAP_TYPE_PointerTons2__ElectronicHomeType (361)
+#define SOAP_TYPE_PointerTons2__ElectronicHomeType (360)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__ElectronicHomeType(struct soap*, ns2__ElectronicHomeType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__ElectronicHomeType(struct soap*, const char *, int, ns2__ElectronicHomeType *const*, const char *);
@@ -5861,7 +5825,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__ElectronicHomeType(struct soap*
 SOAP_FMAC3 ns2__ElectronicHomeType ** SOAP_FMAC4 soap_get_PointerTons2__ElectronicHomeType(struct soap*, ns2__ElectronicHomeType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__MolecularStateCharacterisationType
-#define SOAP_TYPE_PointerTons2__MolecularStateCharacterisationType (360)
+#define SOAP_TYPE_PointerTons2__MolecularStateCharacterisationType (359)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__MolecularStateCharacterisationType(struct soap*, ns2__MolecularStateCharacterisationType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__MolecularStateCharacterisationType(struct soap*, const char *, int, ns2__MolecularStateCharacterisationType *const*, const char *);
@@ -5880,7 +5844,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__MolecularStateCharacterisationT
 SOAP_FMAC3 ns2__MolecularStateCharacterisationType ** SOAP_FMAC4 soap_get_PointerTons2__MolecularStateCharacterisationType(struct soap*, ns2__MolecularStateCharacterisationType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerToxsd__IDREF
-#define SOAP_TYPE_PointerToxsd__IDREF (359)
+#define SOAP_TYPE_PointerToxsd__IDREF (358)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerToxsd__IDREF(struct soap*, std::string *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerToxsd__IDREF(struct soap*, const char *, int, std::string *const*, const char *);
@@ -5899,7 +5863,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerToxsd__IDREF(struct soap*, std::string
 SOAP_FMAC3 std::string ** SOAP_FMAC4 soap_get_PointerToxsd__IDREF(struct soap*, std::string **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__ModesListType
-#define SOAP_TYPE_PointerTons2__ModesListType (358)
+#define SOAP_TYPE_PointerTons2__ModesListType (357)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__ModesListType(struct soap*, enum ns2__ModesListType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__ModesListType(struct soap*, const char *, int, enum ns2__ModesListType *const*, const char *);
@@ -5918,7 +5882,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__ModesListType(struct soap*, enu
 SOAP_FMAC3 enum ns2__ModesListType ** SOAP_FMAC4 soap_get_PointerTons2__ModesListType(struct soap*, enum ns2__ModesListType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__AtomicComponentType
-#define SOAP_TYPE_PointerTons2__AtomicComponentType (356)
+#define SOAP_TYPE_PointerTons2__AtomicComponentType (355)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__AtomicComponentType(struct soap*, ns2__AtomicComponentType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__AtomicComponentType(struct soap*, const char *, int, ns2__AtomicComponentType *const*, const char *);
@@ -5937,7 +5901,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__AtomicComponentType(struct soap
 SOAP_FMAC3 ns2__AtomicComponentType ** SOAP_FMAC4 soap_get_PointerTons2__AtomicComponentType(struct soap*, ns2__AtomicComponentType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__AtomicCompositionType
-#define SOAP_TYPE_PointerTons2__AtomicCompositionType (355)
+#define SOAP_TYPE_PointerTons2__AtomicCompositionType (354)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__AtomicCompositionType(struct soap*, ns2__AtomicCompositionType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__AtomicCompositionType(struct soap*, const char *, int, ns2__AtomicCompositionType *const*, const char *);
@@ -5956,7 +5920,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__AtomicCompositionType(struct so
 SOAP_FMAC3 ns2__AtomicCompositionType ** SOAP_FMAC4 soap_get_PointerTons2__AtomicCompositionType(struct soap*, ns2__AtomicCompositionType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__AtomicQuantumNumbersType
-#define SOAP_TYPE_PointerTons2__AtomicQuantumNumbersType (354)
+#define SOAP_TYPE_PointerTons2__AtomicQuantumNumbersType (353)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__AtomicQuantumNumbersType(struct soap*, ns2__AtomicQuantumNumbersType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__AtomicQuantumNumbersType(struct soap*, const char *, int, ns2__AtomicQuantumNumbersType *const*, const char *);
@@ -5975,7 +5939,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__AtomicQuantumNumbersType(struct
 SOAP_FMAC3 ns2__AtomicQuantumNumbersType ** SOAP_FMAC4 soap_get_PointerTons2__AtomicQuantumNumbersType(struct soap*, ns2__AtomicQuantumNumbersType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__AtomicNumericalDataType
-#define SOAP_TYPE_PointerTons2__AtomicNumericalDataType (353)
+#define SOAP_TYPE_PointerTons2__AtomicNumericalDataType (352)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__AtomicNumericalDataType(struct soap*, ns2__AtomicNumericalDataType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__AtomicNumericalDataType(struct soap*, const char *, int, ns2__AtomicNumericalDataType *const*, const char *);
@@ -5994,7 +5958,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__AtomicNumericalDataType(struct 
 SOAP_FMAC3 ns2__AtomicNumericalDataType ** SOAP_FMAC4 soap_get_PointerTons2__AtomicNumericalDataType(struct soap*, ns2__AtomicNumericalDataType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__AtomicStateType
-#define SOAP_TYPE_PointerTons2__AtomicStateType (351)
+#define SOAP_TYPE_PointerTons2__AtomicStateType (350)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__AtomicStateType(struct soap*, ns2__AtomicStateType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__AtomicStateType(struct soap*, const char *, int, ns2__AtomicStateType *const*, const char *);
@@ -6013,7 +5977,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__AtomicStateType(struct soap*, n
 SOAP_FMAC3 ns2__AtomicStateType ** SOAP_FMAC4 soap_get_PointerTons2__AtomicStateType(struct soap*, ns2__AtomicStateType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__IsotopeType
-#define SOAP_TYPE_PointerTons2__IsotopeType (349)
+#define SOAP_TYPE_PointerTons2__IsotopeType (348)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__IsotopeType(struct soap*, ns2__IsotopeType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__IsotopeType(struct soap*, const char *, int, ns2__IsotopeType *const*, const char *);
@@ -6032,7 +5996,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__IsotopeType(struct soap*, ns2__
 SOAP_FMAC3 ns2__IsotopeType ** SOAP_FMAC4 soap_get_PointerTons2__IsotopeType(struct soap*, ns2__IsotopeType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__AtomType
-#define SOAP_TYPE_PointerTons2__AtomType (347)
+#define SOAP_TYPE_PointerTons2__AtomType (346)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__AtomType(struct soap*, ns2__AtomType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__AtomType(struct soap*, const char *, int, ns2__AtomType *const*, const char *);
@@ -6051,7 +6015,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__AtomType(struct soap*, ns2__Ato
 SOAP_FMAC3 ns2__AtomType ** SOAP_FMAC4 soap_get_PointerTons2__AtomType(struct soap*, ns2__AtomType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__ParametersType
-#define SOAP_TYPE_PointerTons2__ParametersType (346)
+#define SOAP_TYPE_PointerTons2__ParametersType (345)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__ParametersType(struct soap*, ns2__ParametersType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__ParametersType(struct soap*, const char *, int, ns2__ParametersType *const*, const char *);
@@ -6070,7 +6034,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__ParametersType(struct soap*, ns
 SOAP_FMAC3 ns2__ParametersType ** SOAP_FMAC4 soap_get_PointerTons2__ParametersType(struct soap*, ns2__ParametersType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__ArgumentsType
-#define SOAP_TYPE_PointerTons2__ArgumentsType (345)
+#define SOAP_TYPE_PointerTons2__ArgumentsType (344)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__ArgumentsType(struct soap*, ns2__ArgumentsType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__ArgumentsType(struct soap*, const char *, int, ns2__ArgumentsType *const*, const char *);
@@ -6089,7 +6053,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__ArgumentsType(struct soap*, ns2
 SOAP_FMAC3 ns2__ArgumentsType ** SOAP_FMAC4 soap_get_PointerTons2__ArgumentsType(struct soap*, ns2__ArgumentsType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__ExpressionType
-#define SOAP_TYPE_PointerTons2__ExpressionType (344)
+#define SOAP_TYPE_PointerTons2__ExpressionType (343)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__ExpressionType(struct soap*, ns2__ExpressionType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__ExpressionType(struct soap*, const char *, int, ns2__ExpressionType *const*, const char *);
@@ -6108,7 +6072,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__ExpressionType(struct soap*, ns
 SOAP_FMAC3 ns2__ExpressionType ** SOAP_FMAC4 soap_get_PointerTons2__ExpressionType(struct soap*, ns2__ExpressionType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__FitParametersType
-#define SOAP_TYPE_PointerTons2__FitParametersType (343)
+#define SOAP_TYPE_PointerTons2__FitParametersType (342)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__FitParametersType(struct soap*, ns2__FitParametersType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__FitParametersType(struct soap*, const char *, int, ns2__FitParametersType *const*, const char *);
@@ -6127,7 +6091,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__FitParametersType(struct soap*,
 SOAP_FMAC3 ns2__FitParametersType ** SOAP_FMAC4 soap_get_PointerTons2__FitParametersType(struct soap*, ns2__FitParametersType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__FitValidityLimitsType
-#define SOAP_TYPE_PointerTons2__FitValidityLimitsType (341)
+#define SOAP_TYPE_PointerTons2__FitValidityLimitsType (340)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__FitValidityLimitsType(struct soap*, ns2__FitValidityLimitsType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__FitValidityLimitsType(struct soap*, const char *, int, ns2__FitValidityLimitsType *const*, const char *);
@@ -6146,7 +6110,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__FitValidityLimitsType(struct so
 SOAP_FMAC3 ns2__FitValidityLimitsType ** SOAP_FMAC4 soap_get_PointerTons2__FitValidityLimitsType(struct soap*, ns2__FitValidityLimitsType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__ReferenceFrameType
-#define SOAP_TYPE_PointerTons2__ReferenceFrameType (340)
+#define SOAP_TYPE_PointerTons2__ReferenceFrameType (339)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__ReferenceFrameType(struct soap*, enum ns2__ReferenceFrameType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__ReferenceFrameType(struct soap*, const char *, int, enum ns2__ReferenceFrameType *const*, const char *);
@@ -6165,7 +6129,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__ReferenceFrameType(struct soap*
 SOAP_FMAC3 enum ns2__ReferenceFrameType ** SOAP_FMAC4 soap_get_PointerTons2__ReferenceFrameType(struct soap*, enum ns2__ReferenceFrameType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__DataXYType
-#define SOAP_TYPE_PointerTons2__DataXYType (339)
+#define SOAP_TYPE_PointerTons2__DataXYType (338)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__DataXYType(struct soap*, ns2__DataXYType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__DataXYType(struct soap*, const char *, int, ns2__DataXYType *const*, const char *);
@@ -6184,7 +6148,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__DataXYType(struct soap*, ns2__D
 SOAP_FMAC3 ns2__DataXYType ** SOAP_FMAC4 soap_get_PointerTons2__DataXYType(struct soap*, ns2__DataXYType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__TabulatedDataType
-#define SOAP_TYPE_PointerTons2__TabulatedDataType (337)
+#define SOAP_TYPE_PointerTons2__TabulatedDataType (336)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__TabulatedDataType(struct soap*, ns2__TabulatedDataType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__TabulatedDataType(struct soap*, const char *, int, ns2__TabulatedDataType *const*, const char *);
@@ -6203,7 +6167,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__TabulatedDataType(struct soap*,
 SOAP_FMAC3 ns2__TabulatedDataType ** SOAP_FMAC4 soap_get_PointerTons2__TabulatedDataType(struct soap*, ns2__TabulatedDataType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__FitDataType
-#define SOAP_TYPE_PointerTons2__FitDataType (335)
+#define SOAP_TYPE_PointerTons2__FitDataType (334)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__FitDataType(struct soap*, ns2__FitDataType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__FitDataType(struct soap*, const char *, int, ns2__FitDataType *const*, const char *);
@@ -6222,7 +6186,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__FitDataType(struct soap*, ns2__
 SOAP_FMAC3 ns2__FitDataType ** SOAP_FMAC4 soap_get_PointerTons2__FitDataType(struct soap*, ns2__FitDataType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__ValueType
-#define SOAP_TYPE_PointerTons2__ValueType (334)
+#define SOAP_TYPE_PointerTons2__ValueType (333)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__ValueType(struct soap*, ns2__ValueType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__ValueType(struct soap*, const char *, int, ns2__ValueType *const*, const char *);
@@ -6241,7 +6205,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__ValueType(struct soap*, ns2__Va
 SOAP_FMAC3 ns2__ValueType ** SOAP_FMAC4 soap_get_PointerTons2__ValueType(struct soap*, ns2__ValueType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__ParticlesType
-#define SOAP_TYPE_PointerTons2__ParticlesType (333)
+#define SOAP_TYPE_PointerTons2__ParticlesType (332)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__ParticlesType(struct soap*, ns2__ParticlesType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__ParticlesType(struct soap*, const char *, int, ns2__ParticlesType *const*, const char *);
@@ -6260,7 +6224,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__ParticlesType(struct soap*, ns2
 SOAP_FMAC3 ns2__ParticlesType ** SOAP_FMAC4 soap_get_PointerTons2__ParticlesType(struct soap*, ns2__ParticlesType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__SolidsType
-#define SOAP_TYPE_PointerTons2__SolidsType (332)
+#define SOAP_TYPE_PointerTons2__SolidsType (331)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__SolidsType(struct soap*, ns2__SolidsType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__SolidsType(struct soap*, const char *, int, ns2__SolidsType *const*, const char *);
@@ -6279,7 +6243,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__SolidsType(struct soap*, ns2__S
 SOAP_FMAC3 ns2__SolidsType ** SOAP_FMAC4 soap_get_PointerTons2__SolidsType(struct soap*, ns2__SolidsType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__MoleculesType
-#define SOAP_TYPE_PointerTons2__MoleculesType (331)
+#define SOAP_TYPE_PointerTons2__MoleculesType (330)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__MoleculesType(struct soap*, ns2__MoleculesType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__MoleculesType(struct soap*, const char *, int, ns2__MoleculesType *const*, const char *);
@@ -6298,7 +6262,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__MoleculesType(struct soap*, ns2
 SOAP_FMAC3 ns2__MoleculesType ** SOAP_FMAC4 soap_get_PointerTons2__MoleculesType(struct soap*, ns2__MoleculesType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__AtomsType
-#define SOAP_TYPE_PointerTons2__AtomsType (330)
+#define SOAP_TYPE_PointerTons2__AtomsType (329)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__AtomsType(struct soap*, ns2__AtomsType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__AtomsType(struct soap*, const char *, int, ns2__AtomsType *const*, const char *);
@@ -6317,7 +6281,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__AtomsType(struct soap*, ns2__At
 SOAP_FMAC3 ns2__AtomsType ** SOAP_FMAC4 soap_get_PointerTons2__AtomsType(struct soap*, ns2__AtomsType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__CollisionsType
-#define SOAP_TYPE_PointerTons2__CollisionsType (329)
+#define SOAP_TYPE_PointerTons2__CollisionsType (328)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__CollisionsType(struct soap*, ns2__CollisionsType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__CollisionsType(struct soap*, const char *, int, ns2__CollisionsType *const*, const char *);
@@ -6336,7 +6300,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__CollisionsType(struct soap*, ns
 SOAP_FMAC3 ns2__CollisionsType ** SOAP_FMAC4 soap_get_PointerTons2__CollisionsType(struct soap*, ns2__CollisionsType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__NonRadiativeType
-#define SOAP_TYPE_PointerTons2__NonRadiativeType (328)
+#define SOAP_TYPE_PointerTons2__NonRadiativeType (327)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__NonRadiativeType(struct soap*, ns2__NonRadiativeType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__NonRadiativeType(struct soap*, const char *, int, ns2__NonRadiativeType *const*, const char *);
@@ -6355,7 +6319,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__NonRadiativeType(struct soap*, 
 SOAP_FMAC3 ns2__NonRadiativeType ** SOAP_FMAC4 soap_get_PointerTons2__NonRadiativeType(struct soap*, ns2__NonRadiativeType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__RadiativeType
-#define SOAP_TYPE_PointerTons2__RadiativeType (327)
+#define SOAP_TYPE_PointerTons2__RadiativeType (326)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__RadiativeType(struct soap*, ns2__RadiativeType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__RadiativeType(struct soap*, const char *, int, ns2__RadiativeType *const*, const char *);
@@ -6374,7 +6338,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__RadiativeType(struct soap*, ns2
 SOAP_FMAC3 ns2__RadiativeType ** SOAP_FMAC4 soap_get_PointerTons2__RadiativeType(struct soap*, ns2__RadiativeType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__FunctionsType
-#define SOAP_TYPE_PointerTons2__FunctionsType (326)
+#define SOAP_TYPE_PointerTons2__FunctionsType (325)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__FunctionsType(struct soap*, ns2__FunctionsType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__FunctionsType(struct soap*, const char *, int, ns2__FunctionsType *const*, const char *);
@@ -6393,7 +6357,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__FunctionsType(struct soap*, ns2
 SOAP_FMAC3 ns2__FunctionsType ** SOAP_FMAC4 soap_get_PointerTons2__FunctionsType(struct soap*, ns2__FunctionsType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__MethodsType
-#define SOAP_TYPE_PointerTons2__MethodsType (325)
+#define SOAP_TYPE_PointerTons2__MethodsType (324)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__MethodsType(struct soap*, ns2__MethodsType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__MethodsType(struct soap*, const char *, int, ns2__MethodsType *const*, const char *);
@@ -6412,7 +6376,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__MethodsType(struct soap*, ns2__
 SOAP_FMAC3 ns2__MethodsType ** SOAP_FMAC4 soap_get_PointerTons2__MethodsType(struct soap*, ns2__MethodsType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__SourcesType
-#define SOAP_TYPE_PointerTons2__SourcesType (324)
+#define SOAP_TYPE_PointerTons2__SourcesType (323)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__SourcesType(struct soap*, ns2__SourcesType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__SourcesType(struct soap*, const char *, int, ns2__SourcesType *const*, const char *);
@@ -6431,7 +6395,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__SourcesType(struct soap*, ns2__
 SOAP_FMAC3 ns2__SourcesType ** SOAP_FMAC4 soap_get_PointerTons2__SourcesType(struct soap*, ns2__SourcesType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__ProcessesType
-#define SOAP_TYPE_PointerTons2__ProcessesType (323)
+#define SOAP_TYPE_PointerTons2__ProcessesType (322)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__ProcessesType(struct soap*, ns2__ProcessesType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__ProcessesType(struct soap*, const char *, int, ns2__ProcessesType *const*, const char *);
@@ -6450,7 +6414,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__ProcessesType(struct soap*, ns2
 SOAP_FMAC3 ns2__ProcessesType ** SOAP_FMAC4 soap_get_PointerTons2__ProcessesType(struct soap*, ns2__ProcessesType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__StatesType
-#define SOAP_TYPE_PointerTons2__StatesType (322)
+#define SOAP_TYPE_PointerTons2__StatesType (321)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__StatesType(struct soap*, ns2__StatesType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__StatesType(struct soap*, const char *, int, ns2__StatesType *const*, const char *);
@@ -6469,7 +6433,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__StatesType(struct soap*, ns2__S
 SOAP_FMAC3 ns2__StatesType ** SOAP_FMAC4 soap_get_PointerTons2__StatesType(struct soap*, ns2__StatesType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__IAEACodeType
-#define SOAP_TYPE_PointerTons2__IAEACodeType (321)
+#define SOAP_TYPE_PointerTons2__IAEACodeType (320)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__IAEACodeType(struct soap*, enum ns2__IAEACodeType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__IAEACodeType(struct soap*, const char *, int, enum ns2__IAEACodeType *const*, const char *);
@@ -6488,7 +6452,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__IAEACodeType(struct soap*, enum
 SOAP_FMAC3 enum ns2__IAEACodeType ** SOAP_FMAC4 soap_get_PointerTons2__IAEACodeType(struct soap*, enum ns2__IAEACodeType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__MaterialCompositionType
-#define SOAP_TYPE_PointerTons2__MaterialCompositionType (319)
+#define SOAP_TYPE_PointerTons2__MaterialCompositionType (318)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__MaterialCompositionType(struct soap*, ns2__MaterialCompositionType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__MaterialCompositionType(struct soap*, const char *, int, ns2__MaterialCompositionType *const*, const char *);
@@ -6507,7 +6471,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__MaterialCompositionType(struct 
 SOAP_FMAC3 ns2__MaterialCompositionType ** SOAP_FMAC4 soap_get_PointerTons2__MaterialCompositionType(struct soap*, ns2__MaterialCompositionType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerToxsd__decimal
-#define SOAP_TYPE_PointerToxsd__decimal (317)
+#define SOAP_TYPE_PointerToxsd__decimal (316)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerToxsd__decimal(struct soap*, std::string *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerToxsd__decimal(struct soap*, const char *, int, std::string *const*, const char *);
@@ -6526,7 +6490,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerToxsd__decimal(struct soap*, std::stri
 SOAP_FMAC3 std::string ** SOAP_FMAC4 soap_get_PointerToxsd__decimal(struct soap*, std::string **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__ChemicalElementType
-#define SOAP_TYPE_PointerTons2__ChemicalElementType (316)
+#define SOAP_TYPE_PointerTons2__ChemicalElementType (315)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__ChemicalElementType(struct soap*, ns2__ChemicalElementType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__ChemicalElementType(struct soap*, const char *, int, ns2__ChemicalElementType *const*, const char *);
@@ -6545,7 +6509,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__ChemicalElementType(struct soap
 SOAP_FMAC3 ns2__ChemicalElementType ** SOAP_FMAC4 soap_get_PointerTons2__ChemicalElementType(struct soap*, ns2__ChemicalElementType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__ParticleNameType
-#define SOAP_TYPE_PointerTons2__ParticleNameType (315)
+#define SOAP_TYPE_PointerTons2__ParticleNameType (314)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__ParticleNameType(struct soap*, enum ns2__ParticleNameType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__ParticleNameType(struct soap*, const char *, int, enum ns2__ParticleNameType *const*, const char *);
@@ -6564,7 +6528,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__ParticleNameType(struct soap*, 
 SOAP_FMAC3 enum ns2__ParticleNameType ** SOAP_FMAC4 soap_get_PointerTons2__ParticleNameType(struct soap*, enum ns2__ParticleNameType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__ParticlePropertiesType
-#define SOAP_TYPE_PointerTons2__ParticlePropertiesType (314)
+#define SOAP_TYPE_PointerTons2__ParticlePropertiesType (313)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__ParticlePropertiesType(struct soap*, ns2__ParticlePropertiesType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__ParticlePropertiesType(struct soap*, const char *, int, ns2__ParticlePropertiesType *const*, const char *);
@@ -6583,7 +6547,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__ParticlePropertiesType(struct s
 SOAP_FMAC3 ns2__ParticlePropertiesType ** SOAP_FMAC4 soap_get_PointerTons2__ParticlePropertiesType(struct soap*, ns2__ParticlePropertiesType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__ParticleType
-#define SOAP_TYPE_PointerTons2__ParticleType (312)
+#define SOAP_TYPE_PointerTons2__ParticleType (311)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__ParticleType(struct soap*, ns2__ParticleType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__ParticleType(struct soap*, const char *, int, ns2__ParticleType *const*, const char *);
@@ -6602,7 +6566,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__ParticleType(struct soap*, ns2_
 SOAP_FMAC3 ns2__ParticleType ** SOAP_FMAC4 soap_get_PointerTons2__ParticleType(struct soap*, ns2__ParticleType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTo__ns2__union_HyperfineQuantumNumbersType
-#define SOAP_TYPE_PointerTo__ns2__union_HyperfineQuantumNumbersType (311)
+#define SOAP_TYPE_PointerTo__ns2__union_HyperfineQuantumNumbersType (310)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTo__ns2__union_HyperfineQuantumNumbersType(struct soap*, __ns2__union_HyperfineQuantumNumbersType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTo__ns2__union_HyperfineQuantumNumbersType(struct soap*, const char *, int, __ns2__union_HyperfineQuantumNumbersType *const*, const char *);
@@ -6621,7 +6585,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTo__ns2__union_HyperfineQuantumNumbers
 SOAP_FMAC3 __ns2__union_HyperfineQuantumNumbersType ** SOAP_FMAC4 soap_get_PointerTo__ns2__union_HyperfineQuantumNumbersType(struct soap*, __ns2__union_HyperfineQuantumNumbersType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__C2SymmetriesType
-#define SOAP_TYPE_PointerTons2__C2SymmetriesType (308)
+#define SOAP_TYPE_PointerTons2__C2SymmetriesType (307)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__C2SymmetriesType(struct soap*, ns2__C2SymmetriesType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__C2SymmetriesType(struct soap*, const char *, int, ns2__C2SymmetriesType *const*, const char *);
@@ -6640,7 +6604,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__C2SymmetriesType(struct soap*, 
 SOAP_FMAC3 ns2__C2SymmetriesType ** SOAP_FMAC4 soap_get_PointerTons2__C2SymmetriesType(struct soap*, ns2__C2SymmetriesType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__RoVibronicSplittingType
-#define SOAP_TYPE_PointerTons2__RoVibronicSplittingType (307)
+#define SOAP_TYPE_PointerTons2__RoVibronicSplittingType (306)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__RoVibronicSplittingType(struct soap*, ns2__RoVibronicSplittingType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__RoVibronicSplittingType(struct soap*, const char *, int, ns2__RoVibronicSplittingType *const*, const char *);
@@ -6659,7 +6623,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__RoVibronicSplittingType(struct 
 SOAP_FMAC3 ns2__RoVibronicSplittingType ** SOAP_FMAC4 soap_get_PointerTons2__RoVibronicSplittingType(struct soap*, ns2__RoVibronicSplittingType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__MolecularProjectionType
-#define SOAP_TYPE_PointerTons2__MolecularProjectionType (306)
+#define SOAP_TYPE_PointerTons2__MolecularProjectionType (305)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__MolecularProjectionType(struct soap*, ns2__MolecularProjectionType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__MolecularProjectionType(struct soap*, const char *, int, ns2__MolecularProjectionType *const*, const char *);
@@ -6678,7 +6642,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__MolecularProjectionType(struct 
 SOAP_FMAC3 ns2__MolecularProjectionType ** SOAP_FMAC4 soap_get_PointerTons2__MolecularProjectionType(struct soap*, ns2__MolecularProjectionType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__HyperfineCouplingBType
-#define SOAP_TYPE_PointerTons2__HyperfineCouplingBType (305)
+#define SOAP_TYPE_PointerTons2__HyperfineCouplingBType (304)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__HyperfineCouplingBType(struct soap*, ns2__HyperfineCouplingBType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__HyperfineCouplingBType(struct soap*, const char *, int, ns2__HyperfineCouplingBType *const*, const char *);
@@ -6697,7 +6661,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__HyperfineCouplingBType(struct s
 SOAP_FMAC3 ns2__HyperfineCouplingBType ** SOAP_FMAC4 soap_get_PointerTons2__HyperfineCouplingBType(struct soap*, ns2__HyperfineCouplingBType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__HundCaseBType
-#define SOAP_TYPE_PointerTons2__HundCaseBType (304)
+#define SOAP_TYPE_PointerTons2__HundCaseBType (303)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__HundCaseBType(struct soap*, ns2__HundCaseBType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__HundCaseBType(struct soap*, const char *, int, ns2__HundCaseBType *const*, const char *);
@@ -6716,7 +6680,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__HundCaseBType(struct soap*, ns2
 SOAP_FMAC3 ns2__HundCaseBType ** SOAP_FMAC4 soap_get_PointerTons2__HundCaseBType(struct soap*, ns2__HundCaseBType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__HyperfineCaseABetaType
-#define SOAP_TYPE_PointerTons2__HyperfineCaseABetaType (303)
+#define SOAP_TYPE_PointerTons2__HyperfineCaseABetaType (302)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__HyperfineCaseABetaType(struct soap*, ns2__HyperfineCaseABetaType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__HyperfineCaseABetaType(struct soap*, const char *, int, ns2__HyperfineCaseABetaType *const*, const char *);
@@ -6735,7 +6699,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__HyperfineCaseABetaType(struct s
 SOAP_FMAC3 ns2__HyperfineCaseABetaType ** SOAP_FMAC4 soap_get_PointerTons2__HyperfineCaseABetaType(struct soap*, ns2__HyperfineCaseABetaType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__HyperfineCaseAAlphaType
-#define SOAP_TYPE_PointerTons2__HyperfineCaseAAlphaType (302)
+#define SOAP_TYPE_PointerTons2__HyperfineCaseAAlphaType (301)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__HyperfineCaseAAlphaType(struct soap*, ns2__HyperfineCaseAAlphaType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__HyperfineCaseAAlphaType(struct soap*, const char *, int, ns2__HyperfineCaseAAlphaType *const*, const char *);
@@ -6754,7 +6718,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__HyperfineCaseAAlphaType(struct 
 SOAP_FMAC3 ns2__HyperfineCaseAAlphaType ** SOAP_FMAC4 soap_get_PointerTons2__HyperfineCaseAAlphaType(struct soap*, ns2__HyperfineCaseAAlphaType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__HundCaseAType
-#define SOAP_TYPE_PointerTons2__HundCaseAType (301)
+#define SOAP_TYPE_PointerTons2__HundCaseAType (300)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__HundCaseAType(struct soap*, ns2__HundCaseAType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__HundCaseAType(struct soap*, const char *, int, ns2__HundCaseAType *const*, const char *);
@@ -6773,7 +6737,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__HundCaseAType(struct soap*, ns2
 SOAP_FMAC3 ns2__HundCaseAType ** SOAP_FMAC4 soap_get_PointerTons2__HundCaseAType(struct soap*, ns2__HundCaseAType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__EfSymmetryType
-#define SOAP_TYPE_PointerTons2__EfSymmetryType (300)
+#define SOAP_TYPE_PointerTons2__EfSymmetryType (299)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__EfSymmetryType(struct soap*, enum ns2__EfSymmetryType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__EfSymmetryType(struct soap*, const char *, int, enum ns2__EfSymmetryType *const*, const char *);
@@ -6792,7 +6756,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__EfSymmetryType(struct soap*, en
 SOAP_FMAC3 enum ns2__EfSymmetryType ** SOAP_FMAC4 soap_get_PointerTons2__EfSymmetryType(struct soap*, enum ns2__EfSymmetryType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__HyperfineQuantumNumbersType
-#define SOAP_TYPE_PointerTons2__HyperfineQuantumNumbersType (299)
+#define SOAP_TYPE_PointerTons2__HyperfineQuantumNumbersType (298)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__HyperfineQuantumNumbersType(struct soap*, ns2__HyperfineQuantumNumbersType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__HyperfineQuantumNumbersType(struct soap*, const char *, int, ns2__HyperfineQuantumNumbersType *const*, const char *);
@@ -6811,7 +6775,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__HyperfineQuantumNumbersType(str
 SOAP_FMAC3 ns2__HyperfineQuantumNumbersType ** SOAP_FMAC4 soap_get_PointerTons2__HyperfineQuantumNumbersType(struct soap*, ns2__HyperfineQuantumNumbersType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__ComplexMolecularQuantumNumberType
-#define SOAP_TYPE_PointerTons2__ComplexMolecularQuantumNumberType (297)
+#define SOAP_TYPE_PointerTons2__ComplexMolecularQuantumNumberType (296)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__ComplexMolecularQuantumNumberType(struct soap*, ns2__ComplexMolecularQuantumNumberType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__ComplexMolecularQuantumNumberType(struct soap*, const char *, int, ns2__ComplexMolecularQuantumNumberType *const*, const char *);
@@ -6830,7 +6794,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__ComplexMolecularQuantumNumberTy
 SOAP_FMAC3 ns2__ComplexMolecularQuantumNumberType ** SOAP_FMAC4 soap_get_PointerTons2__ComplexMolecularQuantumNumberType(struct soap*, ns2__ComplexMolecularQuantumNumberType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__VibrationalComponentType
-#define SOAP_TYPE_PointerTons2__VibrationalComponentType (295)
+#define SOAP_TYPE_PointerTons2__VibrationalComponentType (294)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__VibrationalComponentType(struct soap*, ns2__VibrationalComponentType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__VibrationalComponentType(struct soap*, const char *, int, ns2__VibrationalComponentType *const*, const char *);
@@ -6849,7 +6813,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__VibrationalComponentType(struct
 SOAP_FMAC3 ns2__VibrationalComponentType ** SOAP_FMAC4 soap_get_PointerTons2__VibrationalComponentType(struct soap*, ns2__VibrationalComponentType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__RotationalHomeType
-#define SOAP_TYPE_PointerTons2__RotationalHomeType (294)
+#define SOAP_TYPE_PointerTons2__RotationalHomeType (293)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__RotationalHomeType(struct soap*, ns2__RotationalHomeType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__RotationalHomeType(struct soap*, const char *, int, ns2__RotationalHomeType *const*, const char *);
@@ -6868,7 +6832,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__RotationalHomeType(struct soap*
 SOAP_FMAC3 ns2__RotationalHomeType ** SOAP_FMAC4 soap_get_PointerTons2__RotationalHomeType(struct soap*, ns2__RotationalHomeType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__VibrationalQuantumNumbersType
-#define SOAP_TYPE_PointerTons2__VibrationalQuantumNumbersType (293)
+#define SOAP_TYPE_PointerTons2__VibrationalQuantumNumbersType (292)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__VibrationalQuantumNumbersType(struct soap*, ns2__VibrationalQuantumNumbersType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__VibrationalQuantumNumbersType(struct soap*, const char *, int, ns2__VibrationalQuantumNumbersType *const*, const char *);
@@ -6887,7 +6851,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__VibrationalQuantumNumbersType(s
 SOAP_FMAC3 ns2__VibrationalQuantumNumbersType ** SOAP_FMAC4 soap_get_PointerTons2__VibrationalQuantumNumbersType(struct soap*, ns2__VibrationalQuantumNumbersType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__VibrationalCharacterisationType
-#define SOAP_TYPE_PointerTons2__VibrationalCharacterisationType (292)
+#define SOAP_TYPE_PointerTons2__VibrationalCharacterisationType (291)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__VibrationalCharacterisationType(struct soap*, ns2__VibrationalCharacterisationType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__VibrationalCharacterisationType(struct soap*, const char *, int, ns2__VibrationalCharacterisationType *const*, const char *);
@@ -6906,7 +6870,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__VibrationalCharacterisationType
 SOAP_FMAC3 ns2__VibrationalCharacterisationType ** SOAP_FMAC4 soap_get_PointerTons2__VibrationalCharacterisationType(struct soap*, ns2__VibrationalCharacterisationType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__CentralSymbolType
-#define SOAP_TYPE_PointerTons2__CentralSymbolType (291)
+#define SOAP_TYPE_PointerTons2__CentralSymbolType (290)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__CentralSymbolType(struct soap*, ns2__CentralSymbolType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__CentralSymbolType(struct soap*, const char *, int, ns2__CentralSymbolType *const*, const char *);
@@ -6925,7 +6889,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__CentralSymbolType(struct soap*,
 SOAP_FMAC3 ns2__CentralSymbolType ** SOAP_FMAC4 soap_get_PointerTons2__CentralSymbolType(struct soap*, ns2__CentralSymbolType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__RotationalComponentType
-#define SOAP_TYPE_PointerTons2__RotationalComponentType (289)
+#define SOAP_TYPE_PointerTons2__RotationalComponentType (288)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__RotationalComponentType(struct soap*, ns2__RotationalComponentType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__RotationalComponentType(struct soap*, const char *, int, ns2__RotationalComponentType *const*, const char *);
@@ -6944,7 +6908,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__RotationalComponentType(struct 
 SOAP_FMAC3 ns2__RotationalComponentType ** SOAP_FMAC4 soap_get_PointerTons2__RotationalComponentType(struct soap*, ns2__RotationalComponentType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__RotationalCharacterisationType
-#define SOAP_TYPE_PointerTons2__RotationalCharacterisationType (288)
+#define SOAP_TYPE_PointerTons2__RotationalCharacterisationType (287)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__RotationalCharacterisationType(struct soap*, ns2__RotationalCharacterisationType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__RotationalCharacterisationType(struct soap*, const char *, int, ns2__RotationalCharacterisationType *const*, const char *);
@@ -6963,7 +6927,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__RotationalCharacterisationType(
 SOAP_FMAC3 ns2__RotationalCharacterisationType ** SOAP_FMAC4 soap_get_PointerTons2__RotationalCharacterisationType(struct soap*, ns2__RotationalCharacterisationType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__NonLinearPolyatomicType
-#define SOAP_TYPE_PointerTons2__NonLinearPolyatomicType (286)
+#define SOAP_TYPE_PointerTons2__NonLinearPolyatomicType (285)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__NonLinearPolyatomicType(struct soap*, ns2__NonLinearPolyatomicType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__NonLinearPolyatomicType(struct soap*, const char *, int, ns2__NonLinearPolyatomicType *const*, const char *);
@@ -6982,7 +6946,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__NonLinearPolyatomicType(struct 
 SOAP_FMAC3 ns2__NonLinearPolyatomicType ** SOAP_FMAC4 soap_get_PointerTons2__NonLinearPolyatomicType(struct soap*, ns2__NonLinearPolyatomicType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__DiatomAndLinearPolyatomicType
-#define SOAP_TYPE_PointerTons2__DiatomAndLinearPolyatomicType (285)
+#define SOAP_TYPE_PointerTons2__DiatomAndLinearPolyatomicType (284)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__DiatomAndLinearPolyatomicType(struct soap*, ns2__DiatomAndLinearPolyatomicType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__DiatomAndLinearPolyatomicType(struct soap*, const char *, int, ns2__DiatomAndLinearPolyatomicType *const*, const char *);
@@ -7001,7 +6965,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__DiatomAndLinearPolyatomicType(s
 SOAP_FMAC3 ns2__DiatomAndLinearPolyatomicType ** SOAP_FMAC4 soap_get_PointerTons2__DiatomAndLinearPolyatomicType(struct soap*, ns2__DiatomAndLinearPolyatomicType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__PermutationSymmetryType
-#define SOAP_TYPE_PointerTons2__PermutationSymmetryType (284)
+#define SOAP_TYPE_PointerTons2__PermutationSymmetryType (283)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__PermutationSymmetryType(struct soap*, enum ns2__PermutationSymmetryType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__PermutationSymmetryType(struct soap*, const char *, int, enum ns2__PermutationSymmetryType *const*, const char *);
@@ -7020,7 +6984,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__PermutationSymmetryType(struct 
 SOAP_FMAC3 enum ns2__PermutationSymmetryType ** SOAP_FMAC4 soap_get_PointerTons2__PermutationSymmetryType(struct soap*, enum ns2__PermutationSymmetryType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__NonLinearElecHyperFType
-#define SOAP_TYPE_PointerTons2__NonLinearElecHyperFType (282)
+#define SOAP_TYPE_PointerTons2__NonLinearElecHyperFType (281)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__NonLinearElecHyperFType(struct soap*, ns2__NonLinearElecHyperFType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__NonLinearElecHyperFType(struct soap*, const char *, int, ns2__NonLinearElecHyperFType *const*, const char *);
@@ -7039,7 +7003,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__NonLinearElecHyperFType(struct 
 SOAP_FMAC3 ns2__NonLinearElecHyperFType ** SOAP_FMAC4 soap_get_PointerTons2__NonLinearElecHyperFType(struct soap*, ns2__NonLinearElecHyperFType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__NonLinearElecNoHyperFType
-#define SOAP_TYPE_PointerTons2__NonLinearElecNoHyperFType (281)
+#define SOAP_TYPE_PointerTons2__NonLinearElecNoHyperFType (280)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__NonLinearElecNoHyperFType(struct soap*, ns2__NonLinearElecNoHyperFType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__NonLinearElecNoHyperFType(struct soap*, const char *, int, ns2__NonLinearElecNoHyperFType *const*, const char *);
@@ -7058,7 +7022,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__NonLinearElecNoHyperFType(struc
 SOAP_FMAC3 ns2__NonLinearElecNoHyperFType ** SOAP_FMAC4 soap_get_PointerTons2__NonLinearElecNoHyperFType(struct soap*, ns2__NonLinearElecNoHyperFType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__NonLinearNoElecHyperFType
-#define SOAP_TYPE_PointerTons2__NonLinearNoElecHyperFType (280)
+#define SOAP_TYPE_PointerTons2__NonLinearNoElecHyperFType (279)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__NonLinearNoElecHyperFType(struct soap*, ns2__NonLinearNoElecHyperFType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__NonLinearNoElecHyperFType(struct soap*, const char *, int, ns2__NonLinearNoElecHyperFType *const*, const char *);
@@ -7077,7 +7041,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__NonLinearNoElecHyperFType(struc
 SOAP_FMAC3 ns2__NonLinearNoElecHyperFType ** SOAP_FMAC4 soap_get_PointerTons2__NonLinearNoElecHyperFType(struct soap*, ns2__NonLinearNoElecHyperFType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__NonLinearNoElecNoHyperFType
-#define SOAP_TYPE_PointerTons2__NonLinearNoElecNoHyperFType (279)
+#define SOAP_TYPE_PointerTons2__NonLinearNoElecNoHyperFType (278)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__NonLinearNoElecNoHyperFType(struct soap*, ns2__NonLinearNoElecNoHyperFType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__NonLinearNoElecNoHyperFType(struct soap*, const char *, int, ns2__NonLinearNoElecNoHyperFType *const*, const char *);
@@ -7096,7 +7060,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__NonLinearNoElecNoHyperFType(str
 SOAP_FMAC3 ns2__NonLinearNoElecNoHyperFType ** SOAP_FMAC4 soap_get_PointerTons2__NonLinearNoElecNoHyperFType(struct soap*, ns2__NonLinearNoElecNoHyperFType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__BondArrayType
-#define SOAP_TYPE_PointerTons2__BondArrayType (278)
+#define SOAP_TYPE_PointerTons2__BondArrayType (277)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__BondArrayType(struct soap*, ns2__BondArrayType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__BondArrayType(struct soap*, const char *, int, ns2__BondArrayType *const*, const char *);
@@ -7115,7 +7079,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__BondArrayType(struct soap*, ns2
 SOAP_FMAC3 ns2__BondArrayType ** SOAP_FMAC4 soap_get_PointerTons2__BondArrayType(struct soap*, ns2__BondArrayType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__AtomArrayType
-#define SOAP_TYPE_PointerTons2__AtomArrayType (277)
+#define SOAP_TYPE_PointerTons2__AtomArrayType (276)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__AtomArrayType(struct soap*, ns2__AtomArrayType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__AtomArrayType(struct soap*, const char *, int, ns2__AtomArrayType *const*, const char *);
@@ -7134,7 +7098,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__AtomArrayType(struct soap*, ns2
 SOAP_FMAC3 ns2__AtomArrayType ** SOAP_FMAC4 soap_get_PointerTons2__AtomArrayType(struct soap*, ns2__AtomArrayType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__PseudoStatisticalWeightType
-#define SOAP_TYPE_PointerTons2__PseudoStatisticalWeightType (276)
+#define SOAP_TYPE_PointerTons2__PseudoStatisticalWeightType (275)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__PseudoStatisticalWeightType(struct soap*, ns2__PseudoStatisticalWeightType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__PseudoStatisticalWeightType(struct soap*, const char *, int, ns2__PseudoStatisticalWeightType *const*, const char *);
@@ -7153,7 +7117,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__PseudoStatisticalWeightType(str
 SOAP_FMAC3 ns2__PseudoStatisticalWeightType ** SOAP_FMAC4 soap_get_PointerTons2__PseudoStatisticalWeightType(struct soap*, ns2__PseudoStatisticalWeightType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__StateEnergyType
-#define SOAP_TYPE_PointerTons2__StateEnergyType (274)
+#define SOAP_TYPE_PointerTons2__StateEnergyType (273)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__StateEnergyType(struct soap*, ns2__StateEnergyType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__StateEnergyType(struct soap*, const char *, int, ns2__StateEnergyType *const*, const char *);
@@ -7172,7 +7136,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__StateEnergyType(struct soap*, n
 SOAP_FMAC3 ns2__StateEnergyType ** SOAP_FMAC4 soap_get_PointerTons2__StateEnergyType(struct soap*, ns2__StateEnergyType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__CharacterisationType
-#define SOAP_TYPE_PointerTons2__CharacterisationType (272)
+#define SOAP_TYPE_PointerTons2__CharacterisationType (271)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__CharacterisationType(struct soap*, ns2__CharacterisationType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__CharacterisationType(struct soap*, const char *, int, ns2__CharacterisationType *const*, const char *);
@@ -7191,7 +7155,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__CharacterisationType(struct soa
 SOAP_FMAC3 ns2__CharacterisationType ** SOAP_FMAC4 soap_get_PointerTons2__CharacterisationType(struct soap*, ns2__CharacterisationType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__DataType
-#define SOAP_TYPE_PointerTons2__DataType (270)
+#define SOAP_TYPE_PointerTons2__DataType (269)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__DataType(struct soap*, ns2__DataType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__DataType(struct soap*, const char *, int, ns2__DataType *const*, const char *);
@@ -7210,7 +7174,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__DataType(struct soap*, ns2__Dat
 SOAP_FMAC3 ns2__DataType ** SOAP_FMAC4 soap_get_PointerTons2__DataType(struct soap*, ns2__DataType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__HinderedMotionType
-#define SOAP_TYPE_PointerTons2__HinderedMotionType (269)
+#define SOAP_TYPE_PointerTons2__HinderedMotionType (268)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__HinderedMotionType(struct soap*, ns2__HinderedMotionType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__HinderedMotionType(struct soap*, const char *, int, ns2__HinderedMotionType *const*, const char *);
@@ -7229,7 +7193,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__HinderedMotionType(struct soap*
 SOAP_FMAC3 ns2__HinderedMotionType ** SOAP_FMAC4 soap_get_PointerTons2__HinderedMotionType(struct soap*, ns2__HinderedMotionType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__AsymmetricProjectionType
-#define SOAP_TYPE_PointerTons2__AsymmetricProjectionType (268)
+#define SOAP_TYPE_PointerTons2__AsymmetricProjectionType (267)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__AsymmetricProjectionType(struct soap*, ns2__AsymmetricProjectionType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__AsymmetricProjectionType(struct soap*, const char *, int, ns2__AsymmetricProjectionType *const*, const char *);
@@ -7248,7 +7212,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__AsymmetricProjectionType(struct
 SOAP_FMAC3 ns2__AsymmetricProjectionType ** SOAP_FMAC4 soap_get_PointerTons2__AsymmetricProjectionType(struct soap*, ns2__AsymmetricProjectionType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__MolecularPropertiesType
-#define SOAP_TYPE_PointerTons2__MolecularPropertiesType (267)
+#define SOAP_TYPE_PointerTons2__MolecularPropertiesType (266)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__MolecularPropertiesType(struct soap*, ns2__MolecularPropertiesType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__MolecularPropertiesType(struct soap*, const char *, int, ns2__MolecularPropertiesType *const*, const char *);
@@ -7267,7 +7231,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__MolecularPropertiesType(struct 
 SOAP_FMAC3 ns2__MolecularPropertiesType ** SOAP_FMAC4 soap_get_PointerTons2__MolecularPropertiesType(struct soap*, ns2__MolecularPropertiesType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__MoleculeNuclearSpinsType
-#define SOAP_TYPE_PointerTons2__MoleculeNuclearSpinsType (266)
+#define SOAP_TYPE_PointerTons2__MoleculeNuclearSpinsType (265)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__MoleculeNuclearSpinsType(struct soap*, ns2__MoleculeNuclearSpinsType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__MoleculeNuclearSpinsType(struct soap*, const char *, int, ns2__MoleculeNuclearSpinsType *const*, const char *);
@@ -7286,7 +7250,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__MoleculeNuclearSpinsType(struct
 SOAP_FMAC3 ns2__MoleculeNuclearSpinsType ** SOAP_FMAC4 soap_get_PointerTons2__MoleculeNuclearSpinsType(struct soap*, ns2__MoleculeNuclearSpinsType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerToxsd__integer
-#define SOAP_TYPE_PointerToxsd__integer (265)
+#define SOAP_TYPE_PointerToxsd__integer (264)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerToxsd__integer(struct soap*, std::string *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerToxsd__integer(struct soap*, const char *, int, std::string *const*, const char *);
@@ -7305,7 +7269,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerToxsd__integer(struct soap*, std::stri
 SOAP_FMAC3 std::string ** SOAP_FMAC4 soap_get_PointerToxsd__integer(struct soap*, std::string **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__ElectronicComponentType
-#define SOAP_TYPE_PointerTons2__ElectronicComponentType (263)
+#define SOAP_TYPE_PointerTons2__ElectronicComponentType (262)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__ElectronicComponentType(struct soap*, ns2__ElectronicComponentType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__ElectronicComponentType(struct soap*, const char *, int, ns2__ElectronicComponentType *const*, const char *);
@@ -7324,7 +7288,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__ElectronicComponentType(struct 
 SOAP_FMAC3 ns2__ElectronicComponentType ** SOAP_FMAC4 soap_get_PointerTons2__ElectronicComponentType(struct soap*, ns2__ElectronicComponentType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__VibrationalHomeType
-#define SOAP_TYPE_PointerTons2__VibrationalHomeType (262)
+#define SOAP_TYPE_PointerTons2__VibrationalHomeType (261)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__VibrationalHomeType(struct soap*, ns2__VibrationalHomeType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__VibrationalHomeType(struct soap*, const char *, int, ns2__VibrationalHomeType *const*, const char *);
@@ -7343,7 +7307,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__VibrationalHomeType(struct soap
 SOAP_FMAC3 ns2__VibrationalHomeType ** SOAP_FMAC4 soap_get_PointerTons2__VibrationalHomeType(struct soap*, ns2__VibrationalHomeType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__ElectronicCharacterisationType
-#define SOAP_TYPE_PointerTons2__ElectronicCharacterisationType (261)
+#define SOAP_TYPE_PointerTons2__ElectronicCharacterisationType (260)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__ElectronicCharacterisationType(struct soap*, ns2__ElectronicCharacterisationType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__ElectronicCharacterisationType(struct soap*, const char *, int, ns2__ElectronicCharacterisationType *const*, const char *);
@@ -7362,7 +7326,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__ElectronicCharacterisationType(
 SOAP_FMAC3 ns2__ElectronicCharacterisationType ** SOAP_FMAC4 soap_get_PointerTons2__ElectronicCharacterisationType(struct soap*, ns2__ElectronicCharacterisationType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__ReferencedTextType
-#define SOAP_TYPE_PointerTons2__ReferencedTextType (260)
+#define SOAP_TYPE_PointerTons2__ReferencedTextType (259)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__ReferencedTextType(struct soap*, ns2__ReferencedTextType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__ReferencedTextType(struct soap*, const char *, int, ns2__ReferencedTextType *const*, const char *);
@@ -7381,7 +7345,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__ReferencedTextType(struct soap*
 SOAP_FMAC3 ns2__ReferencedTextType ** SOAP_FMAC4 soap_get_PointerTons2__ReferencedTextType(struct soap*, ns2__ReferencedTextType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__SymbolType
-#define SOAP_TYPE_PointerTons2__SymbolType (259)
+#define SOAP_TYPE_PointerTons2__SymbolType (258)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__SymbolType(struct soap*, ns2__SymbolType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__SymbolType(struct soap*, const char *, int, ns2__SymbolType *const*, const char *);
@@ -7400,7 +7364,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__SymbolType(struct soap*, ns2__S
 SOAP_FMAC3 ns2__SymbolType ** SOAP_FMAC4 soap_get_PointerTons2__SymbolType(struct soap*, ns2__SymbolType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__LinearElecCouplingType
-#define SOAP_TYPE_PointerTons2__LinearElecCouplingType (257)
+#define SOAP_TYPE_PointerTons2__LinearElecCouplingType (256)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__LinearElecCouplingType(struct soap*, ns2__LinearElecCouplingType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__LinearElecCouplingType(struct soap*, const char *, int, ns2__LinearElecCouplingType *const*, const char *);
@@ -7419,7 +7383,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__LinearElecCouplingType(struct s
 SOAP_FMAC3 ns2__LinearElecCouplingType ** SOAP_FMAC4 soap_get_PointerTons2__LinearElecCouplingType(struct soap*, ns2__LinearElecCouplingType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__LinearNoElecHyperFType
-#define SOAP_TYPE_PointerTons2__LinearNoElecHyperFType (256)
+#define SOAP_TYPE_PointerTons2__LinearNoElecHyperFType (255)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__LinearNoElecHyperFType(struct soap*, ns2__LinearNoElecHyperFType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__LinearNoElecHyperFType(struct soap*, const char *, int, ns2__LinearNoElecHyperFType *const*, const char *);
@@ -7438,7 +7402,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__LinearNoElecHyperFType(struct s
 SOAP_FMAC3 ns2__LinearNoElecHyperFType ** SOAP_FMAC4 soap_get_PointerTons2__LinearNoElecHyperFType(struct soap*, ns2__LinearNoElecHyperFType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__LinearNoElecNoHyperFType
-#define SOAP_TYPE_PointerTons2__LinearNoElecNoHyperFType (255)
+#define SOAP_TYPE_PointerTons2__LinearNoElecNoHyperFType (254)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__LinearNoElecNoHyperFType(struct soap*, ns2__LinearNoElecNoHyperFType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__LinearNoElecNoHyperFType(struct soap*, const char *, int, ns2__LinearNoElecNoHyperFType *const*, const char *);
@@ -7457,7 +7421,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__LinearNoElecNoHyperFType(struct
 SOAP_FMAC3 ns2__LinearNoElecNoHyperFType ** SOAP_FMAC4 soap_get_PointerTons2__LinearNoElecNoHyperFType(struct soap*, ns2__LinearNoElecNoHyperFType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__BondType
-#define SOAP_TYPE_PointerTons2__BondType (253)
+#define SOAP_TYPE_PointerTons2__BondType (252)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__BondType(struct soap*, ns2__BondType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__BondType(struct soap*, const char *, int, ns2__BondType *const*, const char *);
@@ -7476,7 +7440,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__BondType(struct soap*, ns2__Bon
 SOAP_FMAC3 ns2__BondType ** SOAP_FMAC4 soap_get_PointerTons2__BondType(struct soap*, ns2__BondType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerToxsd__IDREFS
-#define SOAP_TYPE_PointerToxsd__IDREFS (251)
+#define SOAP_TYPE_PointerToxsd__IDREFS (250)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerToxsd__IDREFS(struct soap*, std::string *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerToxsd__IDREFS(struct soap*, const char *, int, std::string *const*, const char *);
@@ -7495,7 +7459,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerToxsd__IDREFS(struct soap*, std::strin
 SOAP_FMAC3 std::string ** SOAP_FMAC4 soap_get_PointerToxsd__IDREFS(struct soap*, std::string **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__AtomNType
-#define SOAP_TYPE_PointerTons2__AtomNType (249)
+#define SOAP_TYPE_PointerTons2__AtomNType (248)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__AtomNType(struct soap*, ns2__AtomNType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__AtomNType(struct soap*, const char *, int, ns2__AtomNType *const*, const char *);
@@ -7514,7 +7478,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__AtomNType(struct soap*, ns2__At
 SOAP_FMAC3 ns2__AtomNType ** SOAP_FMAC4 soap_get_PointerTons2__AtomNType(struct soap*, ns2__AtomNType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__MolecularQuantumNumberType
-#define SOAP_TYPE_PointerTons2__MolecularQuantumNumberType (247)
+#define SOAP_TYPE_PointerTons2__MolecularQuantumNumberType (246)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__MolecularQuantumNumberType(struct soap*, ns2__MolecularQuantumNumberType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__MolecularQuantumNumberType(struct soap*, const char *, int, ns2__MolecularQuantumNumberType *const*, const char *);
@@ -7533,7 +7497,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__MolecularQuantumNumberType(stru
 SOAP_FMAC3 ns2__MolecularQuantumNumberType ** SOAP_FMAC4 soap_get_PointerTons2__MolecularQuantumNumberType(struct soap*, ns2__MolecularQuantumNumberType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__MagneticQuantumNumberType
-#define SOAP_TYPE_PointerTons2__MagneticQuantumNumberType (246)
+#define SOAP_TYPE_PointerTons2__MagneticQuantumNumberType (245)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__MagneticQuantumNumberType(struct soap*, ns2__MagneticQuantumNumberType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__MagneticQuantumNumberType(struct soap*, const char *, int, ns2__MagneticQuantumNumberType *const*, const char *);
@@ -7552,7 +7516,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__MagneticQuantumNumberType(struc
 SOAP_FMAC3 ns2__MagneticQuantumNumberType ** SOAP_FMAC4 soap_get_PointerTons2__MagneticQuantumNumberType(struct soap*, ns2__MagneticQuantumNumberType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__SuperShellType
-#define SOAP_TYPE_PointerTons2__SuperShellType (244)
+#define SOAP_TYPE_PointerTons2__SuperShellType (243)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__SuperShellType(struct soap*, ns2__SuperShellType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__SuperShellType(struct soap*, const char *, int, ns2__SuperShellType *const*, const char *);
@@ -7571,7 +7535,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__SuperShellType(struct soap*, ns
 SOAP_FMAC3 ns2__SuperShellType ** SOAP_FMAC4 soap_get_PointerTons2__SuperShellType(struct soap*, ns2__SuperShellType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerToxsd__ID
-#define SOAP_TYPE_PointerToxsd__ID (243)
+#define SOAP_TYPE_PointerToxsd__ID (242)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerToxsd__ID(struct soap*, std::string *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerToxsd__ID(struct soap*, const char *, int, std::string *const*, const char *);
@@ -7590,7 +7554,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerToxsd__ID(struct soap*, std::string *c
 SOAP_FMAC3 std::string ** SOAP_FMAC4 soap_get_PointerToxsd__ID(struct soap*, std::string **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__ShellPairType
-#define SOAP_TYPE_PointerTons2__ShellPairType (240)
+#define SOAP_TYPE_PointerTons2__ShellPairType (239)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__ShellPairType(struct soap*, ns2__ShellPairType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__ShellPairType(struct soap*, const char *, int, ns2__ShellPairType *const*, const char *);
@@ -7609,7 +7573,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__ShellPairType(struct soap*, ns2
 SOAP_FMAC3 ns2__ShellPairType ** SOAP_FMAC4 soap_get_PointerTons2__ShellPairType(struct soap*, ns2__ShellPairType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__ShellType
-#define SOAP_TYPE_PointerTons2__ShellType (237)
+#define SOAP_TYPE_PointerTons2__ShellType (236)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__ShellType(struct soap*, ns2__ShellType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__ShellType(struct soap*, const char *, int, ns2__ShellType *const*, const char *);
@@ -7628,7 +7592,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__ShellType(struct soap*, ns2__Sh
 SOAP_FMAC3 ns2__ShellType ** SOAP_FMAC4 soap_get_PointerTons2__ShellType(struct soap*, ns2__ShellType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__ShellsType
-#define SOAP_TYPE_PointerTons2__ShellsType (236)
+#define SOAP_TYPE_PointerTons2__ShellsType (235)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__ShellsType(struct soap*, ns2__ShellsType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__ShellsType(struct soap*, const char *, int, ns2__ShellsType *const*, const char *);
@@ -7647,7 +7611,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__ShellsType(struct soap*, ns2__S
 SOAP_FMAC3 ns2__ShellsType ** SOAP_FMAC4 soap_get_PointerTons2__ShellsType(struct soap*, ns2__ShellsType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__AtomicCoreType
-#define SOAP_TYPE_PointerTons2__AtomicCoreType (235)
+#define SOAP_TYPE_PointerTons2__AtomicCoreType (234)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__AtomicCoreType(struct soap*, ns2__AtomicCoreType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__AtomicCoreType(struct soap*, const char *, int, ns2__AtomicCoreType *const*, const char *);
@@ -7666,7 +7630,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__AtomicCoreType(struct soap*, ns
 SOAP_FMAC3 ns2__AtomicCoreType ** SOAP_FMAC4 soap_get_PointerTons2__AtomicCoreType(struct soap*, ns2__AtomicCoreType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__AngularMomentumProjectionType
-#define SOAP_TYPE_PointerTons2__AngularMomentumProjectionType (234)
+#define SOAP_TYPE_PointerTons2__AngularMomentumProjectionType (233)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__AngularMomentumProjectionType(struct soap*, std::string *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__AngularMomentumProjectionType(struct soap*, const char *, int, std::string *const*, const char *);
@@ -7685,7 +7649,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__AngularMomentumProjectionType(s
 SOAP_FMAC3 std::string ** SOAP_FMAC4 soap_get_PointerTons2__AngularMomentumProjectionType(struct soap*, std::string **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__ParityType
-#define SOAP_TYPE_PointerTons2__ParityType (233)
+#define SOAP_TYPE_PointerTons2__ParityType (232)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__ParityType(struct soap*, enum ns2__ParityType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__ParityType(struct soap*, const char *, int, enum ns2__ParityType *const*, const char *);
@@ -7704,7 +7668,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__ParityType(struct soap*, enum n
 SOAP_FMAC3 enum ns2__ParityType ** SOAP_FMAC4 soap_get_PointerTons2__ParityType(struct soap*, enum ns2__ParityType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__MixingCoefficientType
-#define SOAP_TYPE_PointerTons2__MixingCoefficientType (232)
+#define SOAP_TYPE_PointerTons2__MixingCoefficientType (231)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__MixingCoefficientType(struct soap*, ns2__MixingCoefficientType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__MixingCoefficientType(struct soap*, const char *, int, ns2__MixingCoefficientType *const*, const char *);
@@ -7723,7 +7687,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__MixingCoefficientType(struct so
 SOAP_FMAC3 ns2__MixingCoefficientType ** SOAP_FMAC4 soap_get_PointerTons2__MixingCoefficientType(struct soap*, ns2__MixingCoefficientType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__SuperConfigurationType
-#define SOAP_TYPE_PointerTons2__SuperConfigurationType (231)
+#define SOAP_TYPE_PointerTons2__SuperConfigurationType (230)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__SuperConfigurationType(struct soap*, ns2__SuperConfigurationType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__SuperConfigurationType(struct soap*, const char *, int, ns2__SuperConfigurationType *const*, const char *);
@@ -7742,7 +7706,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__SuperConfigurationType(struct s
 SOAP_FMAC3 ns2__SuperConfigurationType ** SOAP_FMAC4 soap_get_PointerTons2__SuperConfigurationType(struct soap*, ns2__SuperConfigurationType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__TermType
-#define SOAP_TYPE_PointerTons2__TermType (230)
+#define SOAP_TYPE_PointerTons2__TermType (229)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__TermType(struct soap*, ns2__TermType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__TermType(struct soap*, const char *, int, ns2__TermType *const*, const char *);
@@ -7761,7 +7725,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__TermType(struct soap*, ns2__Ter
 SOAP_FMAC3 ns2__TermType ** SOAP_FMAC4 soap_get_PointerTons2__TermType(struct soap*, ns2__TermType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__ConfigurationType
-#define SOAP_TYPE_PointerTons2__ConfigurationType (229)
+#define SOAP_TYPE_PointerTons2__ConfigurationType (228)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__ConfigurationType(struct soap*, ns2__ConfigurationType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__ConfigurationType(struct soap*, const char *, int, ns2__ConfigurationType *const*, const char *);
@@ -7780,7 +7744,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__ConfigurationType(struct soap*,
 SOAP_FMAC3 ns2__ConfigurationType ** SOAP_FMAC4 soap_get_PointerTons2__ConfigurationType(struct soap*, ns2__ConfigurationType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__IonStateType
-#define SOAP_TYPE_PointerTons2__IonStateType (227)
+#define SOAP_TYPE_PointerTons2__IonStateType (226)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__IonStateType(struct soap*, ns2__IonStateType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__IonStateType(struct soap*, const char *, int, ns2__IonStateType *const*, const char *);
@@ -7799,7 +7763,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__IonStateType(struct soap*, ns2_
 SOAP_FMAC3 ns2__IonStateType ** SOAP_FMAC4 soap_get_PointerTons2__IonStateType(struct soap*, ns2__IonStateType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__IsotopeParametersType
-#define SOAP_TYPE_PointerTons2__IsotopeParametersType (226)
+#define SOAP_TYPE_PointerTons2__IsotopeParametersType (225)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__IsotopeParametersType(struct soap*, ns2__IsotopeParametersType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__IsotopeParametersType(struct soap*, const char *, int, ns2__IsotopeParametersType *const*, const char *);
@@ -7818,7 +7782,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__IsotopeParametersType(struct so
 SOAP_FMAC3 ns2__IsotopeParametersType ** SOAP_FMAC4 soap_get_PointerTons2__IsotopeParametersType(struct soap*, ns2__IsotopeParametersType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__FunctionType
-#define SOAP_TYPE_PointerTons2__FunctionType (224)
+#define SOAP_TYPE_PointerTons2__FunctionType (223)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__FunctionType(struct soap*, ns2__FunctionType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__FunctionType(struct soap*, const char *, int, ns2__FunctionType *const*, const char *);
@@ -7837,7 +7801,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__FunctionType(struct soap*, ns2_
 SOAP_FMAC3 ns2__FunctionType ** SOAP_FMAC4 soap_get_PointerTons2__FunctionType(struct soap*, ns2__FunctionType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTo_ns2__functionRef
-#define SOAP_TYPE_PointerTo_ns2__functionRef (223)
+#define SOAP_TYPE_PointerTo_ns2__functionRef (222)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTo_ns2__functionRef(struct soap*, std::string *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTo_ns2__functionRef(struct soap*, const char *, int, std::string *const*, const char *);
@@ -7856,7 +7820,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTo_ns2__functionRef(struct soap*, std:
 SOAP_FMAC3 std::string ** SOAP_FMAC4 soap_get_PointerTo_ns2__functionRef(struct soap*, std::string **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__MethodType
-#define SOAP_TYPE_PointerTons2__MethodType (221)
+#define SOAP_TYPE_PointerTons2__MethodType (220)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__MethodType(struct soap*, ns2__MethodType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__MethodType(struct soap*, const char *, int, ns2__MethodType *const*, const char *);
@@ -7875,7 +7839,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__MethodType(struct soap*, ns2__M
 SOAP_FMAC3 ns2__MethodType ** SOAP_FMAC4 soap_get_PointerTons2__MethodType(struct soap*, ns2__MethodType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__AuthorType
-#define SOAP_TYPE_PointerTons2__AuthorType (218)
+#define SOAP_TYPE_PointerTons2__AuthorType (217)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__AuthorType(struct soap*, ns2__AuthorType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__AuthorType(struct soap*, const char *, int, ns2__AuthorType *const*, const char *);
@@ -7894,7 +7858,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__AuthorType(struct soap*, ns2__A
 SOAP_FMAC3 ns2__AuthorType ** SOAP_FMAC4 soap_get_PointerTons2__AuthorType(struct soap*, ns2__AuthorType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerToxsd__date
-#define SOAP_TYPE_PointerToxsd__date (217)
+#define SOAP_TYPE_PointerToxsd__date (216)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerToxsd__date(struct soap*, std::string *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerToxsd__date(struct soap*, const char *, int, std::string *const*, const char *);
@@ -7913,7 +7877,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerToxsd__date(struct soap*, std::string 
 SOAP_FMAC3 std::string ** SOAP_FMAC4 soap_get_PointerToxsd__date(struct soap*, std::string **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__EditorsType
-#define SOAP_TYPE_PointerTons2__EditorsType (216)
+#define SOAP_TYPE_PointerTons2__EditorsType (215)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__EditorsType(struct soap*, ns2__EditorsType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__EditorsType(struct soap*, const char *, int, ns2__EditorsType *const*, const char *);
@@ -7932,7 +7896,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__EditorsType(struct soap*, ns2__
 SOAP_FMAC3 ns2__EditorsType ** SOAP_FMAC4 soap_get_PointerTons2__EditorsType(struct soap*, ns2__EditorsType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerToxsd__anyURI
-#define SOAP_TYPE_PointerToxsd__anyURI (215)
+#define SOAP_TYPE_PointerToxsd__anyURI (214)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerToxsd__anyURI(struct soap*, std::string *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerToxsd__anyURI(struct soap*, const char *, int, std::string *const*, const char *);
@@ -7951,7 +7915,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerToxsd__anyURI(struct soap*, std::strin
 SOAP_FMAC3 std::string ** SOAP_FMAC4 soap_get_PointerToxsd__anyURI(struct soap*, std::string **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerToxsd__token
-#define SOAP_TYPE_PointerToxsd__token (214)
+#define SOAP_TYPE_PointerToxsd__token (213)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerToxsd__token(struct soap*, std::string *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerToxsd__token(struct soap*, const char *, int, std::string *const*, const char *);
@@ -7970,7 +7934,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerToxsd__token(struct soap*, std::string
 SOAP_FMAC3 std::string ** SOAP_FMAC4 soap_get_PointerToxsd__token(struct soap*, std::string **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__AuthorsType
-#define SOAP_TYPE_PointerTons2__AuthorsType (213)
+#define SOAP_TYPE_PointerTons2__AuthorsType (212)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__AuthorsType(struct soap*, ns2__AuthorsType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__AuthorsType(struct soap*, const char *, int, ns2__AuthorsType *const*, const char *);
@@ -7989,7 +7953,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__AuthorsType(struct soap*, ns2__
 SOAP_FMAC3 ns2__AuthorsType ** SOAP_FMAC4 soap_get_PointerTons2__AuthorsType(struct soap*, ns2__AuthorsType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__SourceType
-#define SOAP_TYPE_PointerTons2__SourceType (211)
+#define SOAP_TYPE_PointerTons2__SourceType (210)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__SourceType(struct soap*, ns2__SourceType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__SourceType(struct soap*, const char *, int, ns2__SourceType *const*, const char *);
@@ -8008,7 +7972,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__SourceType(struct soap*, ns2__S
 SOAP_FMAC3 ns2__SourceType ** SOAP_FMAC4 soap_get_PointerTons2__SourceType(struct soap*, ns2__SourceType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__LKCouplingType
-#define SOAP_TYPE_PointerTons2__LKCouplingType (206)
+#define SOAP_TYPE_PointerTons2__LKCouplingType (205)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__LKCouplingType(struct soap*, ns2__LKCouplingType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__LKCouplingType(struct soap*, const char *, int, ns2__LKCouplingType *const*, const char *);
@@ -8027,7 +7991,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__LKCouplingType(struct soap*, ns
 SOAP_FMAC3 ns2__LKCouplingType ** SOAP_FMAC4 soap_get_PointerTons2__LKCouplingType(struct soap*, ns2__LKCouplingType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__jKCouplingType
-#define SOAP_TYPE_PointerTons2__jKCouplingType (205)
+#define SOAP_TYPE_PointerTons2__jKCouplingType (204)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__jKCouplingType(struct soap*, ns2__jKCouplingType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__jKCouplingType(struct soap*, const char *, int, ns2__jKCouplingType *const*, const char *);
@@ -8046,7 +8010,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__jKCouplingType(struct soap*, ns
 SOAP_FMAC3 ns2__jKCouplingType ** SOAP_FMAC4 soap_get_PointerTons2__jKCouplingType(struct soap*, ns2__jKCouplingType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__jjCouplingType
-#define SOAP_TYPE_PointerTons2__jjCouplingType (204)
+#define SOAP_TYPE_PointerTons2__jjCouplingType (203)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__jjCouplingType(struct soap*, ns2__jjCouplingType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__jjCouplingType(struct soap*, const char *, int, ns2__jjCouplingType *const*, const char *);
@@ -8065,7 +8029,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__jjCouplingType(struct soap*, ns
 SOAP_FMAC3 ns2__jjCouplingType ** SOAP_FMAC4 soap_get_PointerTons2__jjCouplingType(struct soap*, ns2__jjCouplingType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__LSCouplingType
-#define SOAP_TYPE_PointerTons2__LSCouplingType (203)
+#define SOAP_TYPE_PointerTons2__LSCouplingType (202)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__LSCouplingType(struct soap*, ns2__LSCouplingType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__LSCouplingType(struct soap*, const char *, int, ns2__LSCouplingType *const*, const char *);
@@ -8084,7 +8048,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__LSCouplingType(struct soap*, ns
 SOAP_FMAC3 ns2__LSCouplingType ** SOAP_FMAC4 soap_get_PointerTons2__LSCouplingType(struct soap*, ns2__LSCouplingType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__OrbitalAngularMomentumSymbolType
-#define SOAP_TYPE_PointerTons2__OrbitalAngularMomentumSymbolType (202)
+#define SOAP_TYPE_PointerTons2__OrbitalAngularMomentumSymbolType (201)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__OrbitalAngularMomentumSymbolType(struct soap*, std::string *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__OrbitalAngularMomentumSymbolType(struct soap*, const char *, int, std::string *const*, const char *);
@@ -8103,7 +8067,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__OrbitalAngularMomentumSymbolTyp
 SOAP_FMAC3 std::string ** SOAP_FMAC4 soap_get_PointerTons2__OrbitalAngularMomentumSymbolType(struct soap*, std::string **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTo_ns2__LSCouplingType_Seniority
-#define SOAP_TYPE_PointerTo_ns2__LSCouplingType_Seniority (201)
+#define SOAP_TYPE_PointerTo_ns2__LSCouplingType_Seniority (200)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTo_ns2__LSCouplingType_Seniority(struct soap*, _ns2__LSCouplingType_Seniority *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTo_ns2__LSCouplingType_Seniority(struct soap*, const char *, int, _ns2__LSCouplingType_Seniority *const*, const char *);
@@ -8122,7 +8086,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTo_ns2__LSCouplingType_Seniority(struc
 SOAP_FMAC3 _ns2__LSCouplingType_Seniority ** SOAP_FMAC4 soap_get_PointerTo_ns2__LSCouplingType_Seniority(struct soap*, _ns2__LSCouplingType_Seniority **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerToxsd__positiveInteger
-#define SOAP_TYPE_PointerToxsd__positiveInteger (199)
+#define SOAP_TYPE_PointerToxsd__positiveInteger (198)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerToxsd__positiveInteger(struct soap*, std::string *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerToxsd__positiveInteger(struct soap*, const char *, int, std::string *const*, const char *);
@@ -8141,7 +8105,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerToxsd__positiveInteger(struct soap*, s
 SOAP_FMAC3 std::string ** SOAP_FMAC4 soap_get_PointerToxsd__positiveInteger(struct soap*, std::string **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__OrbitalAngularMomentumType
-#define SOAP_TYPE_PointerTons2__OrbitalAngularMomentumType (198)
+#define SOAP_TYPE_PointerTons2__OrbitalAngularMomentumType (197)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__OrbitalAngularMomentumType(struct soap*, ns2__OrbitalAngularMomentumType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__OrbitalAngularMomentumType(struct soap*, const char *, int, ns2__OrbitalAngularMomentumType *const*, const char *);
@@ -8160,7 +8124,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__OrbitalAngularMomentumType(stru
 SOAP_FMAC3 ns2__OrbitalAngularMomentumType ** SOAP_FMAC4 soap_get_PointerTons2__OrbitalAngularMomentumType(struct soap*, ns2__OrbitalAngularMomentumType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__AngularMomentumType
-#define SOAP_TYPE_PointerTons2__AngularMomentumType (197)
+#define SOAP_TYPE_PointerTons2__AngularMomentumType (196)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__AngularMomentumType(struct soap*, std::string *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__AngularMomentumType(struct soap*, const char *, int, std::string *const*, const char *);
@@ -8179,7 +8143,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__AngularMomentumType(struct soap
 SOAP_FMAC3 std::string ** SOAP_FMAC4 soap_get_PointerTons2__AngularMomentumType(struct soap*, std::string **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__ParameterType
-#define SOAP_TYPE_PointerTons2__ParameterType (194)
+#define SOAP_TYPE_PointerTons2__ParameterType (193)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__ParameterType(struct soap*, ns2__ParameterType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__ParameterType(struct soap*, const char *, int, ns2__ParameterType *const*, const char *);
@@ -8198,7 +8162,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__ParameterType(struct soap*, ns2
 SOAP_FMAC3 ns2__ParameterType ** SOAP_FMAC4 soap_get_PointerTons2__ParameterType(struct soap*, ns2__ParameterType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__ArgumentType
-#define SOAP_TYPE_PointerTons2__ArgumentType (192)
+#define SOAP_TYPE_PointerTons2__ArgumentType (191)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__ArgumentType(struct soap*, ns2__ArgumentType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__ArgumentType(struct soap*, const char *, int, ns2__ArgumentType *const*, const char *);
@@ -8217,7 +8181,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__ArgumentType(struct soap*, ns2_
 SOAP_FMAC3 ns2__ArgumentType ** SOAP_FMAC4 soap_get_PointerTons2__ArgumentType(struct soap*, ns2__ArgumentType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTodouble
-#define SOAP_TYPE_PointerTodouble (191)
+#define SOAP_TYPE_PointerTodouble (190)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTodouble(struct soap*, double *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTodouble(struct soap*, const char *, int, double *const*, const char *);
@@ -8236,7 +8200,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTodouble(struct soap*, double *const*,
 SOAP_FMAC3 double ** SOAP_FMAC4 soap_get_PointerTodouble(struct soap*, double **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__DataTableType
-#define SOAP_TYPE_PointerTons2__DataTableType (187)
+#define SOAP_TYPE_PointerTons2__DataTableType (186)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__DataTableType(struct soap*, ns2__DataTableType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__DataTableType(struct soap*, const char *, int, ns2__DataTableType *const*, const char *);
@@ -8255,7 +8219,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__DataTableType(struct soap*, ns2
 SOAP_FMAC3 ns2__DataTableType ** SOAP_FMAC4 soap_get_PointerTons2__DataTableType(struct soap*, ns2__DataTableType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__DataListType
-#define SOAP_TYPE_PointerTons2__DataListType (186)
+#define SOAP_TYPE_PointerTons2__DataListType (185)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__DataListType(struct soap*, std::string *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__DataListType(struct soap*, const char *, int, std::string *const*, const char *);
@@ -8274,7 +8238,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__DataListType(struct soap*, std:
 SOAP_FMAC3 std::string ** SOAP_FMAC4 soap_get_PointerTons2__DataListType(struct soap*, std::string **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__DataSetType
-#define SOAP_TYPE_PointerTons2__DataSetType (184)
+#define SOAP_TYPE_PointerTons2__DataSetType (183)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__DataSetType(struct soap*, ns2__DataSetType *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__DataSetType(struct soap*, const char *, int, ns2__DataSetType *const*, const char *);
@@ -8293,7 +8257,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__DataSetType(struct soap*, ns2__
 SOAP_FMAC3 ns2__DataSetType ** SOAP_FMAC4 soap_get_PointerTons2__DataSetType(struct soap*, ns2__DataSetType **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTons2__ElementSymbolType
-#define SOAP_TYPE_PointerTons2__ElementSymbolType (183)
+#define SOAP_TYPE_PointerTons2__ElementSymbolType (182)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons2__ElementSymbolType(struct soap*, std::string *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons2__ElementSymbolType(struct soap*, const char *, int, std::string *const*, const char *);
@@ -8312,7 +8276,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons2__ElementSymbolType(struct soap*,
 SOAP_FMAC3 std::string ** SOAP_FMAC4 soap_get_PointerTons2__ElementSymbolType(struct soap*, std::string **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTo_ns2__methodRef
-#define SOAP_TYPE_PointerTo_ns2__methodRef (181)
+#define SOAP_TYPE_PointerTo_ns2__methodRef (180)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTo_ns2__methodRef(struct soap*, std::string *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTo_ns2__methodRef(struct soap*, const char *, int, std::string *const*, const char *);
@@ -8331,7 +8295,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTo_ns2__methodRef(struct soap*, std::s
 SOAP_FMAC3 std::string ** SOAP_FMAC4 soap_get_PointerTo_ns2__methodRef(struct soap*, std::string **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTo_ns2__sourceRef
-#define SOAP_TYPE_PointerTo_ns2__sourceRef (180)
+#define SOAP_TYPE_PointerTo_ns2__sourceRef (179)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTo_ns2__sourceRef(struct soap*, std::string *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTo_ns2__sourceRef(struct soap*, const char *, int, std::string *const*, const char *);
@@ -8350,7 +8314,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTo_ns2__sourceRef(struct soap*, std::s
 SOAP_FMAC3 std::string ** SOAP_FMAC4 soap_get_PointerTo_ns2__sourceRef(struct soap*, std::string **, const char*, const char*);
 
 #ifndef SOAP_TYPE_PointerTostd__string
-#define SOAP_TYPE_PointerTostd__string (179)
+#define SOAP_TYPE_PointerTostd__string (178)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTostd__string(struct soap*, std::string *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTostd__string(struct soap*, const char *, int, std::string *const*, const char *);
@@ -8413,7 +8377,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_put_string(struct soap*, char *const*, const char
 SOAP_FMAC3 char ** SOAP_FMAC4 soap_get_string(struct soap*, char **, const char*, const char*);
 
 #ifndef SOAP_TYPE_std__vectorTemplateOfPointerTons2__CollisionalTransitionType
-#define SOAP_TYPE_std__vectorTemplateOfPointerTons2__CollisionalTransitionType (390)
+#define SOAP_TYPE_std__vectorTemplateOfPointerTons2__CollisionalTransitionType (389)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_std__vectorTemplateOfPointerTons2__CollisionalTransitionType(struct soap*, std::vector<ns2__CollisionalTransitionType * >*);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_std__vectorTemplateOfPointerTons2__CollisionalTransitionType(struct soap*, const std::vector<ns2__CollisionalTransitionType * >*);
@@ -8429,7 +8393,7 @@ SOAP_FMAC1 std::vector<ns2__CollisionalTransitionType * > * SOAP_FMAC2 soap_inst
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_std__vectorTemplateOfPointerTons2__CollisionalTransitionType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_std__vectorTemplateOfPointerTons2__NonRadiativeTransitionType
-#define SOAP_TYPE_std__vectorTemplateOfPointerTons2__NonRadiativeTransitionType (388)
+#define SOAP_TYPE_std__vectorTemplateOfPointerTons2__NonRadiativeTransitionType (387)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_std__vectorTemplateOfPointerTons2__NonRadiativeTransitionType(struct soap*, std::vector<ns2__NonRadiativeTransitionType * >*);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_std__vectorTemplateOfPointerTons2__NonRadiativeTransitionType(struct soap*, const std::vector<ns2__NonRadiativeTransitionType * >*);
@@ -8445,7 +8409,7 @@ SOAP_FMAC1 std::vector<ns2__NonRadiativeTransitionType * > * SOAP_FMAC2 soap_ins
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_std__vectorTemplateOfPointerTons2__NonRadiativeTransitionType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_std__vectorTemplateOfPointerTons2__RadiativeTransitionProbabilityType
-#define SOAP_TYPE_std__vectorTemplateOfPointerTons2__RadiativeTransitionProbabilityType (384)
+#define SOAP_TYPE_std__vectorTemplateOfPointerTons2__RadiativeTransitionProbabilityType (383)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_std__vectorTemplateOfPointerTons2__RadiativeTransitionProbabilityType(struct soap*, std::vector<ns2__RadiativeTransitionProbabilityType * >*);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_std__vectorTemplateOfPointerTons2__RadiativeTransitionProbabilityType(struct soap*, const std::vector<ns2__RadiativeTransitionProbabilityType * >*);
@@ -8461,7 +8425,7 @@ SOAP_FMAC1 std::vector<ns2__RadiativeTransitionProbabilityType * > * SOAP_FMAC2 
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_std__vectorTemplateOfPointerTons2__RadiativeTransitionProbabilityType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_std__vectorTemplateOfPointerTons2__RadiativeTransitionType
-#define SOAP_TYPE_std__vectorTemplateOfPointerTons2__RadiativeTransitionType (380)
+#define SOAP_TYPE_std__vectorTemplateOfPointerTons2__RadiativeTransitionType (379)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_std__vectorTemplateOfPointerTons2__RadiativeTransitionType(struct soap*, std::vector<ns2__RadiativeTransitionType * >*);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_std__vectorTemplateOfPointerTons2__RadiativeTransitionType(struct soap*, const std::vector<ns2__RadiativeTransitionType * >*);
@@ -8477,7 +8441,7 @@ SOAP_FMAC1 std::vector<ns2__RadiativeTransitionType * > * SOAP_FMAC2 soap_instan
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_std__vectorTemplateOfPointerTons2__RadiativeTransitionType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_std__vectorTemplateOfPointerTons2__MaterialComponentType
-#define SOAP_TYPE_std__vectorTemplateOfPointerTons2__MaterialComponentType (378)
+#define SOAP_TYPE_std__vectorTemplateOfPointerTons2__MaterialComponentType (377)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_std__vectorTemplateOfPointerTons2__MaterialComponentType(struct soap*, std::vector<ns2__MaterialComponentType * >*);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_std__vectorTemplateOfPointerTons2__MaterialComponentType(struct soap*, const std::vector<ns2__MaterialComponentType * >*);
@@ -8493,7 +8457,7 @@ SOAP_FMAC1 std::vector<ns2__MaterialComponentType * > * SOAP_FMAC2 soap_instanti
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_std__vectorTemplateOfPointerTons2__MaterialComponentType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_std__vectorTemplateOfPointerTons2__SolidType
-#define SOAP_TYPE_std__vectorTemplateOfPointerTons2__SolidType (376)
+#define SOAP_TYPE_std__vectorTemplateOfPointerTons2__SolidType (375)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_std__vectorTemplateOfPointerTons2__SolidType(struct soap*, std::vector<ns2__SolidType * >*);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_std__vectorTemplateOfPointerTons2__SolidType(struct soap*, const std::vector<ns2__SolidType * >*);
@@ -8509,7 +8473,7 @@ SOAP_FMAC1 std::vector<ns2__SolidType * > * SOAP_FMAC2 soap_instantiate_std__vec
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_std__vectorTemplateOfPointerTons2__SolidType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_std__vectorTemplateOfPointerTons2__MaterialType
-#define SOAP_TYPE_std__vectorTemplateOfPointerTons2__MaterialType (374)
+#define SOAP_TYPE_std__vectorTemplateOfPointerTons2__MaterialType (373)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_std__vectorTemplateOfPointerTons2__MaterialType(struct soap*, std::vector<ns2__MaterialType * >*);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_std__vectorTemplateOfPointerTons2__MaterialType(struct soap*, const std::vector<ns2__MaterialType * >*);
@@ -8525,7 +8489,7 @@ SOAP_FMAC1 std::vector<ns2__MaterialType * > * SOAP_FMAC2 soap_instantiate_std__
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_std__vectorTemplateOfPointerTons2__MaterialType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_std__vectorTemplateOfPointerTons2__SimpleSymbolType
-#define SOAP_TYPE_std__vectorTemplateOfPointerTons2__SimpleSymbolType (370)
+#define SOAP_TYPE_std__vectorTemplateOfPointerTons2__SimpleSymbolType (369)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_std__vectorTemplateOfPointerTons2__SimpleSymbolType(struct soap*, std::vector<ns2__SimpleSymbolType * >*);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_std__vectorTemplateOfPointerTons2__SimpleSymbolType(struct soap*, const std::vector<ns2__SimpleSymbolType * >*);
@@ -8541,7 +8505,7 @@ SOAP_FMAC1 std::vector<ns2__SimpleSymbolType * > * SOAP_FMAC2 soap_instantiate_s
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_std__vectorTemplateOfPointerTons2__SimpleSymbolType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_std__vectorTemplateOf__ns2__RoVibronicSplittingType_sequence
-#define SOAP_TYPE_std__vectorTemplateOf__ns2__RoVibronicSplittingType_sequence (368)
+#define SOAP_TYPE_std__vectorTemplateOf__ns2__RoVibronicSplittingType_sequence (367)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_std__vectorTemplateOf__ns2__RoVibronicSplittingType_sequence(struct soap*, std::vector<__ns2__RoVibronicSplittingType_sequence >*);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_std__vectorTemplateOf__ns2__RoVibronicSplittingType_sequence(struct soap*, const std::vector<__ns2__RoVibronicSplittingType_sequence >*);
@@ -8557,7 +8521,7 @@ SOAP_FMAC1 std::vector<__ns2__RoVibronicSplittingType_sequence > * SOAP_FMAC2 so
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_std__vectorTemplateOf__ns2__RoVibronicSplittingType_sequence(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_std__vectorTemplateOfPointerTons2__MoleculeType
-#define SOAP_TYPE_std__vectorTemplateOfPointerTons2__MoleculeType (366)
+#define SOAP_TYPE_std__vectorTemplateOfPointerTons2__MoleculeType (365)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_std__vectorTemplateOfPointerTons2__MoleculeType(struct soap*, std::vector<ns2__MoleculeType * >*);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_std__vectorTemplateOfPointerTons2__MoleculeType(struct soap*, const std::vector<ns2__MoleculeType * >*);
@@ -8573,7 +8537,7 @@ SOAP_FMAC1 std::vector<ns2__MoleculeType * > * SOAP_FMAC2 soap_instantiate_std__
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_std__vectorTemplateOfPointerTons2__MoleculeType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_std__vectorTemplateOfPointerTons2__MolecularStateType
-#define SOAP_TYPE_std__vectorTemplateOfPointerTons2__MolecularStateType (364)
+#define SOAP_TYPE_std__vectorTemplateOfPointerTons2__MolecularStateType (363)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_std__vectorTemplateOfPointerTons2__MolecularStateType(struct soap*, std::vector<ns2__MolecularStateType * >*);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_std__vectorTemplateOfPointerTons2__MolecularStateType(struct soap*, const std::vector<ns2__MolecularStateType * >*);
@@ -8589,7 +8553,7 @@ SOAP_FMAC1 std::vector<ns2__MolecularStateType * > * SOAP_FMAC2 soap_instantiate
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_std__vectorTemplateOfPointerTons2__MolecularStateType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_std__vectorTemplateOfPointerTons2__AtomicComponentType
-#define SOAP_TYPE_std__vectorTemplateOfPointerTons2__AtomicComponentType (357)
+#define SOAP_TYPE_std__vectorTemplateOfPointerTons2__AtomicComponentType (356)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_std__vectorTemplateOfPointerTons2__AtomicComponentType(struct soap*, std::vector<ns2__AtomicComponentType * >*);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_std__vectorTemplateOfPointerTons2__AtomicComponentType(struct soap*, const std::vector<ns2__AtomicComponentType * >*);
@@ -8605,7 +8569,7 @@ SOAP_FMAC1 std::vector<ns2__AtomicComponentType * > * SOAP_FMAC2 soap_instantiat
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_std__vectorTemplateOfPointerTons2__AtomicComponentType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_std__vectorTemplateOfPointerTons2__AtomicStateType
-#define SOAP_TYPE_std__vectorTemplateOfPointerTons2__AtomicStateType (352)
+#define SOAP_TYPE_std__vectorTemplateOfPointerTons2__AtomicStateType (351)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_std__vectorTemplateOfPointerTons2__AtomicStateType(struct soap*, std::vector<ns2__AtomicStateType * >*);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_std__vectorTemplateOfPointerTons2__AtomicStateType(struct soap*, const std::vector<ns2__AtomicStateType * >*);
@@ -8621,7 +8585,7 @@ SOAP_FMAC1 std::vector<ns2__AtomicStateType * > * SOAP_FMAC2 soap_instantiate_st
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_std__vectorTemplateOfPointerTons2__AtomicStateType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_std__vectorTemplateOfPointerTons2__IsotopeType
-#define SOAP_TYPE_std__vectorTemplateOfPointerTons2__IsotopeType (350)
+#define SOAP_TYPE_std__vectorTemplateOfPointerTons2__IsotopeType (349)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_std__vectorTemplateOfPointerTons2__IsotopeType(struct soap*, std::vector<ns2__IsotopeType * >*);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_std__vectorTemplateOfPointerTons2__IsotopeType(struct soap*, const std::vector<ns2__IsotopeType * >*);
@@ -8637,7 +8601,7 @@ SOAP_FMAC1 std::vector<ns2__IsotopeType * > * SOAP_FMAC2 soap_instantiate_std__v
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_std__vectorTemplateOfPointerTons2__IsotopeType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_std__vectorTemplateOfPointerTons2__AtomType
-#define SOAP_TYPE_std__vectorTemplateOfPointerTons2__AtomType (348)
+#define SOAP_TYPE_std__vectorTemplateOfPointerTons2__AtomType (347)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_std__vectorTemplateOfPointerTons2__AtomType(struct soap*, std::vector<ns2__AtomType * >*);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_std__vectorTemplateOfPointerTons2__AtomType(struct soap*, const std::vector<ns2__AtomType * >*);
@@ -8653,7 +8617,7 @@ SOAP_FMAC1 std::vector<ns2__AtomType * > * SOAP_FMAC2 soap_instantiate_std__vect
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_std__vectorTemplateOfPointerTons2__AtomType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_std__vectorTemplateOfPointerTons2__FitValidityLimitsType
-#define SOAP_TYPE_std__vectorTemplateOfPointerTons2__FitValidityLimitsType (342)
+#define SOAP_TYPE_std__vectorTemplateOfPointerTons2__FitValidityLimitsType (341)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_std__vectorTemplateOfPointerTons2__FitValidityLimitsType(struct soap*, std::vector<ns2__FitValidityLimitsType * >*);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_std__vectorTemplateOfPointerTons2__FitValidityLimitsType(struct soap*, const std::vector<ns2__FitValidityLimitsType * >*);
@@ -8669,7 +8633,7 @@ SOAP_FMAC1 std::vector<ns2__FitValidityLimitsType * > * SOAP_FMAC2 soap_instanti
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_std__vectorTemplateOfPointerTons2__FitValidityLimitsType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_std__vectorTemplateOfPointerTons2__TabulatedDataType
-#define SOAP_TYPE_std__vectorTemplateOfPointerTons2__TabulatedDataType (338)
+#define SOAP_TYPE_std__vectorTemplateOfPointerTons2__TabulatedDataType (337)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_std__vectorTemplateOfPointerTons2__TabulatedDataType(struct soap*, std::vector<ns2__TabulatedDataType * >*);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_std__vectorTemplateOfPointerTons2__TabulatedDataType(struct soap*, const std::vector<ns2__TabulatedDataType * >*);
@@ -8685,7 +8649,7 @@ SOAP_FMAC1 std::vector<ns2__TabulatedDataType * > * SOAP_FMAC2 soap_instantiate_
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_std__vectorTemplateOfPointerTons2__TabulatedDataType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_std__vectorTemplateOfPointerTons2__FitDataType
-#define SOAP_TYPE_std__vectorTemplateOfPointerTons2__FitDataType (336)
+#define SOAP_TYPE_std__vectorTemplateOfPointerTons2__FitDataType (335)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_std__vectorTemplateOfPointerTons2__FitDataType(struct soap*, std::vector<ns2__FitDataType * >*);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_std__vectorTemplateOfPointerTons2__FitDataType(struct soap*, const std::vector<ns2__FitDataType * >*);
@@ -8701,7 +8665,7 @@ SOAP_FMAC1 std::vector<ns2__FitDataType * > * SOAP_FMAC2 soap_instantiate_std__v
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_std__vectorTemplateOfPointerTons2__FitDataType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_std__vectorTemplateOfns2__CodeType
-#define SOAP_TYPE_std__vectorTemplateOfns2__CodeType (320)
+#define SOAP_TYPE_std__vectorTemplateOfns2__CodeType (319)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_std__vectorTemplateOfns2__CodeType(struct soap*, std::vector<enum ns2__CodeType >*);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_std__vectorTemplateOfns2__CodeType(struct soap*, const std::vector<enum ns2__CodeType >*);
@@ -8717,7 +8681,7 @@ SOAP_FMAC1 std::vector<enum ns2__CodeType > * SOAP_FMAC2 soap_instantiate_std__v
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_std__vectorTemplateOfns2__CodeType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_std__vectorTemplateOfPointerTons2__ParticleType
-#define SOAP_TYPE_std__vectorTemplateOfPointerTons2__ParticleType (313)
+#define SOAP_TYPE_std__vectorTemplateOfPointerTons2__ParticleType (312)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_std__vectorTemplateOfPointerTons2__ParticleType(struct soap*, std::vector<ns2__ParticleType * >*);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_std__vectorTemplateOfPointerTons2__ParticleType(struct soap*, const std::vector<ns2__ParticleType * >*);
@@ -8733,7 +8697,7 @@ SOAP_FMAC1 std::vector<ns2__ParticleType * > * SOAP_FMAC2 soap_instantiate_std__
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_std__vectorTemplateOfPointerTons2__ParticleType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_std__vectorTemplateOfPointerTons2__ComplexMolecularQuantumNumberType
-#define SOAP_TYPE_std__vectorTemplateOfPointerTons2__ComplexMolecularQuantumNumberType (298)
+#define SOAP_TYPE_std__vectorTemplateOfPointerTons2__ComplexMolecularQuantumNumberType (297)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_std__vectorTemplateOfPointerTons2__ComplexMolecularQuantumNumberType(struct soap*, std::vector<ns2__ComplexMolecularQuantumNumberType * >*);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_std__vectorTemplateOfPointerTons2__ComplexMolecularQuantumNumberType(struct soap*, const std::vector<ns2__ComplexMolecularQuantumNumberType * >*);
@@ -8749,7 +8713,7 @@ SOAP_FMAC1 std::vector<ns2__ComplexMolecularQuantumNumberType * > * SOAP_FMAC2 s
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_std__vectorTemplateOfPointerTons2__ComplexMolecularQuantumNumberType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_std__vectorTemplateOfPointerTons2__VibrationalComponentType
-#define SOAP_TYPE_std__vectorTemplateOfPointerTons2__VibrationalComponentType (296)
+#define SOAP_TYPE_std__vectorTemplateOfPointerTons2__VibrationalComponentType (295)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_std__vectorTemplateOfPointerTons2__VibrationalComponentType(struct soap*, std::vector<ns2__VibrationalComponentType * >*);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_std__vectorTemplateOfPointerTons2__VibrationalComponentType(struct soap*, const std::vector<ns2__VibrationalComponentType * >*);
@@ -8765,7 +8729,7 @@ SOAP_FMAC1 std::vector<ns2__VibrationalComponentType * > * SOAP_FMAC2 soap_insta
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_std__vectorTemplateOfPointerTons2__VibrationalComponentType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_std__vectorTemplateOfPointerTons2__RotationalComponentType
-#define SOAP_TYPE_std__vectorTemplateOfPointerTons2__RotationalComponentType (290)
+#define SOAP_TYPE_std__vectorTemplateOfPointerTons2__RotationalComponentType (289)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_std__vectorTemplateOfPointerTons2__RotationalComponentType(struct soap*, std::vector<ns2__RotationalComponentType * >*);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_std__vectorTemplateOfPointerTons2__RotationalComponentType(struct soap*, const std::vector<ns2__RotationalComponentType * >*);
@@ -8781,7 +8745,7 @@ SOAP_FMAC1 std::vector<ns2__RotationalComponentType * > * SOAP_FMAC2 soap_instan
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_std__vectorTemplateOfPointerTons2__RotationalComponentType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_std__vectorTemplateOfPointerTons2__CharacterisationType
-#define SOAP_TYPE_std__vectorTemplateOfPointerTons2__CharacterisationType (275)
+#define SOAP_TYPE_std__vectorTemplateOfPointerTons2__CharacterisationType (274)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_std__vectorTemplateOfPointerTons2__CharacterisationType(struct soap*, std::vector<ns2__CharacterisationType * >*);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_std__vectorTemplateOfPointerTons2__CharacterisationType(struct soap*, const std::vector<ns2__CharacterisationType * >*);
@@ -8797,7 +8761,7 @@ SOAP_FMAC1 std::vector<ns2__CharacterisationType * > * SOAP_FMAC2 soap_instantia
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_std__vectorTemplateOfPointerTons2__CharacterisationType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_std__vectorTemplateOf__ns2__MolecularPropertiesType_sequence
-#define SOAP_TYPE_std__vectorTemplateOf__ns2__MolecularPropertiesType_sequence (273)
+#define SOAP_TYPE_std__vectorTemplateOf__ns2__MolecularPropertiesType_sequence (272)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_std__vectorTemplateOf__ns2__MolecularPropertiesType_sequence(struct soap*, std::vector<__ns2__MolecularPropertiesType_sequence >*);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_std__vectorTemplateOf__ns2__MolecularPropertiesType_sequence(struct soap*, const std::vector<__ns2__MolecularPropertiesType_sequence >*);
@@ -8813,7 +8777,7 @@ SOAP_FMAC1 std::vector<__ns2__MolecularPropertiesType_sequence > * SOAP_FMAC2 so
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_std__vectorTemplateOf__ns2__MolecularPropertiesType_sequence(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_std__vectorTemplateOfPointerTons2__ElectronicComponentType
-#define SOAP_TYPE_std__vectorTemplateOfPointerTons2__ElectronicComponentType (264)
+#define SOAP_TYPE_std__vectorTemplateOfPointerTons2__ElectronicComponentType (263)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_std__vectorTemplateOfPointerTons2__ElectronicComponentType(struct soap*, std::vector<ns2__ElectronicComponentType * >*);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_std__vectorTemplateOfPointerTons2__ElectronicComponentType(struct soap*, const std::vector<ns2__ElectronicComponentType * >*);
@@ -8829,7 +8793,7 @@ SOAP_FMAC1 std::vector<ns2__ElectronicComponentType * > * SOAP_FMAC2 soap_instan
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_std__vectorTemplateOfPointerTons2__ElectronicComponentType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_std__vectorTemplateOf__ns2__BondArrayType_sequence
-#define SOAP_TYPE_std__vectorTemplateOf__ns2__BondArrayType_sequence (254)
+#define SOAP_TYPE_std__vectorTemplateOf__ns2__BondArrayType_sequence (253)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_std__vectorTemplateOf__ns2__BondArrayType_sequence(struct soap*, std::vector<__ns2__BondArrayType_sequence >*);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_std__vectorTemplateOf__ns2__BondArrayType_sequence(struct soap*, const std::vector<__ns2__BondArrayType_sequence >*);
@@ -8845,7 +8809,7 @@ SOAP_FMAC1 std::vector<__ns2__BondArrayType_sequence > * SOAP_FMAC2 soap_instant
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_std__vectorTemplateOf__ns2__BondArrayType_sequence(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_std__vectorTemplateOf__ns2__AtomArrayType_sequence
-#define SOAP_TYPE_std__vectorTemplateOf__ns2__AtomArrayType_sequence (250)
+#define SOAP_TYPE_std__vectorTemplateOf__ns2__AtomArrayType_sequence (249)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_std__vectorTemplateOf__ns2__AtomArrayType_sequence(struct soap*, std::vector<__ns2__AtomArrayType_sequence >*);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_std__vectorTemplateOf__ns2__AtomArrayType_sequence(struct soap*, const std::vector<__ns2__AtomArrayType_sequence >*);
@@ -8861,7 +8825,7 @@ SOAP_FMAC1 std::vector<__ns2__AtomArrayType_sequence > * SOAP_FMAC2 soap_instant
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_std__vectorTemplateOf__ns2__AtomArrayType_sequence(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_std__vectorTemplateOfPointerTons2__SuperShellType
-#define SOAP_TYPE_std__vectorTemplateOfPointerTons2__SuperShellType (245)
+#define SOAP_TYPE_std__vectorTemplateOfPointerTons2__SuperShellType (244)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_std__vectorTemplateOfPointerTons2__SuperShellType(struct soap*, std::vector<ns2__SuperShellType * >*);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_std__vectorTemplateOfPointerTons2__SuperShellType(struct soap*, const std::vector<ns2__SuperShellType * >*);
@@ -8877,7 +8841,7 @@ SOAP_FMAC1 std::vector<ns2__SuperShellType * > * SOAP_FMAC2 soap_instantiate_std
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_std__vectorTemplateOfPointerTons2__SuperShellType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_std__vectorTemplateOf__ns2__ShellsType_sequence
-#define SOAP_TYPE_std__vectorTemplateOf__ns2__ShellsType_sequence (242)
+#define SOAP_TYPE_std__vectorTemplateOf__ns2__ShellsType_sequence (241)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_std__vectorTemplateOf__ns2__ShellsType_sequence(struct soap*, std::vector<__ns2__ShellsType_sequence >*);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_std__vectorTemplateOf__ns2__ShellsType_sequence(struct soap*, const std::vector<__ns2__ShellsType_sequence >*);
@@ -8893,7 +8857,7 @@ SOAP_FMAC1 std::vector<__ns2__ShellsType_sequence > * SOAP_FMAC2 soap_instantiat
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_std__vectorTemplateOf__ns2__ShellsType_sequence(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_std__vectorTemplateOfPointerTons2__ShellPairType
-#define SOAP_TYPE_std__vectorTemplateOfPointerTons2__ShellPairType (241)
+#define SOAP_TYPE_std__vectorTemplateOfPointerTons2__ShellPairType (240)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_std__vectorTemplateOfPointerTons2__ShellPairType(struct soap*, std::vector<ns2__ShellPairType * >*);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_std__vectorTemplateOfPointerTons2__ShellPairType(struct soap*, const std::vector<ns2__ShellPairType * >*);
@@ -8909,7 +8873,7 @@ SOAP_FMAC1 std::vector<ns2__ShellPairType * > * SOAP_FMAC2 soap_instantiate_std_
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_std__vectorTemplateOfPointerTons2__ShellPairType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_std__vectorTemplateOfPointerTons2__ShellType
-#define SOAP_TYPE_std__vectorTemplateOfPointerTons2__ShellType (238)
+#define SOAP_TYPE_std__vectorTemplateOfPointerTons2__ShellType (237)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_std__vectorTemplateOfPointerTons2__ShellType(struct soap*, std::vector<ns2__ShellType * >*);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_std__vectorTemplateOfPointerTons2__ShellType(struct soap*, const std::vector<ns2__ShellType * >*);
@@ -8925,7 +8889,7 @@ SOAP_FMAC1 std::vector<ns2__ShellType * > * SOAP_FMAC2 soap_instantiate_std__vec
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_std__vectorTemplateOfPointerTons2__ShellType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_std__vectorTemplateOfPointerTons2__IonStateType
-#define SOAP_TYPE_std__vectorTemplateOfPointerTons2__IonStateType (228)
+#define SOAP_TYPE_std__vectorTemplateOfPointerTons2__IonStateType (227)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_std__vectorTemplateOfPointerTons2__IonStateType(struct soap*, std::vector<ns2__IonStateType * >*);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_std__vectorTemplateOfPointerTons2__IonStateType(struct soap*, const std::vector<ns2__IonStateType * >*);
@@ -8941,7 +8905,7 @@ SOAP_FMAC1 std::vector<ns2__IonStateType * > * SOAP_FMAC2 soap_instantiate_std__
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_std__vectorTemplateOfPointerTons2__IonStateType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_std__vectorTemplateOfPointerTons2__FunctionType
-#define SOAP_TYPE_std__vectorTemplateOfPointerTons2__FunctionType (225)
+#define SOAP_TYPE_std__vectorTemplateOfPointerTons2__FunctionType (224)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_std__vectorTemplateOfPointerTons2__FunctionType(struct soap*, std::vector<ns2__FunctionType * >*);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_std__vectorTemplateOfPointerTons2__FunctionType(struct soap*, const std::vector<ns2__FunctionType * >*);
@@ -8957,7 +8921,7 @@ SOAP_FMAC1 std::vector<ns2__FunctionType * > * SOAP_FMAC2 soap_instantiate_std__
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_std__vectorTemplateOfPointerTons2__FunctionType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_std__vectorTemplateOfPointerTons2__MethodType
-#define SOAP_TYPE_std__vectorTemplateOfPointerTons2__MethodType (222)
+#define SOAP_TYPE_std__vectorTemplateOfPointerTons2__MethodType (221)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_std__vectorTemplateOfPointerTons2__MethodType(struct soap*, std::vector<ns2__MethodType * >*);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_std__vectorTemplateOfPointerTons2__MethodType(struct soap*, const std::vector<ns2__MethodType * >*);
@@ -8973,7 +8937,7 @@ SOAP_FMAC1 std::vector<ns2__MethodType * > * SOAP_FMAC2 soap_instantiate_std__ve
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_std__vectorTemplateOfPointerTons2__MethodType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_std__vectorTemplateOfstd__string
-#define SOAP_TYPE_std__vectorTemplateOfstd__string (220)
+#define SOAP_TYPE_std__vectorTemplateOfstd__string (219)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_std__vectorTemplateOfstd__string(struct soap*, std::vector<std::string >*);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_std__vectorTemplateOfstd__string(struct soap*, const std::vector<std::string >*);
@@ -8989,7 +8953,7 @@ SOAP_FMAC1 std::vector<std::string > * SOAP_FMAC2 soap_instantiate_std__vectorTe
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_std__vectorTemplateOfstd__string(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_std__vectorTemplateOfPointerTons2__AuthorType
-#define SOAP_TYPE_std__vectorTemplateOfPointerTons2__AuthorType (219)
+#define SOAP_TYPE_std__vectorTemplateOfPointerTons2__AuthorType (218)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_std__vectorTemplateOfPointerTons2__AuthorType(struct soap*, std::vector<ns2__AuthorType * >*);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_std__vectorTemplateOfPointerTons2__AuthorType(struct soap*, const std::vector<ns2__AuthorType * >*);
@@ -9005,7 +8969,7 @@ SOAP_FMAC1 std::vector<ns2__AuthorType * > * SOAP_FMAC2 soap_instantiate_std__ve
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_std__vectorTemplateOfPointerTons2__AuthorType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_std__vectorTemplateOfPointerTons2__SourceType
-#define SOAP_TYPE_std__vectorTemplateOfPointerTons2__SourceType (212)
+#define SOAP_TYPE_std__vectorTemplateOfPointerTons2__SourceType (211)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_std__vectorTemplateOfPointerTons2__SourceType(struct soap*, std::vector<ns2__SourceType * >*);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_std__vectorTemplateOfPointerTons2__SourceType(struct soap*, const std::vector<ns2__SourceType * >*);
@@ -9021,7 +8985,7 @@ SOAP_FMAC1 std::vector<ns2__SourceType * > * SOAP_FMAC2 soap_instantiate_std__ve
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_std__vectorTemplateOfPointerTons2__SourceType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_std__vectorTemplateOf__ns2__ProductsType_sequence
-#define SOAP_TYPE_std__vectorTemplateOf__ns2__ProductsType_sequence (210)
+#define SOAP_TYPE_std__vectorTemplateOf__ns2__ProductsType_sequence (209)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_std__vectorTemplateOf__ns2__ProductsType_sequence(struct soap*, std::vector<__ns2__ProductsType_sequence >*);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_std__vectorTemplateOf__ns2__ProductsType_sequence(struct soap*, const std::vector<__ns2__ProductsType_sequence >*);
@@ -9037,7 +9001,7 @@ SOAP_FMAC1 std::vector<__ns2__ProductsType_sequence > * SOAP_FMAC2 soap_instanti
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_std__vectorTemplateOf__ns2__ProductsType_sequence(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_std__vectorTemplateOf__ns2__ReactantsType_sequence
-#define SOAP_TYPE_std__vectorTemplateOf__ns2__ReactantsType_sequence (208)
+#define SOAP_TYPE_std__vectorTemplateOf__ns2__ReactantsType_sequence (207)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_std__vectorTemplateOf__ns2__ReactantsType_sequence(struct soap*, std::vector<__ns2__ReactantsType_sequence >*);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_std__vectorTemplateOf__ns2__ReactantsType_sequence(struct soap*, const std::vector<__ns2__ReactantsType_sequence >*);
@@ -9053,7 +9017,7 @@ SOAP_FMAC1 std::vector<__ns2__ReactantsType_sequence > * SOAP_FMAC2 soap_instant
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_std__vectorTemplateOf__ns2__ReactantsType_sequence(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_std__vectorTemplateOfns2__AngularMomentumType
-#define SOAP_TYPE_std__vectorTemplateOfns2__AngularMomentumType (196)
+#define SOAP_TYPE_std__vectorTemplateOfns2__AngularMomentumType (195)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_std__vectorTemplateOfns2__AngularMomentumType(struct soap*, std::vector<std::string >*);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_std__vectorTemplateOfns2__AngularMomentumType(struct soap*, const std::vector<std::string >*);
@@ -9069,7 +9033,7 @@ SOAP_FMAC1 std::vector<std::string > * SOAP_FMAC2 soap_instantiate_std__vectorTe
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_std__vectorTemplateOfns2__AngularMomentumType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_std__vectorTemplateOfPointerTons2__ParameterType
-#define SOAP_TYPE_std__vectorTemplateOfPointerTons2__ParameterType (195)
+#define SOAP_TYPE_std__vectorTemplateOfPointerTons2__ParameterType (194)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_std__vectorTemplateOfPointerTons2__ParameterType(struct soap*, std::vector<ns2__ParameterType * >*);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_std__vectorTemplateOfPointerTons2__ParameterType(struct soap*, const std::vector<ns2__ParameterType * >*);
@@ -9085,7 +9049,7 @@ SOAP_FMAC1 std::vector<ns2__ParameterType * > * SOAP_FMAC2 soap_instantiate_std_
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_std__vectorTemplateOfPointerTons2__ParameterType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_std__vectorTemplateOfPointerTons2__ArgumentType
-#define SOAP_TYPE_std__vectorTemplateOfPointerTons2__ArgumentType (193)
+#define SOAP_TYPE_std__vectorTemplateOfPointerTons2__ArgumentType (192)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_std__vectorTemplateOfPointerTons2__ArgumentType(struct soap*, std::vector<ns2__ArgumentType * >*);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_std__vectorTemplateOfPointerTons2__ArgumentType(struct soap*, const std::vector<ns2__ArgumentType * >*);
@@ -9101,7 +9065,7 @@ SOAP_FMAC1 std::vector<ns2__ArgumentType * > * SOAP_FMAC2 soap_instantiate_std__
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_std__vectorTemplateOfPointerTons2__ArgumentType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_std__vectorTemplateOfdouble
-#define SOAP_TYPE_std__vectorTemplateOfdouble (190)
+#define SOAP_TYPE_std__vectorTemplateOfdouble (189)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_std__vectorTemplateOfdouble(struct soap*, std::vector<double >*);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_std__vectorTemplateOfdouble(struct soap*, const std::vector<double >*);
@@ -9117,7 +9081,7 @@ SOAP_FMAC1 std::vector<double > * SOAP_FMAC2 soap_instantiate_std__vectorTemplat
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_std__vectorTemplateOfdouble(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_std__vectorTemplateOfPointerTons2__DataTableType
-#define SOAP_TYPE_std__vectorTemplateOfPointerTons2__DataTableType (188)
+#define SOAP_TYPE_std__vectorTemplateOfPointerTons2__DataTableType (187)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_std__vectorTemplateOfPointerTons2__DataTableType(struct soap*, std::vector<ns2__DataTableType * >*);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_std__vectorTemplateOfPointerTons2__DataTableType(struct soap*, const std::vector<ns2__DataTableType * >*);
@@ -9133,7 +9097,7 @@ SOAP_FMAC1 std::vector<ns2__DataTableType * > * SOAP_FMAC2 soap_instantiate_std_
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_std__vectorTemplateOfPointerTons2__DataTableType(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_std__vectorTemplateOfPointerTons2__DataSetType
-#define SOAP_TYPE_std__vectorTemplateOfPointerTons2__DataSetType (185)
+#define SOAP_TYPE_std__vectorTemplateOfPointerTons2__DataSetType (184)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_std__vectorTemplateOfPointerTons2__DataSetType(struct soap*, std::vector<ns2__DataSetType * >*);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_std__vectorTemplateOfPointerTons2__DataSetType(struct soap*, const std::vector<ns2__DataSetType * >*);

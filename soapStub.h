@@ -27,91 +27,91 @@ compiling, linking, and/or using OpenSSL is allowed.
 
 
 #ifndef SOAP_TYPE_ns2__DataDescriptionType
-#define SOAP_TYPE_ns2__DataDescriptionType (150)
+#define SOAP_TYPE_ns2__DataDescriptionType (149)
 /* ns2:DataDescriptionType */
 enum ns2__DataDescriptionType {ns2__DataDescriptionType__crossSection = 0, ns2__DataDescriptionType__collisionStrength = 1, ns2__DataDescriptionType__rateCoefficient = 2, ns2__DataDescriptionType__probability = 3, ns2__DataDescriptionType__effectiveCollisionStrength = 4, ns2__DataDescriptionType__sputteringYield = 5, ns2__DataDescriptionType__sputteredEnergyCoefficient = 6, ns2__DataDescriptionType__particleReflectionCoefficient = 7, ns2__DataDescriptionType__energyReflectionCoefficient = 8, ns2__DataDescriptionType__meanPenetrationDepth = 9};
 #endif
 
 #ifndef SOAP_TYPE_ns2__ReferenceFrameType
-#define SOAP_TYPE_ns2__ReferenceFrameType (151)
+#define SOAP_TYPE_ns2__ReferenceFrameType (150)
 /* ns2:ReferenceFrameType */
 enum ns2__ReferenceFrameType {ns2__ReferenceFrameType__CenterOfMass = 0, ns2__ReferenceFrameType__LaboratoryFrame = 1, ns2__ReferenceFrameType__TargetFrame = 2};
 #endif
 
 #ifndef SOAP_TYPE_ns2__ParityType
-#define SOAP_TYPE_ns2__ParityType (156)
+#define SOAP_TYPE_ns2__ParityType (155)
 /* ns2:ParityType */
 enum ns2__ParityType {ns2__ParityType__even = 0, ns2__ParityType__odd = 1, ns2__ParityType__undefined = 2};
 #endif
 
 #ifndef SOAP_TYPE_ns2__MixingClassType
-#define SOAP_TYPE_ns2__MixingClassType (157)
+#define SOAP_TYPE_ns2__MixingClassType (156)
 /* ns2:MixingClassType */
 enum ns2__MixingClassType {ns2__MixingClassType__squared = 0, ns2__MixingClassType__signed_ = 1};
 #endif
 
 #ifndef SOAP_TYPE_ns2__CategoryType
-#define SOAP_TYPE_ns2__CategoryType (160)
+#define SOAP_TYPE_ns2__CategoryType (159)
 /* ns2:CategoryType */
 enum ns2__CategoryType {ns2__CategoryType__book = 0, ns2__CategoryType__database = 1, ns2__CategoryType__journal = 2, ns2__CategoryType__preprint = 3, ns2__CategoryType__private_x0020communication = 4, ns2__CategoryType__proceedings = 5, ns2__CategoryType__report = 6, ns2__CategoryType__theses = 7};
 #endif
 
 #ifndef SOAP_TYPE_ns2__MethodCategoryType
-#define SOAP_TYPE_ns2__MethodCategoryType (161)
+#define SOAP_TYPE_ns2__MethodCategoryType (160)
 /* ns2:MethodCategoryType */
 enum ns2__MethodCategoryType {ns2__MethodCategoryType__experiment = 0, ns2__MethodCategoryType__theory = 1, ns2__MethodCategoryType__recommended = 2, ns2__MethodCategoryType__evaluated = 3, ns2__MethodCategoryType__empirical = 4, ns2__MethodCategoryType__scalingLaw = 5, ns2__MethodCategoryType__semiempirical = 6, ns2__MethodCategoryType__compilation = 7, ns2__MethodCategoryType__derived = 8, ns2__MethodCategoryType__observed = 9};
 #endif
 
 #ifndef SOAP_TYPE_ns2__C2SymmetryType
-#define SOAP_TYPE_ns2__C2SymmetryType (162)
+#define SOAP_TYPE_ns2__C2SymmetryType (161)
 /* ns2:C2SymmetryType */
 enum ns2__C2SymmetryType {ns2__C2SymmetryType___x002b = 0, ns2__C2SymmetryType___x002d = 1};
 #endif
 
 #ifndef SOAP_TYPE_ns2__CouplingListType
-#define SOAP_TYPE_ns2__CouplingListType (163)
+#define SOAP_TYPE_ns2__CouplingListType (162)
 /* ns2:CouplingListType */
 enum ns2__CouplingListType {ns2__CouplingListType__bBetaOther = 0, ns2__CouplingListType__bBetaJ = 1, ns2__CouplingListType__bBetaS = 2, ns2__CouplingListType__bBetaN = 3};
 #endif
 
 #ifndef SOAP_TYPE_ns2__EfSymmetryType
-#define SOAP_TYPE_ns2__EfSymmetryType (164)
+#define SOAP_TYPE_ns2__EfSymmetryType (163)
 /* ns2:EfSymmetryType */
 enum ns2__EfSymmetryType {ns2__EfSymmetryType__e = 0, ns2__EfSymmetryType__f = 1};
 #endif
 
 #ifndef SOAP_TYPE_ns2__ModesListType
-#define SOAP_TYPE_ns2__ModesListType (165)
+#define SOAP_TYPE_ns2__ModesListType (164)
 /* ns2:ModesListType */
 enum ns2__ModesListType {ns2__ModesListType__normalMode = 0, ns2__ModesListType__stretchingMode = 1, ns2__ModesListType__bendingMode = 2, ns2__ModesListType__torsionalMode = 3, ns2__ModesListType__localMode = 4, ns2__ModesListType__inversionMode = 5};
 #endif
 
 #ifndef SOAP_TYPE_ns2__PermutationSymmetryType
-#define SOAP_TYPE_ns2__PermutationSymmetryType (166)
+#define SOAP_TYPE_ns2__PermutationSymmetryType (165)
 /* ns2:PermutationSymmetryType */
 enum ns2__PermutationSymmetryType {ns2__PermutationSymmetryType__a = 0, ns2__PermutationSymmetryType__s = 1};
 #endif
 
 #ifndef SOAP_TYPE_ns2__ParticleNameType
-#define SOAP_TYPE_ns2__ParticleNameType (167)
+#define SOAP_TYPE_ns2__ParticleNameType (166)
 /* ns2:ParticleNameType */
 enum ns2__ParticleNameType {ns2__ParticleNameType__photon = 0, ns2__ParticleNameType__electron = 1, ns2__ParticleNameType__muon = 2, ns2__ParticleNameType__positron = 3};
 #endif
 
 #ifndef SOAP_TYPE_ns2__IAEACodeType
-#define SOAP_TYPE_ns2__IAEACodeType (169)
+#define SOAP_TYPE_ns2__IAEACodeType (168)
 /* ns2:IAEACodeType */
 enum ns2__IAEACodeType {ns2__IAEACodeType__EGN = 0, ns2__IAEACodeType__EAS = 1, ns2__IAEACodeType__EBS = 2, ns2__IAEACodeType__EDX = 3, ns2__IAEACodeType__EEL = 4, ns2__IAEACodeType__ELB = 5, ns2__IAEACodeType__ETS = 6, ns2__IAEACodeType__EDT = 7, ns2__IAEACodeType__EFL = 8, ns2__IAEACodeType__EEX = 9, ns2__IAEACodeType__EIN = 10, ns2__IAEACodeType__EMI = 11, ns2__IAEACodeType__ENI = 12, ns2__IAEACodeType__EMT = 13, ns2__IAEACodeType__EUP = 14, ns2__IAEACodeType__EDP = 15, ns2__IAEACodeType__EIP = 16, ns2__IAEACodeType__ERC = 17, ns2__IAEACodeType__ERR = 18, ns2__IAEACodeType__ERD = 19, ns2__IAEACodeType__ERT = 20, ns2__IAEACodeType__ERO = 21, ns2__IAEACodeType__EDC = 22, ns2__IAEACodeType__EDS = 23, ns2__IAEACodeType__EDR = 24, ns2__IAEACodeType__EDA = 25, ns2__IAEACodeType__EDE = 26, ns2__IAEACodeType__EDI = 27, ns2__IAEACodeType__PGN = 28, ns2__IAEACodeType__PTS = 29, ns2__IAEACodeType__PDS = 30, ns2__IAEACodeType__PES = 31, ns2__IAEACodeType__PMA = 32, ns2__IAEACodeType__PDT = 33, ns2__IAEACodeType__PFL = 34, ns2__IAEACodeType__PEX = 35, ns2__IAEACodeType__PIN = 36, ns2__IAEACodeType__PFF = 37, ns2__IAEACodeType__PEA = 38, ns2__IAEACodeType__PTA = 39, ns2__IAEACodeType__PAD = 40, ns2__IAEACodeType__PED = 41, ns2__IAEACodeType__PNL = 42, ns2__IAEACodeType__PZE = 43, ns2__IAEACodeType__PSE = 44, ns2__IAEACodeType__PGF = 45, ns2__IAEACodeType__PTF = 46, ns2__IAEACodeType__HGN = 47, ns2__IAEACodeType__HAS = 48, ns2__IAEACodeType__HLB = 49, ns2__IAEACodeType__HDS = 50, ns2__IAEACodeType__HDX = 51, ns2__IAEACodeType__HES = 52, ns2__IAEACodeType__HCX = 53, ns2__IAEACodeType__HUP = 54, ns2__IAEACodeType__HIR = 55, ns2__IAEACodeType__HEL = 56, ns2__IAEACodeType__HET = 57, ns2__IAEACodeType__HIP = 58, ns2__IAEACodeType__HRC = 59, ns2__IAEACodeType__HTS = 60, ns2__IAEACodeType__HDT = 61, ns2__IAEACodeType__HFL = 62, ns2__IAEACodeType__HEX = 63, ns2__IAEACodeType__HIN = 64, ns2__IAEACodeType__HPN = 65, ns2__IAEACodeType__HST = 66, ns2__IAEACodeType__HAT = 67, ns2__IAEACodeType__HAI = 68, ns2__IAEACodeType__HDI = 69, ns2__IAEACodeType__HDC = 70, ns2__IAEACodeType__HMN = 71};
 #endif
 
 #ifndef SOAP_TYPE_ns2__CodeType
-#define SOAP_TYPE_ns2__CodeType (170)
+#define SOAP_TYPE_ns2__CodeType (169)
 /* ns2:CodeType */
 enum ns2__CodeType {ns2__CodeType__phem = 0, ns2__CodeType__phab = 1, ns2__CodeType__phsc = 2, ns2__CodeType__elas = 3, ns2__CodeType__inel = 4, ns2__CodeType__exci = 5, ns2__CodeType__dexc = 6, ns2__CodeType__ioni = 7, ns2__CodeType__tran = 8, ns2__CodeType__exch = 9, ns2__CodeType__reco = 10, ns2__CodeType__elat = 11, ns2__CodeType__eldt = 12, ns2__CodeType__asso = 13, ns2__CodeType__diss = 14, ns2__CodeType__intr = 15, ns2__CodeType__chem = 16, ns2__CodeType__sure = 17, ns2__CodeType__suem = 18, ns2__CodeType__sudp = 19, ns2__CodeType__such = 20, ns2__CodeType__sope = 21, ns2__CodeType___x0000 = 22};
 #endif
 
 #ifndef SOAP_TYPE__ns2__units
-#define SOAP_TYPE__ns2__units (174)
+#define SOAP_TYPE__ns2__units (173)
 /* ns2:units */
 enum _ns2__units {_ns2__units__undef = 0, _ns2__units__eV_x002famu = 1, _ns2__units__keV_x002famu = 2, _ns2__units__MeV_x002famu = 3, _ns2__units__eV = 4, _ns2__units__keV = 5, _ns2__units__MeV = 6, _ns2__units__au = 7, _ns2__units__1_x002fcm = 8, _ns2__units__J = 9, _ns2__units__Ry = 10, _ns2__units__unitless = 11, _ns2__units__kJ_x002fmol = 12, _ns2__units__kcal_x002fmol = 13, _ns2__units__K = 14, _ns2__units__Hz = 15, _ns2__units__kHz = 16, _ns2__units__MHz = 17, _ns2__units__m = 18, _ns2__units__cm = 19, _ns2__units__A = 20, _ns2__units__nm = 21, _ns2__units__deg = 22, _ns2__units__rad = 23, _ns2__units__srad = 24, _ns2__units__s = 25, _ns2__units__m3_x002fs = 26, _ns2__units__cm3_x002fs = 27, _ns2__units__cm6_x002fs = 28, _ns2__units__m2 = 29, _ns2__units__cm2 = 30, _ns2__units__b = 31, _ns2__units__Mb = 32, _ns2__units__1_x002fs = 33, _ns2__units__C_x002em = 34, _ns2__units__J_x002fT = 35, _ns2__units__C_x002em2 = 36, _ns2__units__m_x002fs = 37, _ns2__units__cm_x002fs = 38, _ns2__units__C = 39, _ns2__units__electron = 40, _ns2__units__g = 41, _ns2__units__amu = 42, _ns2__units__kg = 43, _ns2__units__1_x002fm2_x002fs = 44, _ns2__units__1_x002fcm2_x002fs = 45, _ns2__units__J_x002fm2_x002fs = 46, _ns2__units__J_x002fcm2_x002fs = 47, _ns2__units__1_x002fm2 = 48, _ns2__units__1_x002fcm2 = 49, _ns2__units__J_x002fm2 = 50, _ns2__units__J_x002fcm2 = 51, _ns2__units__W_x002fm2 = 52, _ns2__units__W_x002fcm2 = 53, _ns2__units__W = 54};
 #endif
@@ -139,7 +139,7 @@ enum _ns2__units {_ns2__units__undef = 0, _ns2__units__eV_x002famu = 1, _ns2__un
 #endif
 
 #ifndef SOAP_TYPE_ns2__PrimaryType
-#define SOAP_TYPE_ns2__PrimaryType (21)
+#define SOAP_TYPE_ns2__PrimaryType (20)
 /* ns2:PrimaryType */
 class SOAP_CMAC ns2__PrimaryType
 {
@@ -149,7 +149,7 @@ public:
 	std::string *ns2__methodRef;	/* optional attribute */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 21; } /* = unique id SOAP_TYPE_ns2__PrimaryType */
+	virtual int soap_type() const { return 20; } /* = unique id SOAP_TYPE_ns2__PrimaryType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -162,7 +162,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__ChemicalElementType
-#define SOAP_TYPE_ns2__ChemicalElementType (22)
+#define SOAP_TYPE_ns2__ChemicalElementType (21)
 /* ns2:ChemicalElementType */
 class SOAP_CMAC ns2__ChemicalElementType
 {
@@ -171,7 +171,7 @@ public:
 	std::string *ElementSymbol;	/* optional element of type ns2:ElementSymbolType */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 22; } /* = unique id SOAP_TYPE_ns2__ChemicalElementType */
+	virtual int soap_type() const { return 21; } /* = unique id SOAP_TYPE_ns2__ChemicalElementType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -184,7 +184,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__DataSetsType
-#define SOAP_TYPE_ns2__DataSetsType (25)
+#define SOAP_TYPE_ns2__DataSetsType (24)
 /* ns2:DataSetsType */
 class SOAP_CMAC ns2__DataSetsType
 {
@@ -192,7 +192,7 @@ public:
 	std::vector<class ns2__DataSetType * >DataSet;	/* required element of type ns2:DataSetType */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 25; } /* = unique id SOAP_TYPE_ns2__DataSetsType */
+	virtual int soap_type() const { return 24; } /* = unique id SOAP_TYPE_ns2__DataSetsType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -205,7 +205,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__DataTableType
-#define SOAP_TYPE_ns2__DataTableType (26)
+#define SOAP_TYPE_ns2__DataTableType (25)
 /* ns2:DataTableType */
 class SOAP_CMAC ns2__DataTableType
 {
@@ -219,7 +219,7 @@ public:
 	std::string *parameter;	/* optional attribute */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 26; } /* = unique id SOAP_TYPE_ns2__DataTableType */
+	virtual int soap_type() const { return 25; } /* = unique id SOAP_TYPE_ns2__DataTableType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -232,7 +232,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__DataXYType
-#define SOAP_TYPE_ns2__DataXYType (27)
+#define SOAP_TYPE_ns2__DataXYType (26)
 /* ns2:DataXYType */
 class SOAP_CMAC ns2__DataXYType
 {
@@ -241,7 +241,7 @@ public:
 	ns2__DataTableType *Y;	/* required element of type ns2:DataTableType */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 27; } /* = unique id SOAP_TYPE_ns2__DataXYType */
+	virtual int soap_type() const { return 26; } /* = unique id SOAP_TYPE_ns2__DataXYType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -254,7 +254,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__FitParametersType
-#define SOAP_TYPE_ns2__FitParametersType (30)
+#define SOAP_TYPE_ns2__FitParametersType (29)
 /* ns2:FitParametersType */
 class SOAP_CMAC ns2__FitParametersType
 {
@@ -262,7 +262,7 @@ public:
 	std::vector<double >Parameter;	/* optional element of type xsd:double */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 30; } /* = unique id SOAP_TYPE_ns2__FitParametersType */
+	virtual int soap_type() const { return 29; } /* = unique id SOAP_TYPE_ns2__FitParametersType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -275,7 +275,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__FitValidityLimitsType
-#define SOAP_TYPE_ns2__FitValidityLimitsType (31)
+#define SOAP_TYPE_ns2__FitValidityLimitsType (30)
 /* ns2:FitValidityLimitsType */
 class SOAP_CMAC ns2__FitValidityLimitsType
 {
@@ -284,7 +284,7 @@ public:
 	double *UpperLimit;	/* optional element of type xsd:double */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 31; } /* = unique id SOAP_TYPE_ns2__FitValidityLimitsType */
+	virtual int soap_type() const { return 30; } /* = unique id SOAP_TYPE_ns2__FitValidityLimitsType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -297,7 +297,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__ArgumentsType
-#define SOAP_TYPE_ns2__ArgumentsType (33)
+#define SOAP_TYPE_ns2__ArgumentsType (32)
 /* ns2:ArgumentsType */
 class SOAP_CMAC ns2__ArgumentsType
 {
@@ -305,7 +305,7 @@ public:
 	std::vector<class ns2__ArgumentType * >Argument;	/* required element of type ns2:ArgumentType */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 33; } /* = unique id SOAP_TYPE_ns2__ArgumentsType */
+	virtual int soap_type() const { return 32; } /* = unique id SOAP_TYPE_ns2__ArgumentsType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -318,7 +318,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__ArgumentType
-#define SOAP_TYPE_ns2__ArgumentType (34)
+#define SOAP_TYPE_ns2__ArgumentType (33)
 /* ns2:ArgumentType */
 class SOAP_CMAC ns2__ArgumentType
 {
@@ -329,7 +329,7 @@ public:
 	std::string parameter;	/* optional attribute */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 34; } /* = unique id SOAP_TYPE_ns2__ArgumentType */
+	virtual int soap_type() const { return 33; } /* = unique id SOAP_TYPE_ns2__ArgumentType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -342,7 +342,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__ParametersType
-#define SOAP_TYPE_ns2__ParametersType (35)
+#define SOAP_TYPE_ns2__ParametersType (34)
 /* ns2:ParametersType */
 class SOAP_CMAC ns2__ParametersType
 {
@@ -350,7 +350,7 @@ public:
 	std::vector<class ns2__ParameterType * >Parameter;	/* required element of type ns2:ParameterType */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 35; } /* = unique id SOAP_TYPE_ns2__ParametersType */
+	virtual int soap_type() const { return 34; } /* = unique id SOAP_TYPE_ns2__ParametersType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -363,7 +363,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__ParameterType
-#define SOAP_TYPE_ns2__ParameterType (36)
+#define SOAP_TYPE_ns2__ParameterType (35)
 /* ns2:ParameterType */
 class SOAP_CMAC ns2__ParameterType
 {
@@ -372,7 +372,7 @@ public:
 	std::string *Description;	/* optional element of type xsd:string */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 36; } /* = unique id SOAP_TYPE_ns2__ParameterType */
+	virtual int soap_type() const { return 35; } /* = unique id SOAP_TYPE_ns2__ParameterType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -385,7 +385,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__jjCouplingType
-#define SOAP_TYPE_ns2__jjCouplingType (38)
+#define SOAP_TYPE_ns2__jjCouplingType (37)
 /* ns2:jjCouplingType */
 class SOAP_CMAC ns2__jjCouplingType
 {
@@ -393,7 +393,7 @@ public:
 	std::vector<std::string >j;	/* required element of type ns2:AngularMomentumType */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 38; } /* = unique id SOAP_TYPE_ns2__jjCouplingType */
+	virtual int soap_type() const { return 37; } /* = unique id SOAP_TYPE_ns2__jjCouplingType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -406,7 +406,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__jKCouplingType
-#define SOAP_TYPE_ns2__jKCouplingType (39)
+#define SOAP_TYPE_ns2__jKCouplingType (38)
 /* ns2:jKCouplingType */
 class SOAP_CMAC ns2__jKCouplingType
 {
@@ -416,7 +416,7 @@ public:
 	std::string K;	/* required element of type ns2:AngularMomentumType */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 39; } /* = unique id SOAP_TYPE_ns2__jKCouplingType */
+	virtual int soap_type() const { return 38; } /* = unique id SOAP_TYPE_ns2__jKCouplingType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -429,7 +429,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__LKCouplingType
-#define SOAP_TYPE_ns2__LKCouplingType (40)
+#define SOAP_TYPE_ns2__LKCouplingType (39)
 /* ns2:LKCouplingType */
 class SOAP_CMAC ns2__LKCouplingType
 {
@@ -439,7 +439,7 @@ public:
 	std::string *S2;	/* optional element of type ns2:AngularMomentumType */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 40; } /* = unique id SOAP_TYPE_ns2__LKCouplingType */
+	virtual int soap_type() const { return 39; } /* = unique id SOAP_TYPE_ns2__LKCouplingType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -452,7 +452,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE__ns2__LSCouplingType_Seniority
-#define SOAP_TYPE__ns2__LSCouplingType_Seniority (200)
+#define SOAP_TYPE__ns2__LSCouplingType_Seniority (199)
 /* Primitive ns2:LSCouplingType-Seniority schema type: */
 class SOAP_CMAC _ns2__LSCouplingType_Seniority
 {
@@ -460,7 +460,7 @@ public:
 	std::string __item;
 	std::string *ns2__sourceRef;	/* optional attribute */
 public:
-	virtual int soap_type() const { return 200; } /* = unique id SOAP_TYPE__ns2__LSCouplingType_Seniority */
+	virtual int soap_type() const { return 199; } /* = unique id SOAP_TYPE__ns2__LSCouplingType_Seniority */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -473,7 +473,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__LSCouplingType
-#define SOAP_TYPE_ns2__LSCouplingType (41)
+#define SOAP_TYPE_ns2__LSCouplingType (40)
 /* ns2:LSCouplingType */
 class SOAP_CMAC ns2__LSCouplingType
 {
@@ -484,7 +484,7 @@ public:
 	_ns2__LSCouplingType_Seniority *Seniority;	/* optional element of type ns2:LSCouplingType-Seniority */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 41; } /* = unique id SOAP_TYPE_ns2__LSCouplingType */
+	virtual int soap_type() const { return 40; } /* = unique id SOAP_TYPE_ns2__LSCouplingType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -497,7 +497,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__OrbitalAngularMomentumType
-#define SOAP_TYPE_ns2__OrbitalAngularMomentumType (43)
+#define SOAP_TYPE_ns2__OrbitalAngularMomentumType (42)
 /* ns2:OrbitalAngularMomentumType */
 class SOAP_CMAC ns2__OrbitalAngularMomentumType
 {
@@ -506,7 +506,7 @@ public:
 	std::string *Symbol;	/* optional element of type ns2:OrbitalAngularMomentumSymbolType */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 43; } /* = unique id SOAP_TYPE_ns2__OrbitalAngularMomentumType */
+	virtual int soap_type() const { return 42; } /* = unique id SOAP_TYPE_ns2__OrbitalAngularMomentumType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -519,7 +519,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__TermType
-#define SOAP_TYPE_ns2__TermType (44)
+#define SOAP_TYPE_ns2__TermType (43)
 /* ns2:TermType */
 class SOAP_CMAC ns2__TermType
 {
@@ -532,7 +532,7 @@ public:
 	std::string *TermLabel;	/* optional element of type xsd:string */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 44; } /* = unique id SOAP_TYPE_ns2__TermType */
+	virtual int soap_type() const { return 43; } /* = unique id SOAP_TYPE_ns2__TermType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -545,14 +545,14 @@ public:
 #endif
 
 #ifndef SOAP_TYPE___ns2__ReactantsType_sequence
-#define SOAP_TYPE___ns2__ReactantsType_sequence (207)
+#define SOAP_TYPE___ns2__ReactantsType_sequence (206)
 /* Operation wrapper: */
 class SOAP_CMAC __ns2__ReactantsType_sequence
 {
 public:
 	std::string StateRef;	/* required element of type ns2:StateRef */
 public:
-	virtual int soap_type() const { return 207; } /* = unique id SOAP_TYPE___ns2__ReactantsType_sequence */
+	virtual int soap_type() const { return 206; } /* = unique id SOAP_TYPE___ns2__ReactantsType_sequence */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -565,7 +565,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__ReactantsType
-#define SOAP_TYPE_ns2__ReactantsType (45)
+#define SOAP_TYPE_ns2__ReactantsType (44)
 /* ns2:ReactantsType */
 class SOAP_CMAC ns2__ReactantsType
 {
@@ -573,7 +573,7 @@ public:
 	std::vector<__ns2__ReactantsType_sequence >__ReactantsType_sequence;
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 45; } /* = unique id SOAP_TYPE_ns2__ReactantsType */
+	virtual int soap_type() const { return 44; } /* = unique id SOAP_TYPE_ns2__ReactantsType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -586,14 +586,14 @@ public:
 #endif
 
 #ifndef SOAP_TYPE___ns2__ProductsType_sequence
-#define SOAP_TYPE___ns2__ProductsType_sequence (209)
+#define SOAP_TYPE___ns2__ProductsType_sequence (208)
 /* Operation wrapper: */
 class SOAP_CMAC __ns2__ProductsType_sequence
 {
 public:
 	std::string StateRef;	/* required element of type ns2:StateRef */
 public:
-	virtual int soap_type() const { return 209; } /* = unique id SOAP_TYPE___ns2__ProductsType_sequence */
+	virtual int soap_type() const { return 208; } /* = unique id SOAP_TYPE___ns2__ProductsType_sequence */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -606,7 +606,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__ProductsType
-#define SOAP_TYPE_ns2__ProductsType (46)
+#define SOAP_TYPE_ns2__ProductsType (45)
 /* ns2:ProductsType */
 class SOAP_CMAC ns2__ProductsType
 {
@@ -614,7 +614,7 @@ public:
 	std::vector<__ns2__ProductsType_sequence >__ProductsType_sequence;
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 46; } /* = unique id SOAP_TYPE_ns2__ProductsType */
+	virtual int soap_type() const { return 45; } /* = unique id SOAP_TYPE_ns2__ProductsType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -627,7 +627,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__AuthorType
-#define SOAP_TYPE_ns2__AuthorType (47)
+#define SOAP_TYPE_ns2__AuthorType (46)
 /* ns2:AuthorType */
 class SOAP_CMAC ns2__AuthorType
 {
@@ -636,7 +636,7 @@ public:
 	std::string *Address;	/* optional element of type xsd:string */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 47; } /* = unique id SOAP_TYPE_ns2__AuthorType */
+	virtual int soap_type() const { return 46; } /* = unique id SOAP_TYPE_ns2__AuthorType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -649,7 +649,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__SourcesType
-#define SOAP_TYPE_ns2__SourcesType (48)
+#define SOAP_TYPE_ns2__SourcesType (47)
 /* ns2:SourcesType */
 class SOAP_CMAC ns2__SourcesType
 {
@@ -657,7 +657,7 @@ public:
 	std::vector<class ns2__SourceType * >Source;	/* required element of type ns2:SourceType */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 48; } /* = unique id SOAP_TYPE_ns2__SourcesType */
+	virtual int soap_type() const { return 47; } /* = unique id SOAP_TYPE_ns2__SourcesType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -670,7 +670,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__SourceType
-#define SOAP_TYPE_ns2__SourceType (49)
+#define SOAP_TYPE_ns2__SourceType (48)
 /* ns2:SourceType */
 class SOAP_CMAC ns2__SourceType
 {
@@ -694,7 +694,7 @@ public:
 	std::string ns2__sourceID;	/* required attribute */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 49; } /* = unique id SOAP_TYPE_ns2__SourceType */
+	virtual int soap_type() const { return 48; } /* = unique id SOAP_TYPE_ns2__SourceType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -707,7 +707,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__AuthorsType
-#define SOAP_TYPE_ns2__AuthorsType (50)
+#define SOAP_TYPE_ns2__AuthorsType (49)
 /* ns2:AuthorsType */
 class SOAP_CMAC ns2__AuthorsType
 {
@@ -715,7 +715,7 @@ public:
 	std::vector<ns2__AuthorType * >Author;	/* required element of type ns2:AuthorType */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 50; } /* = unique id SOAP_TYPE_ns2__AuthorsType */
+	virtual int soap_type() const { return 49; } /* = unique id SOAP_TYPE_ns2__AuthorsType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -728,7 +728,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__EditorsType
-#define SOAP_TYPE_ns2__EditorsType (51)
+#define SOAP_TYPE_ns2__EditorsType (50)
 /* ns2:EditorsType */
 class SOAP_CMAC ns2__EditorsType
 {
@@ -736,7 +736,7 @@ public:
 	std::vector<std::string >Name;	/* required element of type xsd:string */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 51; } /* = unique id SOAP_TYPE_ns2__EditorsType */
+	virtual int soap_type() const { return 50; } /* = unique id SOAP_TYPE_ns2__EditorsType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -749,7 +749,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__MethodsType
-#define SOAP_TYPE_ns2__MethodsType (52)
+#define SOAP_TYPE_ns2__MethodsType (51)
 /* ns2:MethodsType */
 class SOAP_CMAC ns2__MethodsType
 {
@@ -757,7 +757,7 @@ public:
 	std::vector<class ns2__MethodType * >Method;	/* required element of type ns2:MethodType */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 52; } /* = unique id SOAP_TYPE_ns2__MethodsType */
+	virtual int soap_type() const { return 51; } /* = unique id SOAP_TYPE_ns2__MethodsType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -770,7 +770,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__MethodType
-#define SOAP_TYPE_ns2__MethodType (53)
+#define SOAP_TYPE_ns2__MethodType (52)
 /* ns2:MethodType */
 class SOAP_CMAC ns2__MethodType
 {
@@ -783,7 +783,7 @@ public:
 	std::string *ns2__functionRef;	/* optional attribute */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 53; } /* = unique id SOAP_TYPE_ns2__MethodType */
+	virtual int soap_type() const { return 52; } /* = unique id SOAP_TYPE_ns2__MethodType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -796,7 +796,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__FunctionsType
-#define SOAP_TYPE_ns2__FunctionsType (54)
+#define SOAP_TYPE_ns2__FunctionsType (53)
 /* ns2:FunctionsType */
 class SOAP_CMAC ns2__FunctionsType
 {
@@ -804,7 +804,7 @@ public:
 	std::vector<class ns2__FunctionType * >Function;	/* required element of type ns2:FunctionType */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 54; } /* = unique id SOAP_TYPE_ns2__FunctionsType */
+	virtual int soap_type() const { return 53; } /* = unique id SOAP_TYPE_ns2__FunctionsType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -817,7 +817,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__IsotopeType
-#define SOAP_TYPE_ns2__IsotopeType (58)
+#define SOAP_TYPE_ns2__IsotopeType (57)
 /* ns2:IsotopeType */
 class SOAP_CMAC ns2__IsotopeType
 {
@@ -827,7 +827,7 @@ public:
 	std::string *Comments;	/* optional element of type xsd:string */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 58; } /* = unique id SOAP_TYPE_ns2__IsotopeType */
+	virtual int soap_type() const { return 57; } /* = unique id SOAP_TYPE_ns2__IsotopeType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -840,7 +840,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__AtomicCoreType
-#define SOAP_TYPE_ns2__AtomicCoreType (64)
+#define SOAP_TYPE_ns2__AtomicCoreType (63)
 /* ns2:AtomicCoreType */
 class SOAP_CMAC ns2__AtomicCoreType
 {
@@ -851,7 +851,7 @@ public:
 	std::string *TotalAngularMomentum;	/* optional element of type ns2:AngularMomentumType */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 64; } /* = unique id SOAP_TYPE_ns2__AtomicCoreType */
+	virtual int soap_type() const { return 63; } /* = unique id SOAP_TYPE_ns2__AtomicCoreType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -864,7 +864,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__AtomicComponentType
-#define SOAP_TYPE_ns2__AtomicComponentType (65)
+#define SOAP_TYPE_ns2__AtomicComponentType (64)
 /* ns2:AtomicComponentType */
 class SOAP_CMAC ns2__AtomicComponentType
 {
@@ -876,7 +876,7 @@ public:
 	std::string *Comments;	/* optional element of type xsd:string */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 65; } /* = unique id SOAP_TYPE_ns2__AtomicComponentType */
+	virtual int soap_type() const { return 64; } /* = unique id SOAP_TYPE_ns2__AtomicComponentType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -889,7 +889,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__AtomicQuantumNumbersType
-#define SOAP_TYPE_ns2__AtomicQuantumNumbersType (66)
+#define SOAP_TYPE_ns2__AtomicQuantumNumbersType (65)
 /* ns2:AtomicQuantumNumbersType */
 class SOAP_CMAC ns2__AtomicQuantumNumbersType
 {
@@ -901,7 +901,7 @@ public:
 	std::string *MagneticQuantumNumber;	/* optional element of type ns2:AngularMomentumProjectionType */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 66; } /* = unique id SOAP_TYPE_ns2__AtomicQuantumNumbersType */
+	virtual int soap_type() const { return 65; } /* = unique id SOAP_TYPE_ns2__AtomicQuantumNumbersType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -914,7 +914,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__ConfigurationType
-#define SOAP_TYPE_ns2__ConfigurationType (67)
+#define SOAP_TYPE_ns2__ConfigurationType (66)
 /* ns2:ConfigurationType */
 class SOAP_CMAC ns2__ConfigurationType
 {
@@ -924,7 +924,7 @@ public:
 	std::string *ConfigurationLabel;	/* optional element of type xsd:string */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 67; } /* = unique id SOAP_TYPE_ns2__ConfigurationType */
+	virtual int soap_type() const { return 66; } /* = unique id SOAP_TYPE_ns2__ConfigurationType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -937,14 +937,14 @@ public:
 #endif
 
 #ifndef SOAP_TYPE___ns2__ShellsType_sequence
-#define SOAP_TYPE___ns2__ShellsType_sequence (239)
+#define SOAP_TYPE___ns2__ShellsType_sequence (238)
 /* Operation wrapper: */
 class SOAP_CMAC __ns2__ShellsType_sequence
 {
 public:
 	std::vector<class ns2__ShellPairType * >ShellPair;	/* required element of type ns2:ShellPairType */
 public:
-	virtual int soap_type() const { return 239; } /* = unique id SOAP_TYPE___ns2__ShellsType_sequence */
+	virtual int soap_type() const { return 238; } /* = unique id SOAP_TYPE___ns2__ShellsType_sequence */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -957,7 +957,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__ShellsType
-#define SOAP_TYPE_ns2__ShellsType (68)
+#define SOAP_TYPE_ns2__ShellsType (67)
 /* ns2:ShellsType */
 class SOAP_CMAC ns2__ShellsType
 {
@@ -966,7 +966,7 @@ public:
 	std::vector<__ns2__ShellsType_sequence >__ShellsType_sequence;
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 68; } /* = unique id SOAP_TYPE_ns2__ShellsType */
+	virtual int soap_type() const { return 67; } /* = unique id SOAP_TYPE_ns2__ShellsType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -979,7 +979,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__ShellPairType
-#define SOAP_TYPE_ns2__ShellPairType (69)
+#define SOAP_TYPE_ns2__ShellPairType (68)
 /* ns2:ShellPairType */
 class SOAP_CMAC ns2__ShellPairType
 {
@@ -990,7 +990,7 @@ public:
 	std::string shellPairID;	/* required attribute */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 69; } /* = unique id SOAP_TYPE_ns2__ShellPairType */
+	virtual int soap_type() const { return 68; } /* = unique id SOAP_TYPE_ns2__ShellPairType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -1003,7 +1003,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__ShellType
-#define SOAP_TYPE_ns2__ShellType (70)
+#define SOAP_TYPE_ns2__ShellType (69)
 /* ns2:ShellType */
 class SOAP_CMAC ns2__ShellType
 {
@@ -1018,7 +1018,7 @@ public:
 	std::string *shellID;	/* optional attribute */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 70; } /* = unique id SOAP_TYPE_ns2__ShellType */
+	virtual int soap_type() const { return 69; } /* = unique id SOAP_TYPE_ns2__ShellType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -1031,7 +1031,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__SuperConfigurationType
-#define SOAP_TYPE_ns2__SuperConfigurationType (71)
+#define SOAP_TYPE_ns2__SuperConfigurationType (70)
 /* ns2:SuperConfigurationType */
 class SOAP_CMAC ns2__SuperConfigurationType
 {
@@ -1039,7 +1039,7 @@ public:
 	std::vector<class ns2__SuperShellType * >SuperShell;	/* required element of type ns2:SuperShellType */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 71; } /* = unique id SOAP_TYPE_ns2__SuperConfigurationType */
+	virtual int soap_type() const { return 70; } /* = unique id SOAP_TYPE_ns2__SuperConfigurationType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -1052,7 +1052,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__SuperShellType
-#define SOAP_TYPE_ns2__SuperShellType (72)
+#define SOAP_TYPE_ns2__SuperShellType (71)
 /* ns2:SuperShellType */
 class SOAP_CMAC ns2__SuperShellType
 {
@@ -1061,7 +1061,7 @@ public:
 	double NumberOfElectrons;	/* required element of type xsd:double */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 72; } /* = unique id SOAP_TYPE_ns2__SuperShellType */
+	virtual int soap_type() const { return 71; } /* = unique id SOAP_TYPE_ns2__SuperShellType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -1074,7 +1074,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__AsymmetricProjectionType
-#define SOAP_TYPE_ns2__AsymmetricProjectionType (73)
+#define SOAP_TYPE_ns2__AsymmetricProjectionType (72)
 /* ns2:AsymmetricProjectionType */
 class SOAP_CMAC ns2__AsymmetricProjectionType
 {
@@ -1084,7 +1084,7 @@ public:
 	ns2__MolecularQuantumNumberType *AsymmetricKc;	/* required element of type ns2:MolecularQuantumNumberType */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 73; } /* = unique id SOAP_TYPE_ns2__AsymmetricProjectionType */
+	virtual int soap_type() const { return 72; } /* = unique id SOAP_TYPE_ns2__AsymmetricProjectionType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -1097,7 +1097,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__HinderedMotionType
-#define SOAP_TYPE_ns2__HinderedMotionType (74)
+#define SOAP_TYPE_ns2__HinderedMotionType (73)
 /* ns2:HinderedMotionType */
 class SOAP_CMAC ns2__HinderedMotionType
 {
@@ -1106,7 +1106,7 @@ public:
 	ns2__MolecularQuantumNumberType *HinderedK2;	/* required element of type ns2:MolecularQuantumNumberType */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 74; } /* = unique id SOAP_TYPE_ns2__HinderedMotionType */
+	virtual int soap_type() const { return 73; } /* = unique id SOAP_TYPE_ns2__HinderedMotionType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -1119,14 +1119,14 @@ public:
 #endif
 
 #ifndef SOAP_TYPE___ns2__AtomArrayType_sequence
-#define SOAP_TYPE___ns2__AtomArrayType_sequence (248)
+#define SOAP_TYPE___ns2__AtomArrayType_sequence (247)
 /* Operation wrapper: */
 class SOAP_CMAC __ns2__AtomArrayType_sequence
 {
 public:
 	class ns2__AtomNType *AtomN;	/* required element of type ns2:AtomNType */
 public:
-	virtual int soap_type() const { return 248; } /* = unique id SOAP_TYPE___ns2__AtomArrayType_sequence */
+	virtual int soap_type() const { return 247; } /* = unique id SOAP_TYPE___ns2__AtomArrayType_sequence */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -1139,7 +1139,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__AtomArrayType
-#define SOAP_TYPE_ns2__AtomArrayType (75)
+#define SOAP_TYPE_ns2__AtomArrayType (74)
 /* ns2:AtomArrayType */
 class SOAP_CMAC ns2__AtomArrayType
 {
@@ -1147,7 +1147,7 @@ public:
 	std::vector<__ns2__AtomArrayType_sequence >__AtomArrayType_sequence;
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 75; } /* = unique id SOAP_TYPE_ns2__AtomArrayType */
+	virtual int soap_type() const { return 74; } /* = unique id SOAP_TYPE_ns2__AtomArrayType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -1160,7 +1160,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__BondType
-#define SOAP_TYPE_ns2__BondType (77)
+#define SOAP_TYPE_ns2__BondType (76)
 /* ns2:BondType */
 class SOAP_CMAC ns2__BondType
 {
@@ -1169,7 +1169,7 @@ public:
 	std::string *order;	/* optional attribute */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 77; } /* = unique id SOAP_TYPE_ns2__BondType */
+	virtual int soap_type() const { return 76; } /* = unique id SOAP_TYPE_ns2__BondType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -1182,14 +1182,14 @@ public:
 #endif
 
 #ifndef SOAP_TYPE___ns2__BondArrayType_sequence
-#define SOAP_TYPE___ns2__BondArrayType_sequence (252)
+#define SOAP_TYPE___ns2__BondArrayType_sequence (251)
 /* Operation wrapper: */
 class SOAP_CMAC __ns2__BondArrayType_sequence
 {
 public:
 	ns2__BondType *Bond;	/* required element of type ns2:BondType */
 public:
-	virtual int soap_type() const { return 252; } /* = unique id SOAP_TYPE___ns2__BondArrayType_sequence */
+	virtual int soap_type() const { return 251; } /* = unique id SOAP_TYPE___ns2__BondArrayType_sequence */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -1202,7 +1202,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__BondArrayType
-#define SOAP_TYPE_ns2__BondArrayType (78)
+#define SOAP_TYPE_ns2__BondArrayType (77)
 /* ns2:BondArrayType */
 class SOAP_CMAC ns2__BondArrayType
 {
@@ -1210,7 +1210,7 @@ public:
 	std::vector<__ns2__BondArrayType_sequence >__BondArrayType_sequence;
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 78; } /* = unique id SOAP_TYPE_ns2__BondArrayType */
+	virtual int soap_type() const { return 77; } /* = unique id SOAP_TYPE_ns2__BondArrayType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -1223,7 +1223,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__C2SymmetriesType
-#define SOAP_TYPE_ns2__C2SymmetriesType (79)
+#define SOAP_TYPE_ns2__C2SymmetriesType (78)
 /* ns2:C2SymmetriesType */
 class SOAP_CMAC ns2__C2SymmetriesType
 {
@@ -1233,7 +1233,7 @@ public:
 	enum ns2__C2SymmetryType C2aSymmetry;	/* required element of type ns2:C2SymmetryType */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 79; } /* = unique id SOAP_TYPE_ns2__C2SymmetriesType */
+	virtual int soap_type() const { return 78; } /* = unique id SOAP_TYPE_ns2__C2SymmetriesType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -1246,7 +1246,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE__ns2__union_DiatomAndLinearPolyatomicType
-#define SOAP_TYPE__ns2__union_DiatomAndLinearPolyatomicType (258)
+#define SOAP_TYPE__ns2__union_DiatomAndLinearPolyatomicType (257)
 /* xsd:choice */
 union _ns2__union_DiatomAndLinearPolyatomicType
 {
@@ -1260,7 +1260,7 @@ union _ns2__union_DiatomAndLinearPolyatomicType
 #endif
 
 #ifndef SOAP_TYPE_ns2__DiatomAndLinearPolyatomicType
-#define SOAP_TYPE_ns2__DiatomAndLinearPolyatomicType (82)
+#define SOAP_TYPE_ns2__DiatomAndLinearPolyatomicType (81)
 /* Choice: */
 class SOAP_CMAC ns2__DiatomAndLinearPolyatomicType
 {
@@ -1269,7 +1269,7 @@ public:
 	union _ns2__union_DiatomAndLinearPolyatomicType union_DiatomAndLinearPolyatomicType;	/* required element of type xsd:choice */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 82; } /* = unique id SOAP_TYPE_ns2__DiatomAndLinearPolyatomicType */
+	virtual int soap_type() const { return 81; } /* = unique id SOAP_TYPE_ns2__DiatomAndLinearPolyatomicType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -1282,7 +1282,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__ElectronicCharacterisationType
-#define SOAP_TYPE_ns2__ElectronicCharacterisationType (83)
+#define SOAP_TYPE_ns2__ElectronicCharacterisationType (82)
 /* ns2:ElectronicCharacterisationType */
 class SOAP_CMAC ns2__ElectronicCharacterisationType
 {
@@ -1293,7 +1293,7 @@ public:
 	ns2__SymbolType *SymmetryGroup;	/* optional element of type ns2:SymbolType */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 83; } /* = unique id SOAP_TYPE_ns2__ElectronicCharacterisationType */
+	virtual int soap_type() const { return 82; } /* = unique id SOAP_TYPE_ns2__ElectronicCharacterisationType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -1306,7 +1306,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__ElectronicComponentType
-#define SOAP_TYPE_ns2__ElectronicComponentType (84)
+#define SOAP_TYPE_ns2__ElectronicComponentType (83)
 /* ns2:ElectronicComponentType */
 class SOAP_CMAC ns2__ElectronicComponentType
 {
@@ -1320,7 +1320,7 @@ public:
 	std::string *Comment;	/* optional element of type xsd:string */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 84; } /* = unique id SOAP_TYPE_ns2__ElectronicComponentType */
+	virtual int soap_type() const { return 83; } /* = unique id SOAP_TYPE_ns2__ElectronicComponentType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -1333,7 +1333,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__ElectronicHomeType
-#define SOAP_TYPE_ns2__ElectronicHomeType (85)
+#define SOAP_TYPE_ns2__ElectronicHomeType (84)
 /* ns2:ElectronicHomeType */
 class SOAP_CMAC ns2__ElectronicHomeType
 {
@@ -1341,7 +1341,7 @@ public:
 	std::vector<ns2__ElectronicComponentType * >ElectronicComponent;	/* required element of type ns2:ElectronicComponentType */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 85; } /* = unique id SOAP_TYPE_ns2__ElectronicHomeType */
+	virtual int soap_type() const { return 84; } /* = unique id SOAP_TYPE_ns2__ElectronicHomeType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -1354,7 +1354,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__MolecularChemicalSpeciesType
-#define SOAP_TYPE_ns2__MolecularChemicalSpeciesType (86)
+#define SOAP_TYPE_ns2__MolecularChemicalSpeciesType (85)
 /* ns2:MolecularChemicalSpeciesType */
 class SOAP_CMAC ns2__MolecularChemicalSpeciesType
 {
@@ -1374,7 +1374,7 @@ public:
 	std::string *Comment;	/* optional element of type xsd:string */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 86; } /* = unique id SOAP_TYPE_ns2__MolecularChemicalSpeciesType */
+	virtual int soap_type() const { return 85; } /* = unique id SOAP_TYPE_ns2__MolecularChemicalSpeciesType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -1387,7 +1387,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__MolecularProjectionType
-#define SOAP_TYPE_ns2__MolecularProjectionType (87)
+#define SOAP_TYPE_ns2__MolecularProjectionType (86)
 /* ns2:MolecularProjectionType */
 class SOAP_CMAC ns2__MolecularProjectionType
 {
@@ -1397,7 +1397,7 @@ public:
 	ns2__HinderedMotionType *HinderedMotion;	/* optional element of type ns2:HinderedMotionType */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 87; } /* = unique id SOAP_TYPE_ns2__MolecularProjectionType */
+	virtual int soap_type() const { return 86; } /* = unique id SOAP_TYPE_ns2__MolecularProjectionType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -1410,14 +1410,14 @@ public:
 #endif
 
 #ifndef SOAP_TYPE___ns2__MolecularPropertiesType_sequence
-#define SOAP_TYPE___ns2__MolecularPropertiesType_sequence (271)
+#define SOAP_TYPE___ns2__MolecularPropertiesType_sequence (270)
 /* Operation wrapper: */
 class SOAP_CMAC __ns2__MolecularPropertiesType_sequence
 {
 public:
 	class ns2__CharacterisationType *OtherProperties;	/* optional element of type ns2:CharacterisationType */
 public:
-	virtual int soap_type() const { return 271; } /* = unique id SOAP_TYPE___ns2__MolecularPropertiesType_sequence */
+	virtual int soap_type() const { return 270; } /* = unique id SOAP_TYPE___ns2__MolecularPropertiesType_sequence */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -1430,7 +1430,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__MolecularPropertiesType
-#define SOAP_TYPE_ns2__MolecularPropertiesType (88)
+#define SOAP_TYPE_ns2__MolecularPropertiesType (87)
 /* ns2:MolecularPropertiesType */
 class SOAP_CMAC ns2__MolecularPropertiesType
 {
@@ -1439,7 +1439,7 @@ public:
 	std::vector<__ns2__MolecularPropertiesType_sequence >__MolecularPropertiesType_sequence;
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 88; } /* = unique id SOAP_TYPE_ns2__MolecularPropertiesType */
+	virtual int soap_type() const { return 87; } /* = unique id SOAP_TYPE_ns2__MolecularPropertiesType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -1452,7 +1452,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__MolecularStateCharacterisationType
-#define SOAP_TYPE_ns2__MolecularStateCharacterisationType (90)
+#define SOAP_TYPE_ns2__MolecularStateCharacterisationType (89)
 /* ns2:MolecularStateCharacterisationType */
 class SOAP_CMAC ns2__MolecularStateCharacterisationType
 {
@@ -1465,7 +1465,7 @@ public:
 	std::vector<ns2__CharacterisationType * >Parameters;	/* optional element of type ns2:CharacterisationType */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 90; } /* = unique id SOAP_TYPE_ns2__MolecularStateCharacterisationType */
+	virtual int soap_type() const { return 89; } /* = unique id SOAP_TYPE_ns2__MolecularStateCharacterisationType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -1478,7 +1478,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__MolecularStateCharacterisation_oldType
-#define SOAP_TYPE_ns2__MolecularStateCharacterisation_oldType (91)
+#define SOAP_TYPE_ns2__MolecularStateCharacterisation_oldType (90)
 /* ns2:MolecularStateCharacterisation-oldType */
 class SOAP_CMAC ns2__MolecularStateCharacterisation_oldType
 {
@@ -1493,7 +1493,7 @@ public:
 	std::vector<ns2__CharacterisationType * >Parameters;	/* optional element of type ns2:CharacterisationType */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 91; } /* = unique id SOAP_TYPE_ns2__MolecularStateCharacterisation_oldType */
+	virtual int soap_type() const { return 90; } /* = unique id SOAP_TYPE_ns2__MolecularStateCharacterisation_oldType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -1506,7 +1506,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__MoleculeNuclearSpinsType
-#define SOAP_TYPE_ns2__MoleculeNuclearSpinsType (93)
+#define SOAP_TYPE_ns2__MoleculeNuclearSpinsType (92)
 /* ns2:MoleculeNuclearSpinsType */
 class SOAP_CMAC ns2__MoleculeNuclearSpinsType
 {
@@ -1515,7 +1515,7 @@ public:
 	ns2__BondArrayType *BondArray;	/* optional element of type ns2:BondArrayType */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 93; } /* = unique id SOAP_TYPE_ns2__MoleculeNuclearSpinsType */
+	virtual int soap_type() const { return 92; } /* = unique id SOAP_TYPE_ns2__MoleculeNuclearSpinsType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -1528,7 +1528,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE__ns2__union_NonLinearPolyatomicType
-#define SOAP_TYPE__ns2__union_NonLinearPolyatomicType (283)
+#define SOAP_TYPE__ns2__union_NonLinearPolyatomicType (282)
 /* xsd:choice */
 union _ns2__union_NonLinearPolyatomicType
 {
@@ -1544,7 +1544,7 @@ union _ns2__union_NonLinearPolyatomicType
 #endif
 
 #ifndef SOAP_TYPE_ns2__NonLinearPolyatomicType
-#define SOAP_TYPE_ns2__NonLinearPolyatomicType (95)
+#define SOAP_TYPE_ns2__NonLinearPolyatomicType (94)
 /* Choice: */
 class SOAP_CMAC ns2__NonLinearPolyatomicType
 {
@@ -1553,7 +1553,7 @@ public:
 	union _ns2__union_NonLinearPolyatomicType union_NonLinearPolyatomicType;	/* required element of type xsd:choice */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 95; } /* = unique id SOAP_TYPE_ns2__NonLinearPolyatomicType */
+	virtual int soap_type() const { return 94; } /* = unique id SOAP_TYPE_ns2__NonLinearPolyatomicType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -1566,7 +1566,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__RotationalCharacterisationType
-#define SOAP_TYPE_ns2__RotationalCharacterisationType (96)
+#define SOAP_TYPE_ns2__RotationalCharacterisationType (95)
 /* ns2:RotationalCharacterisationType */
 class SOAP_CMAC ns2__RotationalCharacterisationType
 {
@@ -1578,7 +1578,7 @@ public:
 	enum ns2__PermutationSymmetryType *InversionSymmetry;	/* optional element of type ns2:PermutationSymmetryType */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 96; } /* = unique id SOAP_TYPE_ns2__RotationalCharacterisationType */
+	virtual int soap_type() const { return 95; } /* = unique id SOAP_TYPE_ns2__RotationalCharacterisationType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -1591,7 +1591,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE__ns2__union_RotationalComponentType
-#define SOAP_TYPE__ns2__union_RotationalComponentType (287)
+#define SOAP_TYPE__ns2__union_RotationalComponentType (286)
 /* xsd:choice */
 union _ns2__union_RotationalComponentType
 {
@@ -1603,7 +1603,7 @@ union _ns2__union_RotationalComponentType
 #endif
 
 #ifndef SOAP_TYPE_ns2__RotationalComponentType
-#define SOAP_TYPE_ns2__RotationalComponentType (97)
+#define SOAP_TYPE_ns2__RotationalComponentType (96)
 /* ns2:RotationalComponentType */
 class SOAP_CMAC ns2__RotationalComponentType
 {
@@ -1614,7 +1614,7 @@ public:
 	std::string *SerialQuantumNumber;	/* optional element of type xsd:string */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 97; } /* = unique id SOAP_TYPE_ns2__RotationalComponentType */
+	virtual int soap_type() const { return 96; } /* = unique id SOAP_TYPE_ns2__RotationalComponentType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -1627,7 +1627,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__RotationalHomeType
-#define SOAP_TYPE_ns2__RotationalHomeType (98)
+#define SOAP_TYPE_ns2__RotationalHomeType (97)
 /* ns2:RotationalHomeType */
 class SOAP_CMAC ns2__RotationalHomeType
 {
@@ -1638,7 +1638,7 @@ public:
 	std::vector<ns2__RotationalComponentType * >RotationalComponent;	/* required element of type ns2:RotationalComponentType */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 98; } /* = unique id SOAP_TYPE_ns2__RotationalHomeType */
+	virtual int soap_type() const { return 97; } /* = unique id SOAP_TYPE_ns2__RotationalHomeType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -1651,7 +1651,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__MolecularQuantumNumberType
-#define SOAP_TYPE_ns2__MolecularQuantumNumberType (101)
+#define SOAP_TYPE_ns2__MolecularQuantumNumberType (100)
 /* ns2:MolecularQuantumNumberType */
 class SOAP_CMAC ns2__MolecularQuantumNumberType
 {
@@ -1662,7 +1662,7 @@ public:
 	std::string *quantumNumberID;	/* optional attribute */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 101; } /* = unique id SOAP_TYPE_ns2__MolecularQuantumNumberType */
+	virtual int soap_type() const { return 100; } /* = unique id SOAP_TYPE_ns2__MolecularQuantumNumberType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -1675,7 +1675,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__MagneticQuantumNumberType
-#define SOAP_TYPE_ns2__MagneticQuantumNumberType (102)
+#define SOAP_TYPE_ns2__MagneticQuantumNumberType (101)
 /* ns2:MagneticQuantumNumberType */
 class SOAP_CMAC ns2__MagneticQuantumNumberType
 {
@@ -1686,7 +1686,7 @@ public:
 	std::string *quantumNumberID;	/* optional attribute */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 102; } /* = unique id SOAP_TYPE_ns2__MagneticQuantumNumberType */
+	virtual int soap_type() const { return 101; } /* = unique id SOAP_TYPE_ns2__MagneticQuantumNumberType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -1699,7 +1699,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__SimpleSymbolType
-#define SOAP_TYPE_ns2__SimpleSymbolType (103)
+#define SOAP_TYPE_ns2__SimpleSymbolType (102)
 /* ns2:SimpleSymbolType */
 class SOAP_CMAC ns2__SimpleSymbolType
 {
@@ -1709,7 +1709,7 @@ public:
 	std::string LeftCoefficient;	/* required element of type xsd:string */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 103; } /* = unique id SOAP_TYPE_ns2__SimpleSymbolType */
+	virtual int soap_type() const { return 102; } /* = unique id SOAP_TYPE_ns2__SimpleSymbolType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -1722,7 +1722,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__VibrationalComponentType
-#define SOAP_TYPE_ns2__VibrationalComponentType (107)
+#define SOAP_TYPE_ns2__VibrationalComponentType (106)
 /* ns2:VibrationalComponentType */
 class SOAP_CMAC ns2__VibrationalComponentType
 {
@@ -1736,7 +1736,7 @@ public:
 	std::string *Comment;	/* optional element of type xsd:token */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 107; } /* = unique id SOAP_TYPE_ns2__VibrationalComponentType */
+	virtual int soap_type() const { return 106; } /* = unique id SOAP_TYPE_ns2__VibrationalComponentType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -1749,7 +1749,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__VibrationalCharacterisationType
-#define SOAP_TYPE_ns2__VibrationalCharacterisationType (108)
+#define SOAP_TYPE_ns2__VibrationalCharacterisationType (107)
 /* ns2:VibrationalCharacterisationType */
 class SOAP_CMAC ns2__VibrationalCharacterisationType
 {
@@ -1758,7 +1758,7 @@ public:
 	ns2__SymbolType *VibronicSpeciesNotation;	/* optional element of type ns2:SymbolType */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 108; } /* = unique id SOAP_TYPE_ns2__VibrationalCharacterisationType */
+	virtual int soap_type() const { return 107; } /* = unique id SOAP_TYPE_ns2__VibrationalCharacterisationType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -1771,7 +1771,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__VibrationalHomeType
-#define SOAP_TYPE_ns2__VibrationalHomeType (109)
+#define SOAP_TYPE_ns2__VibrationalHomeType (108)
 /* ns2:VibrationalHomeType */
 class SOAP_CMAC ns2__VibrationalHomeType
 {
@@ -1780,7 +1780,7 @@ public:
 	std::vector<ns2__VibrationalComponentType * >VibrationalComponent;	/* required element of type ns2:VibrationalComponentType */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 109; } /* = unique id SOAP_TYPE_ns2__VibrationalHomeType */
+	virtual int soap_type() const { return 108; } /* = unique id SOAP_TYPE_ns2__VibrationalHomeType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -1793,7 +1793,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__VibrationalQuantumNumbersType
-#define SOAP_TYPE_ns2__VibrationalQuantumNumbersType (110)
+#define SOAP_TYPE_ns2__VibrationalQuantumNumbersType (109)
 /* ns2:VibrationalQuantumNumbersType */
 class SOAP_CMAC ns2__VibrationalQuantumNumbersType
 {
@@ -1804,7 +1804,7 @@ public:
 	ns2__MagneticQuantumNumberType *VibronicAngularMomentumP;	/* optional element of type ns2:MagneticQuantumNumberType */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 110; } /* = unique id SOAP_TYPE_ns2__VibrationalQuantumNumbersType */
+	virtual int soap_type() const { return 109; } /* = unique id SOAP_TYPE_ns2__VibrationalQuantumNumbersType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -1817,7 +1817,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__LinearNoElecNoHyperFType
-#define SOAP_TYPE_ns2__LinearNoElecNoHyperFType (111)
+#define SOAP_TYPE_ns2__LinearNoElecNoHyperFType (110)
 /* ns2:LinearNoElecNoHyperFType */
 class SOAP_CMAC ns2__LinearNoElecNoHyperFType
 {
@@ -1826,7 +1826,7 @@ public:
 	ns2__MagneticQuantumNumberType *TotalMagneticQuantumNumberN;	/* optional element of type ns2:MagneticQuantumNumberType */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 111; } /* = unique id SOAP_TYPE_ns2__LinearNoElecNoHyperFType */
+	virtual int soap_type() const { return 110; } /* = unique id SOAP_TYPE_ns2__LinearNoElecNoHyperFType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -1839,7 +1839,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__LinearNoElecHyperFType
-#define SOAP_TYPE_ns2__LinearNoElecHyperFType (112)
+#define SOAP_TYPE_ns2__LinearNoElecHyperFType (111)
 /* ns2:LinearNoElecHyperFType */
 class SOAP_CMAC ns2__LinearNoElecHyperFType
 {
@@ -1848,7 +1848,7 @@ public:
 	class ns2__HyperfineQuantumNumbersType *HyperfineQuantumNumbers;	/* required element of type ns2:HyperfineQuantumNumbersType */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 112; } /* = unique id SOAP_TYPE_ns2__LinearNoElecHyperFType */
+	virtual int soap_type() const { return 111; } /* = unique id SOAP_TYPE_ns2__LinearNoElecHyperFType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -1861,7 +1861,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__LinearElecCouplingType
-#define SOAP_TYPE_ns2__LinearElecCouplingType (113)
+#define SOAP_TYPE_ns2__LinearElecCouplingType (112)
 /* ns2:LinearElecCouplingType */
 class SOAP_CMAC ns2__LinearElecCouplingType
 {
@@ -1875,7 +1875,7 @@ public:
 	class ns2__HyperfineCouplingBType *HyperfineCouplingHundCaseB;	/* optional element of type ns2:HyperfineCouplingBType */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 113; } /* = unique id SOAP_TYPE_ns2__LinearElecCouplingType */
+	virtual int soap_type() const { return 112; } /* = unique id SOAP_TYPE_ns2__LinearElecCouplingType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -1888,7 +1888,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__HundCaseAType
-#define SOAP_TYPE_ns2__HundCaseAType (114)
+#define SOAP_TYPE_ns2__HundCaseAType (113)
 /* ns2:HundCaseAType */
 class SOAP_CMAC ns2__HundCaseAType
 {
@@ -1898,7 +1898,7 @@ public:
 	ns2__MagneticQuantumNumberType *TotalMagneticQuantumNumberJ;	/* optional element of type ns2:MagneticQuantumNumberType */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 114; } /* = unique id SOAP_TYPE_ns2__HundCaseAType */
+	virtual int soap_type() const { return 113; } /* = unique id SOAP_TYPE_ns2__HundCaseAType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -1911,7 +1911,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__HundCaseBType
-#define SOAP_TYPE_ns2__HundCaseBType (115)
+#define SOAP_TYPE_ns2__HundCaseBType (114)
 /* ns2:HundCaseBType */
 class SOAP_CMAC ns2__HundCaseBType
 {
@@ -1921,7 +1921,7 @@ public:
 	ns2__MagneticQuantumNumberType *TotalMagneticQuantumNumberJ;	/* optional element of type ns2:MagneticQuantumNumberType */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 115; } /* = unique id SOAP_TYPE_ns2__HundCaseBType */
+	virtual int soap_type() const { return 114; } /* = unique id SOAP_TYPE_ns2__HundCaseBType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -1934,7 +1934,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__HyperfineCaseAAlphaType
-#define SOAP_TYPE_ns2__HyperfineCaseAAlphaType (116)
+#define SOAP_TYPE_ns2__HyperfineCaseAAlphaType (115)
 /* ns2:HyperfineCaseAAlphaType */
 class SOAP_CMAC ns2__HyperfineCaseAAlphaType
 {
@@ -1944,7 +1944,7 @@ public:
 	ns2__MagneticQuantumNumberType *TotalMagneticQuantumNumberF;	/* optional element of type ns2:MagneticQuantumNumberType */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 116; } /* = unique id SOAP_TYPE_ns2__HyperfineCaseAAlphaType */
+	virtual int soap_type() const { return 115; } /* = unique id SOAP_TYPE_ns2__HyperfineCaseAAlphaType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -1957,7 +1957,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__HyperfineCaseABetaType
-#define SOAP_TYPE_ns2__HyperfineCaseABetaType (117)
+#define SOAP_TYPE_ns2__HyperfineCaseABetaType (116)
 /* ns2:HyperfineCaseABetaType */
 class SOAP_CMAC ns2__HyperfineCaseABetaType
 {
@@ -1967,7 +1967,7 @@ public:
 	ns2__HyperfineQuantumNumbersType *HyperfineQuantumNumbers;	/* required element of type ns2:HyperfineQuantumNumbersType */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 117; } /* = unique id SOAP_TYPE_ns2__HyperfineCaseABetaType */
+	virtual int soap_type() const { return 116; } /* = unique id SOAP_TYPE_ns2__HyperfineCaseABetaType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -1980,7 +1980,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__HyperfineCouplingBType
-#define SOAP_TYPE_ns2__HyperfineCouplingBType (118)
+#define SOAP_TYPE_ns2__HyperfineCouplingBType (117)
 /* ns2:HyperfineCouplingBType */
 class SOAP_CMAC ns2__HyperfineCouplingBType
 {
@@ -1991,7 +1991,7 @@ public:
 	ns2__HyperfineQuantumNumbersType *HyperfineQuantumNumbers;	/* required element of type ns2:HyperfineQuantumNumbersType */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 118; } /* = unique id SOAP_TYPE_ns2__HyperfineCouplingBType */
+	virtual int soap_type() const { return 117; } /* = unique id SOAP_TYPE_ns2__HyperfineCouplingBType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -2004,7 +2004,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__NonLinearElecCouplingType
-#define SOAP_TYPE_ns2__NonLinearElecCouplingType (119)
+#define SOAP_TYPE_ns2__NonLinearElecCouplingType (118)
 /* ns2:NonLinearElecCouplingType */
 class SOAP_CMAC ns2__NonLinearElecCouplingType
 {
@@ -2017,7 +2017,7 @@ public:
 	class ns2__RoVibronicSplittingType *RoVibronicSplitting;	/* optional element of type ns2:RoVibronicSplittingType */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 119; } /* = unique id SOAP_TYPE_ns2__NonLinearElecCouplingType */
+	virtual int soap_type() const { return 118; } /* = unique id SOAP_TYPE_ns2__NonLinearElecCouplingType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -2030,7 +2030,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__NonLinearNoElecType
-#define SOAP_TYPE_ns2__NonLinearNoElecType (122)
+#define SOAP_TYPE_ns2__NonLinearNoElecType (121)
 /* ns2:NonLinearNoElecType */
 class SOAP_CMAC ns2__NonLinearNoElecType
 {
@@ -2040,7 +2040,7 @@ public:
 	ns2__C2SymmetriesType *C2Symmetries;	/* optional element of type ns2:C2SymmetriesType */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 122; } /* = unique id SOAP_TYPE_ns2__NonLinearNoElecType */
+	virtual int soap_type() const { return 121; } /* = unique id SOAP_TYPE_ns2__NonLinearNoElecType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -2053,7 +2053,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE__ns2__union_HyperfineQuantumNumbersType
-#define SOAP_TYPE__ns2__union_HyperfineQuantumNumbersType (310)
+#define SOAP_TYPE__ns2__union_HyperfineQuantumNumbersType (309)
 /* xsd:choice */
 union _ns2__union_HyperfineQuantumNumbersType
 {
@@ -2065,7 +2065,7 @@ union _ns2__union_HyperfineQuantumNumbersType
 #endif
 
 #ifndef SOAP_TYPE___ns2__union_HyperfineQuantumNumbersType
-#define SOAP_TYPE___ns2__union_HyperfineQuantumNumbersType (309)
+#define SOAP_TYPE___ns2__union_HyperfineQuantumNumbersType (308)
 /* Operation wrapper: */
 class SOAP_CMAC __ns2__union_HyperfineQuantumNumbersType
 {
@@ -2073,7 +2073,7 @@ public:
 	int __union_HyperfineQuantumNumbersType;	/* union discriminant (of union defined below) */
 	union _ns2__union_HyperfineQuantumNumbersType union_HyperfineQuantumNumbersType;	/* required element of type xsd:choice */
 public:
-	virtual int soap_type() const { return 309; } /* = unique id SOAP_TYPE___ns2__union_HyperfineQuantumNumbersType */
+	virtual int soap_type() const { return 308; } /* = unique id SOAP_TYPE___ns2__union_HyperfineQuantumNumbersType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -2086,7 +2086,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__HyperfineQuantumNumbersType
-#define SOAP_TYPE_ns2__HyperfineQuantumNumbersType (125)
+#define SOAP_TYPE_ns2__HyperfineQuantumNumbersType (124)
 /* ns2:HyperfineQuantumNumbersType */
 class SOAP_CMAC ns2__HyperfineQuantumNumbersType
 {
@@ -2097,7 +2097,7 @@ public:
 	ns2__MagneticQuantumNumberType *TotalMagneticQuantumNumberF;	/* optional element of type ns2:MagneticQuantumNumberType */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 125; } /* = unique id SOAP_TYPE_ns2__HyperfineQuantumNumbersType */
+	virtual int soap_type() const { return 124; } /* = unique id SOAP_TYPE_ns2__HyperfineQuantumNumbersType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -2110,7 +2110,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__ParticlesType
-#define SOAP_TYPE_ns2__ParticlesType (128)
+#define SOAP_TYPE_ns2__ParticlesType (127)
 /* ns2:ParticlesType */
 class SOAP_CMAC ns2__ParticlesType
 {
@@ -2118,7 +2118,7 @@ public:
 	std::vector<class ns2__ParticleType * >Particle;	/* required element of type ns2:ParticleType */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 128; } /* = unique id SOAP_TYPE_ns2__ParticlesType */
+	virtual int soap_type() const { return 127; } /* = unique id SOAP_TYPE_ns2__ParticlesType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -2131,7 +2131,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__ParticleType
-#define SOAP_TYPE_ns2__ParticleType (129)
+#define SOAP_TYPE_ns2__ParticleType (128)
 /* ns2:ParticleType */
 class SOAP_CMAC ns2__ParticleType
 {
@@ -2142,7 +2142,7 @@ public:
 	enum ns2__ParticleNameType *name;	/* optional attribute */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 129; } /* = unique id SOAP_TYPE_ns2__ParticleType */
+	virtual int soap_type() const { return 128; } /* = unique id SOAP_TYPE_ns2__ParticleType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -2155,7 +2155,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__ParticlePropertiesType
-#define SOAP_TYPE_ns2__ParticlePropertiesType (130)
+#define SOAP_TYPE_ns2__ParticlePropertiesType (129)
 /* ns2:ParticlePropertiesType */
 class SOAP_CMAC ns2__ParticlePropertiesType
 {
@@ -2166,7 +2166,7 @@ public:
 	std::string *ParticlePolarization;	/* optional element of type ns2:AngularMomentumProjectionType */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 130; } /* = unique id SOAP_TYPE_ns2__ParticlePropertiesType */
+	virtual int soap_type() const { return 129; } /* = unique id SOAP_TYPE_ns2__ParticlePropertiesType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -2179,7 +2179,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE__ns2__union_MaterialComponentType
-#define SOAP_TYPE__ns2__union_MaterialComponentType (318)
+#define SOAP_TYPE__ns2__union_MaterialComponentType (317)
 /* xsd:choice */
 union _ns2__union_MaterialComponentType
 {
@@ -2191,7 +2191,7 @@ union _ns2__union_MaterialComponentType
 #endif
 
 #ifndef SOAP_TYPE_ns2__MaterialComponentType
-#define SOAP_TYPE_ns2__MaterialComponentType (133)
+#define SOAP_TYPE_ns2__MaterialComponentType (132)
 /* ns2:MaterialComponentType */
 class SOAP_CMAC ns2__MaterialComponentType
 {
@@ -2201,7 +2201,7 @@ public:
 	union _ns2__union_MaterialComponentType union_MaterialComponentType;	/* required element of type xsd:choice */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 133; } /* = unique id SOAP_TYPE_ns2__MaterialComponentType */
+	virtual int soap_type() const { return 132; } /* = unique id SOAP_TYPE_ns2__MaterialComponentType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -2214,7 +2214,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__MaterialType
-#define SOAP_TYPE_ns2__MaterialType (134)
+#define SOAP_TYPE_ns2__MaterialType (133)
 /* ns2:MaterialType */
 class SOAP_CMAC ns2__MaterialType
 {
@@ -2227,7 +2227,7 @@ public:
 	std::string *Comments;	/* optional element of type xsd:string */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 134; } /* = unique id SOAP_TYPE_ns2__MaterialType */
+	virtual int soap_type() const { return 133; } /* = unique id SOAP_TYPE_ns2__MaterialType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -2240,7 +2240,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__CollisionalProcessClassType
-#define SOAP_TYPE_ns2__CollisionalProcessClassType (145)
+#define SOAP_TYPE_ns2__CollisionalProcessClassType (144)
 /* ns2:CollisionalProcessClassType */
 class SOAP_CMAC ns2__CollisionalProcessClassType
 {
@@ -2250,7 +2250,7 @@ public:
 	enum ns2__IAEACodeType *IAEACode;	/* optional element of type ns2:IAEACodeType */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 145; } /* = unique id SOAP_TYPE_ns2__CollisionalProcessClassType */
+	virtual int soap_type() const { return 144; } /* = unique id SOAP_TYPE_ns2__CollisionalProcessClassType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -2263,7 +2263,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__XSAMSDataType
-#define SOAP_TYPE_ns2__XSAMSDataType (146)
+#define SOAP_TYPE_ns2__XSAMSDataType (145)
 /* ns2:XSAMSDataType */
 class SOAP_CMAC ns2__XSAMSDataType
 {
@@ -2276,7 +2276,7 @@ public:
 	std::string *Comments;	/* optional element of type xsd:string */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 146; } /* = unique id SOAP_TYPE_ns2__XSAMSDataType */
+	virtual int soap_type() const { return 145; } /* = unique id SOAP_TYPE_ns2__XSAMSDataType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -2289,7 +2289,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__ProcessesType
-#define SOAP_TYPE_ns2__ProcessesType (147)
+#define SOAP_TYPE_ns2__ProcessesType (146)
 /* ns2:ProcessesType */
 class SOAP_CMAC ns2__ProcessesType
 {
@@ -2299,7 +2299,7 @@ public:
 	class ns2__CollisionsType *Collisions;	/* optional element of type ns2:CollisionsType */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 147; } /* = unique id SOAP_TYPE_ns2__ProcessesType */
+	virtual int soap_type() const { return 146; } /* = unique id SOAP_TYPE_ns2__ProcessesType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -2312,7 +2312,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__StatesType
-#define SOAP_TYPE_ns2__StatesType (148)
+#define SOAP_TYPE_ns2__StatesType (147)
 /* ns2:StatesType */
 class SOAP_CMAC ns2__StatesType
 {
@@ -2323,7 +2323,7 @@ public:
 	ns2__ParticlesType *Particles;	/* optional element of type ns2:ParticlesType */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 148; } /* = unique id SOAP_TYPE_ns2__StatesType */
+	virtual int soap_type() const { return 147; } /* = unique id SOAP_TYPE_ns2__StatesType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -2336,7 +2336,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__DataType
-#define SOAP_TYPE_ns2__DataType (23)
+#define SOAP_TYPE_ns2__DataType (22)
 /* ns2:DataType */
 class SOAP_CMAC ns2__DataType : public ns2__PrimaryType
 {
@@ -2344,7 +2344,7 @@ public:
 	class ns2__ValueType *Value;	/* required element of type ns2:ValueType */
 	std::string *Accuracy;	/* optional element of type xsd:string */
 public:
-	virtual int soap_type() const { return 23; } /* = unique id SOAP_TYPE_ns2__DataType */
+	virtual int soap_type() const { return 22; } /* = unique id SOAP_TYPE_ns2__DataType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -2357,7 +2357,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__DataSetType
-#define SOAP_TYPE_ns2__DataSetType (24)
+#define SOAP_TYPE_ns2__DataSetType (23)
 /* ns2:DataSetType */
 class SOAP_CMAC ns2__DataSetType : public ns2__PrimaryType
 {
@@ -2366,7 +2366,7 @@ public:
 	std::vector<class ns2__TabulatedDataType * >TabulatedData;	/* optional element of type ns2:TabulatedDataType */
 	enum ns2__DataDescriptionType dataDescription;	/* required attribute */
 public:
-	virtual int soap_type() const { return 24; } /* = unique id SOAP_TYPE_ns2__DataSetType */
+	virtual int soap_type() const { return 23; } /* = unique id SOAP_TYPE_ns2__DataSetType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -2379,7 +2379,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__TabulatedDataType
-#define SOAP_TYPE_ns2__TabulatedDataType (28)
+#define SOAP_TYPE_ns2__TabulatedDataType (27)
 /* ns2:TabulatedDataType */
 class SOAP_CMAC ns2__TabulatedDataType : public ns2__PrimaryType
 {
@@ -2389,7 +2389,7 @@ public:
 	std::string *PhysicalUncertainty;	/* optional element of type xsd:string */
 	std::string *ProductionDate;	/* optional element of type xsd:date */
 public:
-	virtual int soap_type() const { return 28; } /* = unique id SOAP_TYPE_ns2__TabulatedDataType */
+	virtual int soap_type() const { return 27; } /* = unique id SOAP_TYPE_ns2__TabulatedDataType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -2402,7 +2402,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__FitDataType
-#define SOAP_TYPE_ns2__FitDataType (29)
+#define SOAP_TYPE_ns2__FitDataType (28)
 /* ns2:FitDataType */
 class SOAP_CMAC ns2__FitDataType : public ns2__PrimaryType
 {
@@ -2414,7 +2414,7 @@ public:
 	std::string *PhysicalUncertainty;	/* optional element of type xsd:string */
 	std::string *ProductionDate;	/* optional element of type xsd:date */
 public:
-	virtual int soap_type() const { return 29; } /* = unique id SOAP_TYPE_ns2__FitDataType */
+	virtual int soap_type() const { return 28; } /* = unique id SOAP_TYPE_ns2__FitDataType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -2427,7 +2427,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__ExpressionType
-#define SOAP_TYPE_ns2__ExpressionType (32)
+#define SOAP_TYPE_ns2__ExpressionType (31)
 /* Primitive ns2:ExpressionType schema type: */
 class SOAP_CMAC ns2__ExpressionType
 {
@@ -2436,7 +2436,7 @@ public:
 	std::string computerLanguage;	/* required attribute */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 32; } /* = unique id SOAP_TYPE_ns2__ExpressionType */
+	virtual int soap_type() const { return 31; } /* = unique id SOAP_TYPE_ns2__ExpressionType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -2449,7 +2449,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__ValueType
-#define SOAP_TYPE_ns2__ValueType (37)
+#define SOAP_TYPE_ns2__ValueType (36)
 /* Primitive ns2:ValueType schema type: */
 class SOAP_CMAC ns2__ValueType
 {
@@ -2458,7 +2458,7 @@ public:
 	enum _ns2__units ns2__units;	/* required attribute */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 37; } /* = unique id SOAP_TYPE_ns2__ValueType */
+	virtual int soap_type() const { return 36; } /* = unique id SOAP_TYPE_ns2__ValueType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -2471,7 +2471,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__MixingCoefficientType
-#define SOAP_TYPE_ns2__MixingCoefficientType (42)
+#define SOAP_TYPE_ns2__MixingCoefficientType (41)
 /* Primitive ns2:MixingCoefficientType schema type: */
 class SOAP_CMAC ns2__MixingCoefficientType
 {
@@ -2480,7 +2480,7 @@ public:
 	enum ns2__MixingClassType mixingClass;	/* required attribute */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 42; } /* = unique id SOAP_TYPE_ns2__MixingCoefficientType */
+	virtual int soap_type() const { return 41; } /* = unique id SOAP_TYPE_ns2__MixingCoefficientType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -2493,7 +2493,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__FunctionType
-#define SOAP_TYPE_ns2__FunctionType (55)
+#define SOAP_TYPE_ns2__FunctionType (54)
 /* ns2:FunctionType */
 class SOAP_CMAC ns2__FunctionType : public ns2__PrimaryType
 {
@@ -2508,7 +2508,7 @@ public:
 	std::string *SourceCodeURL;	/* optional element of type xsd:string */
 	std::string ns2__functionID;	/* required attribute */
 public:
-	virtual int soap_type() const { return 55; } /* = unique id SOAP_TYPE_ns2__FunctionType */
+	virtual int soap_type() const { return 54; } /* = unique id SOAP_TYPE_ns2__FunctionType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -2521,14 +2521,14 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__AtomsType
-#define SOAP_TYPE_ns2__AtomsType (56)
+#define SOAP_TYPE_ns2__AtomsType (55)
 /* ns2:AtomsType */
 class SOAP_CMAC ns2__AtomsType : public ns2__PrimaryType
 {
 public:
 	std::vector<class ns2__AtomType * >Atom;	/* required element of type ns2:AtomType */
 public:
-	virtual int soap_type() const { return 56; } /* = unique id SOAP_TYPE_ns2__AtomsType */
+	virtual int soap_type() const { return 55; } /* = unique id SOAP_TYPE_ns2__AtomsType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -2541,7 +2541,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__AtomType
-#define SOAP_TYPE_ns2__AtomType (57)
+#define SOAP_TYPE_ns2__AtomType (56)
 /* ns2:AtomType */
 class SOAP_CMAC ns2__AtomType : public ns2__PrimaryType
 {
@@ -2549,7 +2549,7 @@ public:
 	ns2__ChemicalElementType *ChemicalElement;	/* required element of type ns2:ChemicalElementType */
 	std::vector<ns2__IsotopeType * >Isotope;	/* required element of type ns2:IsotopeType */
 public:
-	virtual int soap_type() const { return 57; } /* = unique id SOAP_TYPE_ns2__AtomType */
+	virtual int soap_type() const { return 56; } /* = unique id SOAP_TYPE_ns2__AtomType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -2562,7 +2562,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__IsotopeParametersType
-#define SOAP_TYPE_ns2__IsotopeParametersType (59)
+#define SOAP_TYPE_ns2__IsotopeParametersType (58)
 /* ns2:IsotopeParametersType */
 class SOAP_CMAC ns2__IsotopeParametersType : public ns2__PrimaryType
 {
@@ -2571,7 +2571,7 @@ public:
 	ns2__DataType *Mass;	/* optional element of type ns2:DataType */
 	std::string *NuclearSpin;	/* optional element of type ns2:AngularMomentumType */
 public:
-	virtual int soap_type() const { return 59; } /* = unique id SOAP_TYPE_ns2__IsotopeParametersType */
+	virtual int soap_type() const { return 58; } /* = unique id SOAP_TYPE_ns2__IsotopeParametersType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -2584,7 +2584,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__IonStateType
-#define SOAP_TYPE_ns2__IonStateType (60)
+#define SOAP_TYPE_ns2__IonStateType (59)
 /* ns2:IonStateType */
 class SOAP_CMAC ns2__IonStateType : public ns2__PrimaryType
 {
@@ -2593,7 +2593,7 @@ public:
 	std::string *IsoelectronicSequence;	/* optional element of type ns2:ElementSymbolType */
 	std::vector<class ns2__AtomicStateType * >AtomicState;	/* required element of type ns2:AtomicStateType */
 public:
-	virtual int soap_type() const { return 60; } /* = unique id SOAP_TYPE_ns2__IonStateType */
+	virtual int soap_type() const { return 59; } /* = unique id SOAP_TYPE_ns2__IonStateType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -2606,7 +2606,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__AtomicStateType
-#define SOAP_TYPE_ns2__AtomicStateType (61)
+#define SOAP_TYPE_ns2__AtomicStateType (60)
 /* ns2:AtomicStateType */
 class SOAP_CMAC ns2__AtomicStateType : public ns2__PrimaryType
 {
@@ -2617,7 +2617,7 @@ public:
 	class ns2__AtomicCompositionType *AtomicComposition;	/* optional element of type ns2:AtomicCompositionType */
 	std::string ns2__stateID;	/* required attribute */
 public:
-	virtual int soap_type() const { return 61; } /* = unique id SOAP_TYPE_ns2__AtomicStateType */
+	virtual int soap_type() const { return 60; } /* = unique id SOAP_TYPE_ns2__AtomicStateType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -2630,7 +2630,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__AtomicNumericalDataType
-#define SOAP_TYPE_ns2__AtomicNumericalDataType (62)
+#define SOAP_TYPE_ns2__AtomicNumericalDataType (61)
 /* ns2:AtomicNumericalDataType */
 class SOAP_CMAC ns2__AtomicNumericalDataType : public ns2__PrimaryType
 {
@@ -2643,7 +2643,7 @@ public:
 	ns2__DataType *Polarizability;	/* optional element of type ns2:DataType */
 	double *StatisticalWeight;	/* optional element of type xsd:double */
 public:
-	virtual int soap_type() const { return 62; } /* = unique id SOAP_TYPE_ns2__AtomicNumericalDataType */
+	virtual int soap_type() const { return 61; } /* = unique id SOAP_TYPE_ns2__AtomicNumericalDataType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -2656,14 +2656,14 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__AtomicCompositionType
-#define SOAP_TYPE_ns2__AtomicCompositionType (63)
+#define SOAP_TYPE_ns2__AtomicCompositionType (62)
 /* ns2:AtomicCompositionType */
 class SOAP_CMAC ns2__AtomicCompositionType : public ns2__PrimaryType
 {
 public:
 	std::vector<ns2__AtomicComponentType * >Component;	/* required element of type ns2:AtomicComponentType */
 public:
-	virtual int soap_type() const { return 63; } /* = unique id SOAP_TYPE_ns2__AtomicCompositionType */
+	virtual int soap_type() const { return 62; } /* = unique id SOAP_TYPE_ns2__AtomicCompositionType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -2676,7 +2676,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__AtomNType
-#define SOAP_TYPE_ns2__AtomNType (76)
+#define SOAP_TYPE_ns2__AtomNType (75)
 /* ns2:AtomNType */
 class SOAP_CMAC ns2__AtomNType : public ns2__PrimaryType
 {
@@ -2688,7 +2688,7 @@ public:
 	std::string *hydrogenCount;	/* optional attribute */
 	std::string *count;	/* optional attribute */
 public:
-	virtual int soap_type() const { return 76; } /* = unique id SOAP_TYPE_ns2__AtomNType */
+	virtual int soap_type() const { return 75; } /* = unique id SOAP_TYPE_ns2__AtomNType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -2701,7 +2701,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__CentralSymbolType
-#define SOAP_TYPE_ns2__CentralSymbolType (80)
+#define SOAP_TYPE_ns2__CentralSymbolType (79)
 /* Primitive ns2:CentralSymbolType schema type: */
 class SOAP_CMAC ns2__CentralSymbolType
 {
@@ -2713,7 +2713,7 @@ public:
 	std::string *LowerRightValue;	/* optional attribute */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 80; } /* = unique id SOAP_TYPE_ns2__CentralSymbolType */
+	virtual int soap_type() const { return 79; } /* = unique id SOAP_TYPE_ns2__CentralSymbolType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -2726,7 +2726,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__ComplexMolecularQuantumNumberType
-#define SOAP_TYPE_ns2__ComplexMolecularQuantumNumberType (81)
+#define SOAP_TYPE_ns2__ComplexMolecularQuantumNumberType (80)
 /* ns2:ComplexMolecularQuantumNumberType */
 class SOAP_CMAC ns2__ComplexMolecularQuantumNumberType : public ns2__MolecularQuantumNumberType
 {
@@ -2742,7 +2742,7 @@ public:
 	std::string *electronicSpinRef;	/* optional attribute */
 	std::string *quantumNumberRef;	/* optional attribute */
 public:
-	virtual int soap_type() const { return 81; } /* = unique id SOAP_TYPE_ns2__ComplexMolecularQuantumNumberType */
+	virtual int soap_type() const { return 80; } /* = unique id SOAP_TYPE_ns2__ComplexMolecularQuantumNumberType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -2755,7 +2755,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__MolecularStateType
-#define SOAP_TYPE_ns2__MolecularStateType (89)
+#define SOAP_TYPE_ns2__MolecularStateType (88)
 /* ns2:MolecularStateType */
 class SOAP_CMAC ns2__MolecularStateType : public ns2__PrimaryType
 {
@@ -2769,7 +2769,7 @@ public:
 	ns2__ElectronicHomeType *ElectronicHome;	/* optional element of type ns2:ElectronicHomeType */
 	std::string ns2__stateID;	/* required attribute */
 public:
-	virtual int soap_type() const { return 89; } /* = unique id SOAP_TYPE_ns2__MolecularStateType */
+	virtual int soap_type() const { return 88; } /* = unique id SOAP_TYPE_ns2__MolecularStateType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -2782,7 +2782,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__MoleculeType
-#define SOAP_TYPE_ns2__MoleculeType (92)
+#define SOAP_TYPE_ns2__MoleculeType (91)
 /* ns2:MoleculeType */
 class SOAP_CMAC ns2__MoleculeType : public ns2__PrimaryType
 {
@@ -2790,7 +2790,7 @@ public:
 	ns2__MolecularChemicalSpeciesType *MolecularChemicalSpecies;	/* required element of type ns2:MolecularChemicalSpeciesType */
 	std::vector<ns2__MolecularStateType * >MolecularState;	/* required element of type ns2:MolecularStateType */
 public:
-	virtual int soap_type() const { return 92; } /* = unique id SOAP_TYPE_ns2__MoleculeType */
+	virtual int soap_type() const { return 91; } /* = unique id SOAP_TYPE_ns2__MoleculeType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -2803,14 +2803,14 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__MoleculesType
-#define SOAP_TYPE_ns2__MoleculesType (94)
+#define SOAP_TYPE_ns2__MoleculesType (93)
 /* ns2:MoleculesType */
 class SOAP_CMAC ns2__MoleculesType : public ns2__PrimaryType
 {
 public:
 	std::vector<ns2__MoleculeType * >Molecule;	/* required element of type ns2:MoleculeType */
 public:
-	virtual int soap_type() const { return 94; } /* = unique id SOAP_TYPE_ns2__MoleculesType */
+	virtual int soap_type() const { return 93; } /* = unique id SOAP_TYPE_ns2__MoleculesType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -2823,14 +2823,14 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__PseudoStatisticalWeightType
-#define SOAP_TYPE_ns2__PseudoStatisticalWeightType (99)
+#define SOAP_TYPE_ns2__PseudoStatisticalWeightType (98)
 /* ns2:PseudoStatisticalWeightType */
 class SOAP_CMAC ns2__PseudoStatisticalWeightType : public ns2__PrimaryType
 {
 public:
 	std::string Value;	/* required element of type xsd:positiveInteger */
 public:
-	virtual int soap_type() const { return 99; } /* = unique id SOAP_TYPE_ns2__PseudoStatisticalWeightType */
+	virtual int soap_type() const { return 98; } /* = unique id SOAP_TYPE_ns2__PseudoStatisticalWeightType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -2843,7 +2843,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE___ns2__RoVibronicSplittingType_sequence
-#define SOAP_TYPE___ns2__RoVibronicSplittingType_sequence (367)
+#define SOAP_TYPE___ns2__RoVibronicSplittingType_sequence (366)
 /* Operation wrapper: */
 class SOAP_CMAC __ns2__RoVibronicSplittingType_sequence
 {
@@ -2851,7 +2851,7 @@ public:
 	std::string Label;	/* required element of type xsd:string */
 	std::string Type;	/* required element of type xsd:string */
 public:
-	virtual int soap_type() const { return 367; } /* = unique id SOAP_TYPE___ns2__RoVibronicSplittingType_sequence */
+	virtual int soap_type() const { return 366; } /* = unique id SOAP_TYPE___ns2__RoVibronicSplittingType_sequence */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -2864,14 +2864,14 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__RoVibronicSplittingType
-#define SOAP_TYPE_ns2__RoVibronicSplittingType (100)
+#define SOAP_TYPE_ns2__RoVibronicSplittingType (99)
 /* ns2:RoVibronicSplittingType */
 class SOAP_CMAC ns2__RoVibronicSplittingType : public ns2__PrimaryType
 {
 public:
 	std::vector<__ns2__RoVibronicSplittingType_sequence >__RoVibronicSplittingType_sequence;
 public:
-	virtual int soap_type() const { return 100; } /* = unique id SOAP_TYPE_ns2__RoVibronicSplittingType */
+	virtual int soap_type() const { return 99; } /* = unique id SOAP_TYPE_ns2__RoVibronicSplittingType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -2884,7 +2884,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__SymbolType
-#define SOAP_TYPE_ns2__SymbolType (105)
+#define SOAP_TYPE_ns2__SymbolType (104)
 /* ns2:SymbolType */
 class SOAP_CMAC ns2__SymbolType : public ns2__PrimaryType
 {
@@ -2892,7 +2892,7 @@ public:
 	std::vector<ns2__SimpleSymbolType * >Symbol;	/* required element of type ns2:SimpleSymbolType */
 	std::string *LatexExpression;	/* optional element of type xsd:string */
 public:
-	virtual int soap_type() const { return 105; } /* = unique id SOAP_TYPE_ns2__SymbolType */
+	virtual int soap_type() const { return 104; } /* = unique id SOAP_TYPE_ns2__SymbolType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -2905,14 +2905,14 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__NonLinearElecHyperFType
-#define SOAP_TYPE_ns2__NonLinearElecHyperFType (120)
+#define SOAP_TYPE_ns2__NonLinearElecHyperFType (119)
 /* ns2:NonLinearElecHyperFType */
 class SOAP_CMAC ns2__NonLinearElecHyperFType : public ns2__NonLinearElecCouplingType
 {
 public:
 	ns2__HyperfineQuantumNumbersType *HyperfineQuantumNumbers;	/* required element of type ns2:HyperfineQuantumNumbersType */
 public:
-	virtual int soap_type() const { return 120; } /* = unique id SOAP_TYPE_ns2__NonLinearElecHyperFType */
+	virtual int soap_type() const { return 119; } /* = unique id SOAP_TYPE_ns2__NonLinearElecHyperFType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -2925,14 +2925,14 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__NonLinearElecNoHyperFType
-#define SOAP_TYPE_ns2__NonLinearElecNoHyperFType (121)
+#define SOAP_TYPE_ns2__NonLinearElecNoHyperFType (120)
 /* ns2:NonLinearElecNoHyperFType */
 class SOAP_CMAC ns2__NonLinearElecNoHyperFType : public ns2__NonLinearElecCouplingType
 {
 public:
 	ns2__MagneticQuantumNumberType *TotalMagneticQuantumNumberJ;	/* optional element of type ns2:MagneticQuantumNumberType */
 public:
-	virtual int soap_type() const { return 121; } /* = unique id SOAP_TYPE_ns2__NonLinearElecNoHyperFType */
+	virtual int soap_type() const { return 120; } /* = unique id SOAP_TYPE_ns2__NonLinearElecNoHyperFType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -2945,14 +2945,14 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__NonLinearNoElecNoHyperFType
-#define SOAP_TYPE_ns2__NonLinearNoElecNoHyperFType (123)
+#define SOAP_TYPE_ns2__NonLinearNoElecNoHyperFType (122)
 /* ns2:NonLinearNoElecNoHyperFType */
 class SOAP_CMAC ns2__NonLinearNoElecNoHyperFType : public ns2__NonLinearNoElecType
 {
 public:
 	ns2__MagneticQuantumNumberType *TotalMagneticQuantumNumberN;	/* optional element of type ns2:MagneticQuantumNumberType */
 public:
-	virtual int soap_type() const { return 123; } /* = unique id SOAP_TYPE_ns2__NonLinearNoElecNoHyperFType */
+	virtual int soap_type() const { return 122; } /* = unique id SOAP_TYPE_ns2__NonLinearNoElecNoHyperFType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -2965,14 +2965,14 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__NonLinearNoElecHyperFType
-#define SOAP_TYPE_ns2__NonLinearNoElecHyperFType (124)
+#define SOAP_TYPE_ns2__NonLinearNoElecHyperFType (123)
 /* ns2:NonLinearNoElecHyperFType */
 class SOAP_CMAC ns2__NonLinearNoElecHyperFType : public ns2__NonLinearNoElecType
 {
 public:
 	ns2__HyperfineQuantumNumbersType *HyperfineQuantumNumbers;	/* required element of type ns2:HyperfineQuantumNumbersType */
 public:
-	virtual int soap_type() const { return 124; } /* = unique id SOAP_TYPE_ns2__NonLinearNoElecHyperFType */
+	virtual int soap_type() const { return 123; } /* = unique id SOAP_TYPE_ns2__NonLinearNoElecHyperFType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -2985,7 +2985,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__ReferencedTextType
-#define SOAP_TYPE_ns2__ReferencedTextType (126)
+#define SOAP_TYPE_ns2__ReferencedTextType (125)
 /* Primitive ns2:ReferencedTextType schema type: */
 class SOAP_CMAC ns2__ReferencedTextType
 {
@@ -2994,7 +2994,7 @@ public:
 	std::string *ns2__sourceRef;	/* optional attribute */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 126; } /* = unique id SOAP_TYPE_ns2__ReferencedTextType */
+	virtual int soap_type() const { return 125; } /* = unique id SOAP_TYPE_ns2__ReferencedTextType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -3007,7 +3007,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE__ns2__union_CharacterisationType
-#define SOAP_TYPE__ns2__union_CharacterisationType (372)
+#define SOAP_TYPE__ns2__union_CharacterisationType (371)
 /* xsd:choice */
 union _ns2__union_CharacterisationType
 {
@@ -3021,7 +3021,7 @@ union _ns2__union_CharacterisationType
 #endif
 
 #ifndef SOAP_TYPE_ns2__CharacterisationType
-#define SOAP_TYPE_ns2__CharacterisationType (127)
+#define SOAP_TYPE_ns2__CharacterisationType (126)
 /* ns2:CharacterisationType */
 class SOAP_CMAC ns2__CharacterisationType : public ns2__PrimaryType
 {
@@ -3030,7 +3030,7 @@ public:
 	int __union_CharacterisationType;	/* union discriminant (of union defined below) */
 	union _ns2__union_CharacterisationType union_CharacterisationType;	/* required element of type xsd:choice */
 public:
-	virtual int soap_type() const { return 127; } /* = unique id SOAP_TYPE_ns2__CharacterisationType */
+	virtual int soap_type() const { return 126; } /* = unique id SOAP_TYPE_ns2__CharacterisationType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -3043,7 +3043,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__SolidType
-#define SOAP_TYPE_ns2__SolidType (131)
+#define SOAP_TYPE_ns2__SolidType (130)
 /* ns2:SolidType */
 class SOAP_CMAC ns2__SolidType : public ns2__PrimaryType
 {
@@ -3051,7 +3051,7 @@ public:
 	std::vector<ns2__MaterialType * >Layer;	/* required element of type ns2:MaterialType */
 	std::string ns2__stateID;	/* required attribute */
 public:
-	virtual int soap_type() const { return 131; } /* = unique id SOAP_TYPE_ns2__SolidType */
+	virtual int soap_type() const { return 130; } /* = unique id SOAP_TYPE_ns2__SolidType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -3064,14 +3064,14 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__SolidsType
-#define SOAP_TYPE_ns2__SolidsType (132)
+#define SOAP_TYPE_ns2__SolidsType (131)
 /* ns2:SolidsType */
 class SOAP_CMAC ns2__SolidsType : public ns2__PrimaryType
 {
 public:
 	std::vector<ns2__SolidType * >Solid;	/* required element of type ns2:SolidType */
 public:
-	virtual int soap_type() const { return 132; } /* = unique id SOAP_TYPE_ns2__SolidsType */
+	virtual int soap_type() const { return 131; } /* = unique id SOAP_TYPE_ns2__SolidsType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -3084,14 +3084,14 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__MaterialCompositionType
-#define SOAP_TYPE_ns2__MaterialCompositionType (135)
+#define SOAP_TYPE_ns2__MaterialCompositionType (134)
 /* ns2:MaterialCompositionType */
 class SOAP_CMAC ns2__MaterialCompositionType : public ns2__PrimaryType
 {
 public:
 	std::vector<ns2__MaterialComponentType * >Component;	/* required element of type ns2:MaterialComponentType */
 public:
-	virtual int soap_type() const { return 135; } /* = unique id SOAP_TYPE_ns2__MaterialCompositionType */
+	virtual int soap_type() const { return 134; } /* = unique id SOAP_TYPE_ns2__MaterialCompositionType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -3104,14 +3104,14 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__RadiativeType
-#define SOAP_TYPE_ns2__RadiativeType (136)
+#define SOAP_TYPE_ns2__RadiativeType (135)
 /* ns2:RadiativeType */
 class SOAP_CMAC ns2__RadiativeType : public ns2__PrimaryType
 {
 public:
 	std::vector<class ns2__RadiativeTransitionType * >RadiativeTransition;	/* required element of type ns2:RadiativeTransitionType */
 public:
-	virtual int soap_type() const { return 136; } /* = unique id SOAP_TYPE_ns2__RadiativeType */
+	virtual int soap_type() const { return 135; } /* = unique id SOAP_TYPE_ns2__RadiativeType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -3124,7 +3124,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__RadiativeTransitionType
-#define SOAP_TYPE_ns2__RadiativeTransitionType (137)
+#define SOAP_TYPE_ns2__RadiativeTransitionType (136)
 /* ns2:RadiativeTransitionType */
 class SOAP_CMAC ns2__RadiativeTransitionType : public ns2__PrimaryType
 {
@@ -3134,7 +3134,7 @@ public:
 	std::string *FinalStateRef;	/* optional element of type ns2:StateRef */
 	std::vector<class ns2__RadiativeTransitionProbabilityType * >Probability;	/* optional element of type ns2:RadiativeTransitionProbabilityType */
 public:
-	virtual int soap_type() const { return 137; } /* = unique id SOAP_TYPE_ns2__RadiativeTransitionType */
+	virtual int soap_type() const { return 136; } /* = unique id SOAP_TYPE_ns2__RadiativeTransitionType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -3147,7 +3147,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__RadiativeTransitionProbabilityType
-#define SOAP_TYPE_ns2__RadiativeTransitionProbabilityType (138)
+#define SOAP_TYPE_ns2__RadiativeTransitionProbabilityType (137)
 /* ns2:RadiativeTransitionProbabilityType */
 class SOAP_CMAC ns2__RadiativeTransitionProbabilityType : public ns2__PrimaryType
 {
@@ -3160,7 +3160,7 @@ public:
 	ns2__DataType *IdealisedIntensity;	/* optional element of type ns2:DataType */
 	std::string *Multipole;	/* optional element of type ns2:MultipoleType */
 public:
-	virtual int soap_type() const { return 138; } /* = unique id SOAP_TYPE_ns2__RadiativeTransitionProbabilityType */
+	virtual int soap_type() const { return 137; } /* = unique id SOAP_TYPE_ns2__RadiativeTransitionProbabilityType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -3173,7 +3173,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__WavelengthWavenumberType
-#define SOAP_TYPE_ns2__WavelengthWavenumberType (139)
+#define SOAP_TYPE_ns2__WavelengthWavenumberType (138)
 /* ns2:WavelengthWavenumberType */
 class SOAP_CMAC ns2__WavelengthWavenumberType : public ns2__PrimaryType
 {
@@ -3182,7 +3182,7 @@ public:
 	ns2__DataType *Experimental;	/* optional element of type ns2:DataType */
 	ns2__DataType *Theoretical;	/* optional element of type ns2:DataType */
 public:
-	virtual int soap_type() const { return 139; } /* = unique id SOAP_TYPE_ns2__WavelengthWavenumberType */
+	virtual int soap_type() const { return 138; } /* = unique id SOAP_TYPE_ns2__WavelengthWavenumberType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -3195,7 +3195,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__EnergyWavelengthType
-#define SOAP_TYPE_ns2__EnergyWavelengthType (140)
+#define SOAP_TYPE_ns2__EnergyWavelengthType (139)
 /* ns2:EnergyWavelengthType */
 class SOAP_CMAC ns2__EnergyWavelengthType : public ns2__PrimaryType
 {
@@ -3205,7 +3205,7 @@ public:
 	ns2__WavelengthWavenumberType *Energy;	/* optional element of type ns2:WavelengthWavenumberType */
 	ns2__WavelengthWavenumberType *Frequency;	/* optional element of type ns2:WavelengthWavenumberType */
 public:
-	virtual int soap_type() const { return 140; } /* = unique id SOAP_TYPE_ns2__EnergyWavelengthType */
+	virtual int soap_type() const { return 139; } /* = unique id SOAP_TYPE_ns2__EnergyWavelengthType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -3218,14 +3218,14 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__NonRadiativeType
-#define SOAP_TYPE_ns2__NonRadiativeType (141)
+#define SOAP_TYPE_ns2__NonRadiativeType (140)
 /* ns2:NonRadiativeType */
 class SOAP_CMAC ns2__NonRadiativeType : public ns2__PrimaryType
 {
 public:
 	std::vector<class ns2__NonRadiativeTransitionType * >NonRadiativeTransition;	/* required element of type ns2:NonRadiativeTransitionType */
 public:
-	virtual int soap_type() const { return 141; } /* = unique id SOAP_TYPE_ns2__NonRadiativeType */
+	virtual int soap_type() const { return 140; } /* = unique id SOAP_TYPE_ns2__NonRadiativeType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -3238,7 +3238,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__NonRadiativeTransitionType
-#define SOAP_TYPE_ns2__NonRadiativeTransitionType (142)
+#define SOAP_TYPE_ns2__NonRadiativeTransitionType (141)
 /* ns2:NonRadiativeTransitionType */
 class SOAP_CMAC ns2__NonRadiativeTransitionType : public ns2__PrimaryType
 {
@@ -3250,7 +3250,7 @@ public:
 	ns2__DataType *TransitionEnergy;	/* optional element of type ns2:DataType */
 	std::string *Type;	/* optional element of type xsd:string */
 public:
-	virtual int soap_type() const { return 142; } /* = unique id SOAP_TYPE_ns2__NonRadiativeTransitionType */
+	virtual int soap_type() const { return 141; } /* = unique id SOAP_TYPE_ns2__NonRadiativeTransitionType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -3263,14 +3263,14 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__CollisionsType
-#define SOAP_TYPE_ns2__CollisionsType (143)
+#define SOAP_TYPE_ns2__CollisionsType (142)
 /* ns2:CollisionsType */
 class SOAP_CMAC ns2__CollisionsType : public ns2__PrimaryType
 {
 public:
 	std::vector<class ns2__CollisionalTransitionType * >CollisionalTransition;	/* required element of type ns2:CollisionalTransitionType */
 public:
-	virtual int soap_type() const { return 143; } /* = unique id SOAP_TYPE_ns2__CollisionsType */
+	virtual int soap_type() const { return 142; } /* = unique id SOAP_TYPE_ns2__CollisionsType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -3283,7 +3283,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__CollisionalTransitionType
-#define SOAP_TYPE_ns2__CollisionalTransitionType (144)
+#define SOAP_TYPE_ns2__CollisionalTransitionType (143)
 /* ns2:CollisionalTransitionType */
 class SOAP_CMAC ns2__CollisionalTransitionType : public ns2__PrimaryType
 {
@@ -3295,7 +3295,7 @@ public:
 	ns2__DataType *Threshold;	/* optional element of type ns2:DataType */
 	ns2__DataSetsType *DataSets;	/* required element of type ns2:DataSetsType */
 public:
-	virtual int soap_type() const { return 144; } /* = unique id SOAP_TYPE_ns2__CollisionalTransitionType */
+	virtual int soap_type() const { return 143; } /* = unique id SOAP_TYPE_ns2__CollisionalTransitionType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -3308,14 +3308,14 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__StateEnergyType
-#define SOAP_TYPE_ns2__StateEnergyType (104)
+#define SOAP_TYPE_ns2__StateEnergyType (103)
 /* ns2:StateEnergyType */
 class SOAP_CMAC ns2__StateEnergyType : public ns2__DataType
 {
 public:
 	std::string energyOrigin;	/* required attribute */
 public:
-	virtual int soap_type() const { return 104; } /* = unique id SOAP_TYPE_ns2__StateEnergyType */
+	virtual int soap_type() const { return 103; } /* = unique id SOAP_TYPE_ns2__StateEnergyType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -3328,7 +3328,7 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__TotalSpinMomentumSType
-#define SOAP_TYPE_ns2__TotalSpinMomentumSType (106)
+#define SOAP_TYPE_ns2__TotalSpinMomentumSType (105)
 /* Primitive ns2:TotalSpinMomentumSType schema type: */
 class SOAP_CMAC ns2__TotalSpinMomentumSType
 {
@@ -3337,7 +3337,7 @@ public:
 	std::string *electronicSpinId;	/* optional attribute */
 	struct soap *soap;	/* transient */
 public:
-	virtual int soap_type() const { return 106; } /* = unique id SOAP_TYPE_ns2__TotalSpinMomentumSType */
+	virtual int soap_type() const { return 105; } /* = unique id SOAP_TYPE_ns2__TotalSpinMomentumSType */
 	virtual void soap_default(struct soap*);
 	virtual void soap_serialize(struct soap*) const;
 	virtual int soap_put(struct soap*, const char*, const char*) const;
@@ -3350,17 +3350,17 @@ public:
 #endif
 
 #ifndef SOAP_TYPE_ns2__getSResponse
-#define SOAP_TYPE_ns2__getSResponse (399)
+#define SOAP_TYPE_ns2__getSResponse (398)
 /* ns2:getSResponse */
 struct ns2__getSResponse
 {
 public:
-	std::string dat;	/* SOAP 1.2 RPC return element (when namespace qualified) */	/* required element of type xsd:DataTableType */
+	double dat;	/* SOAP 1.2 RPC return element (when namespace qualified) */	/* required element of type xsd:double */
 };
 #endif
 
 #ifndef SOAP_TYPE_ns2__getS
-#define SOAP_TYPE_ns2__getS (400)
+#define SOAP_TYPE_ns2__getS (399)
 /* ns2:getS */
 struct ns2__getS
 {
@@ -3379,7 +3379,7 @@ public:
 #ifndef WITH_NOGLOBAL
 
 #ifndef SOAP_TYPE_SOAP_ENV__Header
-#define SOAP_TYPE_SOAP_ENV__Header (401)
+#define SOAP_TYPE_SOAP_ENV__Header (400)
 /* SOAP Header: */
 struct SOAP_ENV__Header
 {
@@ -3395,7 +3395,7 @@ private:
 #ifndef WITH_NOGLOBAL
 
 #ifndef SOAP_TYPE_SOAP_ENV__Code
-#define SOAP_TYPE_SOAP_ENV__Code (402)
+#define SOAP_TYPE_SOAP_ENV__Code (401)
 /* SOAP Fault Code: */
 struct SOAP_ENV__Code
 {
@@ -3410,7 +3410,7 @@ public:
 #ifndef WITH_NOGLOBAL
 
 #ifndef SOAP_TYPE_SOAP_ENV__Detail
-#define SOAP_TYPE_SOAP_ENV__Detail (404)
+#define SOAP_TYPE_SOAP_ENV__Detail (403)
 /* SOAP-ENV:Detail */
 struct SOAP_ENV__Detail
 {
@@ -3426,7 +3426,7 @@ public:
 #ifndef WITH_NOGLOBAL
 
 #ifndef SOAP_TYPE_SOAP_ENV__Reason
-#define SOAP_TYPE_SOAP_ENV__Reason (407)
+#define SOAP_TYPE_SOAP_ENV__Reason (406)
 /* SOAP-ENV:Reason */
 struct SOAP_ENV__Reason
 {
@@ -3440,7 +3440,7 @@ public:
 #ifndef WITH_NOGLOBAL
 
 #ifndef SOAP_TYPE_SOAP_ENV__Fault
-#define SOAP_TYPE_SOAP_ENV__Fault (408)
+#define SOAP_TYPE_SOAP_ENV__Fault (407)
 /* SOAP Fault: */
 struct SOAP_ENV__Fault
 {
@@ -3475,138 +3475,133 @@ typedef char *_QName;
 typedef char *_XML;
 #endif
 
-#ifndef SOAP_TYPE_xsd__DataTableType
-#define SOAP_TYPE_xsd__DataTableType (9)
-typedef std::string xsd__DataTableType;
-#endif
-
 #ifndef SOAP_TYPE_xsd__ID
-#define SOAP_TYPE_xsd__ID (10)
+#define SOAP_TYPE_xsd__ID (9)
 typedef std::string xsd__ID;
 #endif
 
 #ifndef SOAP_TYPE_xsd__IDREF
-#define SOAP_TYPE_xsd__IDREF (11)
+#define SOAP_TYPE_xsd__IDREF (10)
 typedef std::string xsd__IDREF;
 #endif
 
 #ifndef SOAP_TYPE_xsd__IDREFS
-#define SOAP_TYPE_xsd__IDREFS (12)
+#define SOAP_TYPE_xsd__IDREFS (11)
 typedef std::string xsd__IDREFS;
 #endif
 
 #ifndef SOAP_TYPE_xsd__anyURI
-#define SOAP_TYPE_xsd__anyURI (13)
+#define SOAP_TYPE_xsd__anyURI (12)
 typedef std::string xsd__anyURI;
 #endif
 
 #ifndef SOAP_TYPE_xsd__date
-#define SOAP_TYPE_xsd__date (14)
+#define SOAP_TYPE_xsd__date (13)
 typedef std::string xsd__date;
 #endif
 
 #ifndef SOAP_TYPE_xsd__decimal
-#define SOAP_TYPE_xsd__decimal (15)
+#define SOAP_TYPE_xsd__decimal (14)
 typedef std::string xsd__decimal;
 #endif
 
 #ifndef SOAP_TYPE_xsd__gYear
-#define SOAP_TYPE_xsd__gYear (16)
+#define SOAP_TYPE_xsd__gYear (15)
 typedef std::string xsd__gYear;
 #endif
 
 #ifndef SOAP_TYPE_xsd__integer
-#define SOAP_TYPE_xsd__integer (17)
+#define SOAP_TYPE_xsd__integer (16)
 typedef std::string xsd__integer;
 #endif
 
 #ifndef SOAP_TYPE_xsd__nonNegativeInteger
-#define SOAP_TYPE_xsd__nonNegativeInteger (18)
+#define SOAP_TYPE_xsd__nonNegativeInteger (17)
 typedef std::string xsd__nonNegativeInteger;
 #endif
 
 #ifndef SOAP_TYPE_xsd__positiveInteger
-#define SOAP_TYPE_xsd__positiveInteger (19)
+#define SOAP_TYPE_xsd__positiveInteger (18)
 typedef std::string xsd__positiveInteger;
 #endif
 
 #ifndef SOAP_TYPE_xsd__token
-#define SOAP_TYPE_xsd__token (20)
+#define SOAP_TYPE_xsd__token (19)
 typedef std::string xsd__token;
 #endif
 
 #ifndef SOAP_TYPE_ns2__DataListType
-#define SOAP_TYPE_ns2__DataListType (149)
+#define SOAP_TYPE_ns2__DataListType (148)
 typedef std::string ns2__DataListType;
 #endif
 
 #ifndef SOAP_TYPE_ns2__AngularMomentumProjectionType
-#define SOAP_TYPE_ns2__AngularMomentumProjectionType (152)
+#define SOAP_TYPE_ns2__AngularMomentumProjectionType (151)
 typedef std::string ns2__AngularMomentumProjectionType;
 #endif
 
 #ifndef SOAP_TYPE_ns2__AngularMomentumType
-#define SOAP_TYPE_ns2__AngularMomentumType (153)
+#define SOAP_TYPE_ns2__AngularMomentumType (152)
 typedef std::string ns2__AngularMomentumType;
 #endif
 
 #ifndef SOAP_TYPE_ns2__ElementSymbolType
-#define SOAP_TYPE_ns2__ElementSymbolType (154)
+#define SOAP_TYPE_ns2__ElementSymbolType (153)
 typedef std::string ns2__ElementSymbolType;
 #endif
 
 #ifndef SOAP_TYPE_ns2__PrincipalQuantumNumberType
-#define SOAP_TYPE_ns2__PrincipalQuantumNumberType (155)
+#define SOAP_TYPE_ns2__PrincipalQuantumNumberType (154)
 typedef std::string ns2__PrincipalQuantumNumberType;
 #endif
 
 #ifndef SOAP_TYPE_ns2__OrbitalAngularMomentumSymbolType
-#define SOAP_TYPE_ns2__OrbitalAngularMomentumSymbolType (158)
+#define SOAP_TYPE_ns2__OrbitalAngularMomentumSymbolType (157)
 typedef std::string ns2__OrbitalAngularMomentumSymbolType;
 #endif
 
 #ifndef SOAP_TYPE_ns2__StateRef
-#define SOAP_TYPE_ns2__StateRef (159)
+#define SOAP_TYPE_ns2__StateRef (158)
 typedef std::string ns2__StateRef;
 #endif
 
 #ifndef SOAP_TYPE_ns2__MultipoleType
-#define SOAP_TYPE_ns2__MultipoleType (168)
+#define SOAP_TYPE_ns2__MultipoleType (167)
 typedef std::string ns2__MultipoleType;
 #endif
 
 #ifndef SOAP_TYPE__ns2__sourceRef
-#define SOAP_TYPE__ns2__sourceRef (171)
+#define SOAP_TYPE__ns2__sourceRef (170)
 typedef std::string _ns2__sourceRef;
 #endif
 
 #ifndef SOAP_TYPE__ns2__methodRef
-#define SOAP_TYPE__ns2__methodRef (172)
+#define SOAP_TYPE__ns2__methodRef (171)
 typedef std::string _ns2__methodRef;
 #endif
 
 #ifndef SOAP_TYPE__ns2__functionRef
-#define SOAP_TYPE__ns2__functionRef (173)
+#define SOAP_TYPE__ns2__functionRef (172)
 typedef std::string _ns2__functionRef;
 #endif
 
 #ifndef SOAP_TYPE__ns2__stateID
-#define SOAP_TYPE__ns2__stateID (175)
+#define SOAP_TYPE__ns2__stateID (174)
 typedef std::string _ns2__stateID;
 #endif
 
 #ifndef SOAP_TYPE__ns2__sourceID
-#define SOAP_TYPE__ns2__sourceID (176)
+#define SOAP_TYPE__ns2__sourceID (175)
 typedef std::string _ns2__sourceID;
 #endif
 
 #ifndef SOAP_TYPE__ns2__methodID
-#define SOAP_TYPE__ns2__methodID (177)
+#define SOAP_TYPE__ns2__methodID (176)
 typedef std::string _ns2__methodID;
 #endif
 
 #ifndef SOAP_TYPE__ns2__functionID
-#define SOAP_TYPE__ns2__functionID (178)
+#define SOAP_TYPE__ns2__functionID (177)
 typedef std::string _ns2__functionID;
 #endif
 

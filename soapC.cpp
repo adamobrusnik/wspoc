@@ -15,7 +15,7 @@ compiling, linking, and/or using OpenSSL is allowed.
 
 #include "soapH.h"
 
-SOAP_SOURCE_STAMP("@(#) soapC.cpp ver 2.8.7 2013-09-24 13:40:34 GMT")
+SOAP_SOURCE_STAMP("@(#) soapC.cpp ver 2.8.7 2013-09-29 11:24:41 GMT")
 
 
 #ifndef WITH_NOGLOBAL
@@ -525,8 +525,6 @@ SOAP_FMAC3 void * SOAP_FMAC4 soap_getelement(struct soap *soap, int *type)
 		return soap_in_xsd__IDREF(soap, NULL, NULL, "xsd:IDREF");
 	case SOAP_TYPE_xsd__ID:
 		return soap_in_xsd__ID(soap, NULL, NULL, "xsd:ID");
-	case SOAP_TYPE_xsd__DataTableType:
-		return soap_in_xsd__DataTableType(soap, NULL, NULL, "xsd:DataTableType");
 	case SOAP_TYPE_std__string:
 		return soap_in_std__string(soap, NULL, NULL, "xsd:string");
 	case SOAP_TYPE_ns2__getS:
@@ -1437,10 +1435,6 @@ SOAP_FMAC3 void * SOAP_FMAC4 soap_getelement(struct soap *soap, int *type)
 		{	*type = SOAP_TYPE_xsd__ID;
 			return soap_in_xsd__ID(soap, NULL, NULL, NULL);
 		}
-		if (!soap_match_tag(soap, t, "xsd:DataTableType"))
-		{	*type = SOAP_TYPE_xsd__DataTableType;
-			return soap_in_xsd__DataTableType(soap, NULL, NULL, NULL);
-		}
 		if (!soap_match_tag(soap, t, "xsd:string"))
 		{	*type = SOAP_TYPE_std__string;
 			return soap_in_std__string(soap, NULL, NULL, NULL);
@@ -1999,8 +1993,6 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_putelement(struct soap *soap, const void *ptr, co
 		return soap_out_xsd__IDREF(soap, tag, id, (const std::string *)ptr, "xsd:IDREF");
 	case SOAP_TYPE_xsd__ID:
 		return soap_out_xsd__ID(soap, tag, id, (const std::string *)ptr, "xsd:ID");
-	case SOAP_TYPE_xsd__DataTableType:
-		return soap_out_xsd__DataTableType(soap, tag, id, (const std::string *)ptr, "xsd:DataTableType");
 	case SOAP_TYPE_std__string:
 		return soap_out_std__string(soap, tag, id, (const std::string *)ptr, "xsd:string");
 	case SOAP_TYPE_ns2__getS:
@@ -2821,9 +2813,6 @@ SOAP_FMAC3 void SOAP_FMAC4 soap_markelement(struct soap *soap, const void *ptr, 
 	case SOAP_TYPE_xsd__ID:
 		soap_serialize_xsd__ID(soap, (const std::string *)ptr);
 		break;
-	case SOAP_TYPE_xsd__DataTableType:
-		soap_serialize_xsd__DataTableType(soap, (const std::string *)ptr);
-		break;
 	case SOAP_TYPE_std__string:
 		soap_serialize_std__string(soap, (const std::string *)ptr);
 		break;
@@ -3607,8 +3596,6 @@ SOAP_FMAC3 void * SOAP_FMAC4 soap_instantiate(struct soap *soap, int t, const ch
 	case SOAP_TYPE_SOAP_ENV__Fault:
 		return (void*)soap_instantiate_SOAP_ENV__Fault(soap, -1, type, arrayType, n);
 #endif
-	case SOAP_TYPE_xsd__DataTableType:
-		return (void*)soap_instantiate_xsd__DataTableType(soap, -1, type, arrayType, n);
 	case SOAP_TYPE_xsd__ID:
 		return (void*)soap_instantiate_xsd__ID(soap, -1, type, arrayType, n);
 	case SOAP_TYPE_xsd__IDREF:
@@ -4640,12 +4627,6 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_fdelete(struct soap_clist *p)
 			SOAP_DELETE_ARRAY((struct SOAP_ENV__Fault*)p->ptr);
 		break;
 #endif
-	case SOAP_TYPE_xsd__DataTableType:
-		if (p->size < 0)
-			SOAP_DELETE((std::string*)p->ptr);
-		else
-			SOAP_DELETE_ARRAY((std::string*)p->ptr);
-		break;
 	case SOAP_TYPE_xsd__ID:
 		if (p->size < 0)
 			SOAP_DELETE((std::string*)p->ptr);
@@ -32071,56 +32052,6 @@ SOAP_FMAC3 std::string * SOAP_FMAC4 soap_get_xsd__ID(struct soap *soap, std::str
 			return NULL;
 	return p;
 }
-SOAP_FMAC3 int SOAP_FMAC4 soap_out_xsd__DataTableType(struct soap *soap, const char *tag, int id, const std::string *s, const char *type)
-{
-	if ((soap->mode & SOAP_C_NILSTRING) && s->empty())
-		return soap_element_null(soap, tag, id, type);
-	if (soap_element_begin_out(soap, tag, soap_embedded_id(soap, id, s, SOAP_TYPE_xsd__DataTableType), type) || soap_string_out(soap, s->c_str(), 0) || soap_element_end_out(soap, tag))
-		return soap->error;
-	return SOAP_OK;
-}
-
-SOAP_FMAC3 std::string * SOAP_FMAC4 soap_in_xsd__DataTableType(struct soap *soap, const char *tag, std::string *s, const char *type)
-{
-	(void)type; /* appease -Wall -Werror */
-	if (soap_element_begin_in(soap, tag, 1, NULL))
-		return NULL;
-	if (!s)
-		s = soap_new_std__string(soap, -1);
-	if (soap->null)
-		if (s)
-			s->erase();
-	if (soap->body && !*soap->href)
-	{	char *t;
-		s = (std::string*)soap_class_id_enter(soap, soap->id, s, SOAP_TYPE_xsd__DataTableType, sizeof(std::string), soap->type, soap->arrayType);
-		if (s)
-		{	if (!(t = soap_string_in(soap, 1, 0, -1)))
-				return NULL;
-			s->assign(t);
-		}
-	}
-	else
-		s = (std::string*)soap_id_forward(soap, soap->href, soap_class_id_enter(soap, soap->id, s, SOAP_TYPE_xsd__DataTableType, sizeof(std::string), soap->type, soap->arrayType), 0, SOAP_TYPE_xsd__DataTableType, 0, sizeof(std::string), 0, soap_copy_xsd__DataTableType);
-	if (soap->body && soap_element_end_in(soap, tag))
-		return NULL;
-	return s;
-}
-
-SOAP_FMAC3 int SOAP_FMAC4 soap_put_xsd__DataTableType(struct soap *soap, const std::string *a, const char *tag, const char *type)
-{
-	register int id = soap_embed(soap, (void*)a, NULL, 0, tag, SOAP_TYPE_xsd__DataTableType);
-	if (soap_out_xsd__DataTableType(soap, tag?tag:"xsd:DataTableType", id, a, type))
-		return soap->error;
-	return soap_putindependent(soap);
-}
-
-SOAP_FMAC3 std::string * SOAP_FMAC4 soap_get_xsd__DataTableType(struct soap *soap, std::string *p, const char *tag, const char *type)
-{
-	if ((p = soap_in_xsd__DataTableType(soap, tag, p, type)))
-		if (soap_getindependent(soap))
-			return NULL;
-	return p;
-}
 
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_std__string(struct soap *soap, std::string *p)
 {
@@ -33040,13 +32971,13 @@ SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns2__getS(struct soap *soap, int st, int tt
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_ns2__getSResponse(struct soap *soap, struct ns2__getSResponse *a)
 {
 	(void)soap; (void)a; /* appease -Wall -Werror */
-	soap_default_xsd__DataTableType(soap, &a->dat);
+	soap_default_double(soap, &a->dat);
 }
 
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_ns2__getSResponse(struct soap *soap, const struct ns2__getSResponse *a)
 {
 	(void)soap; (void)a; /* appease -Wall -Werror */
-	soap_serialize_xsd__DataTableType(soap, &a->dat);
+	soap_embedded(soap, &a->dat, SOAP_TYPE_double);
 }
 
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__getSResponse(struct soap *soap, const char *tag, int id, const struct ns2__getSResponse *a, const char *type)
@@ -33055,7 +32986,7 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__getSResponse(struct soap *soap, const ch
 	if (soap_element_begin_out(soap, tag, soap_embedded_id(soap, id, a, SOAP_TYPE_ns2__getSResponse), type))
 		return soap->error;
 	soap_element_result(soap, "ns2:dat");
-	if (soap_out_xsd__DataTableType(soap, "ns2:dat", -1, &a->dat, ""))
+	if (soap_out_double(soap, "ns2:dat", -1, &a->dat, ""))
 		return soap->error;
 	return soap_element_end_out(soap, tag);
 }
@@ -33065,7 +32996,7 @@ SOAP_FMAC3 struct ns2__getSResponse * SOAP_FMAC4 soap_in_ns2__getSResponse(struc
 	size_t soap_flag_dat = 1;
 	if (soap_element_begin_in(soap, tag, 0, type))
 		return NULL;
-	a = (struct ns2__getSResponse *)soap_class_id_enter(soap, soap->id, a, SOAP_TYPE_ns2__getSResponse, sizeof(struct ns2__getSResponse), soap->type, soap->arrayType);
+	a = (struct ns2__getSResponse *)soap_id_enter(soap, soap->id, a, SOAP_TYPE_ns2__getSResponse, sizeof(struct ns2__getSResponse), 0, NULL, NULL, NULL);
 	if (!a)
 		return NULL;
 	soap_default_ns2__getSResponse(soap, a);
@@ -33073,8 +33004,8 @@ SOAP_FMAC3 struct ns2__getSResponse * SOAP_FMAC4 soap_in_ns2__getSResponse(struc
 	{
 		for (;;)
 		{	soap->error = SOAP_TAG_MISMATCH;
-			if (soap_flag_dat && (soap->error == SOAP_TAG_MISMATCH || soap->error == SOAP_NO_TAG))
-				if (soap_in_xsd__DataTableType(soap, "ns2:dat", &a->dat, "xsd:DataTableType"))
+			if (soap_flag_dat && soap->error == SOAP_TAG_MISMATCH)
+				if (soap_in_double(soap, "ns2:dat", &a->dat, "xsd:double"))
 				{	soap_flag_dat--;
 					continue;
 				}
@@ -33090,7 +33021,7 @@ SOAP_FMAC3 struct ns2__getSResponse * SOAP_FMAC4 soap_in_ns2__getSResponse(struc
 			return NULL;
 	}
 	else
-	{	a = (struct ns2__getSResponse *)soap_id_forward(soap, soap->href, (void*)a, 0, SOAP_TYPE_ns2__getSResponse, 0, sizeof(struct ns2__getSResponse), 0, soap_copy_ns2__getSResponse);
+	{	a = (struct ns2__getSResponse *)soap_id_forward(soap, soap->href, (void*)a, 0, SOAP_TYPE_ns2__getSResponse, 0, sizeof(struct ns2__getSResponse), 0, NULL);
 		if (soap->body && soap_element_end_in(soap, tag))
 			return NULL;
 	}

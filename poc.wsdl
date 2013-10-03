@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <definitions name="poc"
-	targetNamespace="http://95.154.243.111/~ws/pos/test.wsdl" 
+	targetNamespace="http://physics.muni.cz/~adamobrusnik/ws/poc.wsdl" 
 	xmlns="http://schemas.xmlsoap.org/wsdl/" 
-	xmlns:tns="http://95.154.243.111/~ws/pos/test.wsdl" 
+	xmlns:tns="http://physics.muni.cz/~adamobrusnik/ws/poc.wsdl" 
 	xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
 	xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -70,7 +70,7 @@
 <service name="poc">
 	<documentation>Proof of concept service</documentation>
 	<port name="poc" binding="tns:poc">
-		<SOAP:address location="http://95.154.243.111/~ws/pos/testserver.cgi"/>
+		<SOAP:address location="http://physics.muni.cz/~adamobrusnik/ws/poc.cgi"/>
 	</port>
 </service>
 

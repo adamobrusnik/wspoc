@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions name="poc"
+	targetNamespace="http://95.154.243.111/~ws/pos/test.wsdl" 
+	xmlns="http://schemas.xmlsoap.org/wsdl/" 
+	xmlns:tns="http://95.154.243.111/~ws/pos/test.wsdl" 
+	xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns:ns="urn:poc"
+	xmlns:SOAP="http://schemas.xmlsoap.org/wsdl/soap/"
+	xmlns:MIME="http://schemas.xmlsoap.org/wsdl/mime/"
+	xmlns:DIME="http://schemas.xmlsoap.org/ws/2002/04/dime/wsdl/"
+	xmlns:WSDL="http://schemas.xmlsoap.org/wsdl/">
+<types>
+
+<schema targetNamespace="urn:poc"
+	xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns:ns="urn:poc"
+	xmlns="http://www.w3.org/2001/XMLSchema"
+	elementFormDefault="unqualified"
+	attributeFormDefault="unqualified">
+	<import namespace="http://schemas.xmlsoap.org/soap/encoding/"/>
+	<import schemaLocation="http://www-amdis.iaea.org/xsams/schema/xsams-0.1.1.xsd" />
+</schema>
+</types>
+
+<message name="getSRequest">
+	<part name="species1" type="xsd:string" />
+	<part name="species2" type="xsd:string" />
+	<part name="s" type="xsd:unsignedInt" />
+	<part name="x0" type="xsd:double" />
+	<part name="Tmin" type="xsd:double" />
+	<part name="Tmax" type="xsd:double" />
+	<part name="Npoints" type="xsd:double" />
+	<part name="logaritmic" type="xsd:boolean" />
+</message>
+
+<message name="getSResponse">
+	<!--
+	<part name="dat" type="xsd:DataTableType" />
+	-->
+	<part name="dat" type="xsd:double" />
+</message>
+
+<portType name="pocPortType">
+	<operation name="getS">
+		<documentation>Service definition of function ns__getS</documentation>
+		<input message="tns:getSRequest" name="getSRequest"/>
+		<output message="tns:getSResponse" name="getSResponse"/>
+	</operation>
+</portType>
+
+<binding name="poc" type="tns:pocPortType">
+	<SOAP:binding style="rpc" transport="http://schemas.xmlsoap.org/soap/http"/>
+	<operation name="getS">
+ 		<SOAP:operation style="rpc" soapAction=""/>
+	<input>
+		<SOAP:body use="encoded" namespace="urn:poc" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
+	</input>
+	<output>
+		<SOAP:body use="encoded" namespace="urn:poc" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
+	</output>
+	</operation>
+</binding>
+
+<service name="poc">
+	<documentation>Proof of concept service</documentation>
+	<port name="poc" binding="tns:poc">
+		<SOAP:address location="http://95.154.243.111/~ws/pos/testserver.cgi"/>
+	</port>
+</service>
+
+</description>

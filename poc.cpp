@@ -1,14 +1,13 @@
-#include "soapH.h"
+#include "soappocService.h"
 #include "poc.nsmap"
-#include "soapStub.h"
+
 int main() {
-	// this creates a SOAP context and serves a singe CGI-based request
-	// this will probably need to be done differently in future as this is quite a slow way of dealin user requests
-	// spawns a separate process for each request
-	return soap_serve(soap_new());
+	pocService server;
+	server.serve();
+	server.destroy();
 } // end main
 
-int ns2__getS(
+int pocService::getS(
     std::string                         species1,
     std::string                         species2,
     unsigned int                        s,	
